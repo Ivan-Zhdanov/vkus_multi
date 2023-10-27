@@ -19,7 +19,6 @@ import pandas as pd
 # from Random_Promts import random_promts
 from Article_add import addWordpress
 # from Add_tags import add_tag
-print('222')
 domain = 'https://ferma.expert'  # название сайта на основе которого мы хотим сделать ai-сайт
 # domain = 'https://kladovaia-krasoti.ru'  # название сайта на основе которого мы хотим сделать ai-сайт
 domain2 = domain.split('://')[1]
