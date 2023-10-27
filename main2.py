@@ -79,10 +79,6 @@ for url_1 in urls_list[98:150]:  # Иду по urls сайта беру перв
             if i[0] != '' or ls5.index(i) != 0:
                 ls6.append(i)
         h2_text_img_new_clear = ls6
-        
-        # закрыл добавил ls6 и строчку 5
-        # h2_text_img_new_clear = list(filter(lambda x: 'регистрац' not in x[1], ls4))
-
 
         # ---------------
         # Запись в Пандасе простого спарсенного текста в 1.xlsx
@@ -135,18 +131,7 @@ for url_1 in urls_list[98:150]:  # Иду по urls сайта беру перв
                 for thread in threads:
                     print("уничтожение процесса -------")
                     thread.terminate()
-            # ---------------------------
-            # for x in threads:
-            #     # time.sleep(3)
-            #     print('ЖДЕМС')
-            #     x.start()
-            # -------------------
 
-        #     # Однопотоковость работает / Если будет менять API это будет уже многопотоковость Работает очень долго
-        #     Chat_converstaion(tex, 'text_1_pr', i, h2, img)
-        #     # задержка если работаю в один поток и на одном API
-        #     time.sleep(24)
-        # # Проверить существует ли поток
 
         # Блокировка потоков из списка потоков
         for thread in threads:
@@ -156,23 +141,14 @@ for url_1 in urls_list[98:150]:  # Иду по urls сайта беру перв
         # Сортировка списка кортежей текстов после GPT-3 но до HTML. RESULTS - это список кортежей
         results.sort(key=lambda x: x[0])
 
-        # # Удаление блоков если в h нет назвния, кроме первого
-        # results = [(id, h, t, i) for id, h, t, i in results if h !='Нет заголовка' and id !=0]
-
-
 
         # Принт в Терминал итоговую статью:
         for r in results:
             print('ПОШАГОВЫЙ ИТОГ           :', r)
         # Запись в Пандасе в 1.xlsx
         s = pd.DataFrame(results, columns=['num', 'h2', 'text', ' image'])
-        # s = pd.DataFrame([count,end_time-start_time], columns=['count', 'time'])
         s.to_excel('2.xlsx')
-        # # df = pd.loc[pd['h2'] != 'Нет заголовка']
-        # print(s)
 
-        # # Показать Пандас таблицу
-        # s['text'][1]
 
         html_all = ''
         # Соединение всей статьи
@@ -193,16 +169,11 @@ for url_1 in urls_list[98:150]:  # Иду по urls сайта беру перв
         print('Время на создание сатьи', end_time - start_time)
 
         # Запись в Пандасе в 1.xlsx то что записалось в WordPress
-        # s = pd.DataFrame(results, columns=['num', 'h2', 'text', ' image'])
         s = pd.DataFrame([count, end_time - start_time], columns=['count', 'time'])
         s.to_excel('1.xlsx')
-        # df = pd.loc[pd['h2'] != 'Нет заголовка']
         print(s)
-
         # Показать Пандас таблицу
         s['text'][1]
-
-
 
 
     except:
