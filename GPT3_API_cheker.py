@@ -8,7 +8,7 @@ def list_api():
     wb = load_workbook('API_KEYS.xlsx')
     ws = wb.active
     for row in range(1, ws.max_row):
-        if ws[f'B{row}'].value < 550:
+        if ws[f'B{row}'].value < 1000:
             print(f'Взятый API {row}', ws[f'A{row}'].value)
             count = ws[f'B{row}'].value
             ws[f'B{row}'] = count + 1
@@ -30,7 +30,7 @@ def api_cheker():
     while True:
         for row in range(1, ws.max_row):
             # print('НОМЕР СТРОКИ', row)
-            if ws[f'B{row}'].value < 550:
+            if ws[f'B{row}'].value < 1000:
                 if int(time.time()) - ws[f'C{row}'].value > 20:
                     print(f'Взятый API {row}', ws[f'A{row}'].value)
 
