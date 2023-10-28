@@ -18,7 +18,7 @@ def list_api():
     return list_api
 
 def api_cheker():
-    time.sleep(20)
+
     # API_KEY = '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'
     print(time.time())
     wb = load_workbook('API_KEYS.xlsx')
@@ -32,7 +32,7 @@ def api_cheker():
         for row in range(1, ws.max_row):
             # print('НОМЕР СТРОКИ', row)
             if ws[f'B{row}'].value < 1000:
-                if int(time.time()) - ws[f'C{row}'].value > 60:
+                if int(time.time()) - ws[f'C{row}'].value > 45:
                     print(f'Взятый API {row}', ws[f'A{row}'].value)
 
                     # запись
