@@ -108,12 +108,12 @@ for url_1 in urls_list[104:110]:  # Иду по urls сайта беру пер�
         threads = []
         stop_threads = False
         for i in range(0, len(tt)):
-            # print('номер потока: ', i)
-            # h2 = h2_text_img_new_clear[i][0]
-            # img = h2_text_img_new_clear[i][2]
-            # # ----------
-            # tex = h2_text_img_new_clear[i][1]
-            #
+            print('номер потока: ', i)
+            h2 = h2_text_img_new_clear[i][0]
+            img = h2_text_img_new_clear[i][2]
+            # ----------
+            tex = h2_text_img_new_clear[i][1]
+
             # # Отправка в Нейронку промтов
             # trr = Thread(target=Chat_converstaion, args=(tex, 'text_1_pr', i, h2, img), daemon=False)
             # print('Потоки ******** ', trr)
