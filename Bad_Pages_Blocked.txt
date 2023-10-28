@@ -33,5 +33,6 @@ wildberies
 wb.ru
 ozon
 lamoda
+avito
 
 
