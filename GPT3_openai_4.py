@@ -31,8 +31,8 @@ def GPT3(query):
             print("КАКОЙ ЗАПРОС ________________________ ", query)
 
             responce = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo-16k-0613",
-                # model="gpt-3.5-turbo",
+                # model="gpt-3.5-turbo-16k-0613",
+                model="gpt-3.5-turbo",
                 # temperature=0,
                 # max_tokens=1024,
                 max_tokens=2500,

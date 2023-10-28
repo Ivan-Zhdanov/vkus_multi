@@ -31,7 +31,7 @@ def api_cheker():
         for row in range(1, ws.max_row):
             # print('НОМЕР СТРОКИ', row)
             if ws[f'B{row}'].value < 1000:
-                if int(time.time()) - ws[f'C{row}'].value > 25:
+                if int(time.time()) - ws[f'C{row}'].value > 35:
                     print(f'Взятый API {row}', ws[f'A{row}'].value)
 
                     # запись

@@ -36,7 +36,7 @@ print(' метка А')
 start_all_time = time.time()
 
 count = 0
-for url_1 in urls_list[102:103]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
+for url_1 in urls_list[103:104]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
     print('Номер добавленной статьи ----->', count)
     count = count + 1
     # обнуление буфера для статьи
@@ -65,7 +65,7 @@ for url_1 in urls_list[102:103]:  # Иду по urls сайта беру пер�
         ls2 = list(filter(lambda x: x[1] != '', h2_text_img_new))
         ls3 = list(filter(lambda x: 'Ð' not in x[1], ls2))
         ls4 = list(filter(lambda x: len(x[1]) > 60, ls3))
-        ls41 = list(filter(lambda x: 'регистрац' or 'скидк' or 'социальные сети' or 'Профи ' not in x[1], ls4))
+        ls41 = list(filter(lambda x: 'регистрац' or 'скидк' or 'социальные сети' or 'Профи ' or 'Все права защищены' not in x[1], ls4))
         ls42 = list(filter(lambda x: 'телефон' not in x[1], ls41))
         ls5 = list(filter(lambda x: 'mail' not in x[1], ls42))
         ls6 = []
