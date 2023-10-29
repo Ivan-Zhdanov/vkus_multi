@@ -119,8 +119,8 @@ def get_h2_text_image(url: str):    # return clear text of article
 
     # print(all_article_list2)
     return all_article_list2
-
+#
 # get_h2_text_image('https://vkusvill.ru/media/journal/chto-takoe-sparzha-chem-polezna-i-kak-eye-gotovit.html')
 # s = get_h2_text_image('https://semenagavrish.ru/articles/chudesa-botaniki-kvadratnye-arbuzy/')
-# s = get_h2_text_image('https://skin.ru/article/samye-jeffektivnye-procedury-dlja-vosstanovlenija-volos/')
+# # s = get_h2_text_image('https://skin.ru/article/samye-jeffektivnye-procedury-dlja-vosstanovlenija-volos/')
 # print(s)
