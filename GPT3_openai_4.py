@@ -29,6 +29,7 @@ def GPT3(query):
         # API levinavi092@gmail.com 14$ добавил 10 к 5    14.92
         api = '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'
         openai.api_key = api
+        openai.organization = 'org-RWwKRxAkZfRzT2jZXgKGZ2A5'
         print("Текущий АПИ = ", api)
         try:
             print("КАКОЙ ЗАПРОС ________________________ ", query)
