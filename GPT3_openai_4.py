@@ -27,7 +27,7 @@ def GPT3(query):
         # api = api_cheker()
 
         # API levinavi092@gmail.com 14$ добавил 10 к 5    14.92
-        api = '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'
+        api = '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'
         openai.api_key = api
         print("Текущий АПИ = ", api)
         try:
