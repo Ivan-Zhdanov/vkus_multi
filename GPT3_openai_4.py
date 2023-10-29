@@ -49,7 +49,7 @@ def GPT3(query):
         except Exception as e:
             print('Название ошибки --', e)
             flag = False
-            time.sleep(2)
+            time.sleep(20)
     return text3
 
 

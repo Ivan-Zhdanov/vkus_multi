@@ -28,9 +28,13 @@ def api_cheker():
 
     # API_KEY = None
     # while API_KEY == None:
+    # Поставил чтобы было ограничение исползование 5 API
+    # row_count = ws.max_row
+    row_count = 5
     while True:
-        for row in range(1, ws.max_row):
+        for row in range(1, row_count):
             # print('НОМЕР СТРОКИ', row)
+            # Ограничение по счетчику 1000 вызовов
             if ws[f'B{row}'].value < 1000:
                 if int(time.time()) - ws[f'C{row}'].value > 45:
                     print(f'Взятый API {row}', ws[f'A{row}'].value)

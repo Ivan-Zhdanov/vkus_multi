@@ -108,6 +108,7 @@ for url_1 in urls_list[104:110]:  # Иду по urls сайта беру пер�
         threads = []
         stop_threads = False
         for i in range(0, len(tt)):
+
             print('номер потока: ', i)
             h2 = h2_text_img_new_clear[i][0]
             img = h2_text_img_new_clear[i][2]
@@ -122,18 +123,18 @@ for url_1 in urls_list[104:110]:  # Иду по urls сайта беру пер�
             threads.append(trr)
             tt.append(trr)
 
-            # Пауза если потоков больше 7
+            # Пауза если потоков больше 5
             active_thread_count = threading.active_count()
             print(f"Всего активных потоков: {active_thread_count}")
-            if active_thread_count > 7:
-                print("Взяли паузу 10 с.")
-                time.sleep(10)
+            if active_thread_count > 5:
+                print("Взяли паузу 30 с.")
+                time.sleep(30)
 
-            middle_time = time.time()
-            if middle_time - start_time > 300:
-                for thread in threads:
-                    print("уничтожение процесса -------")
-                    thread.terminate()
+            # middle_time = time.time()
+            # if middle_time - start_time > 300:
+            #     for thread in threads:
+            #         print("уничтожение процесса -------")
+            #         thread.terminate()
 
             # # Однопотоковость работает / Если будет менять API это будет уже многопотоковость Работает очень долго
             # Chat_converstaion(tex, 'text_1_pr', i, h2, img)
@@ -145,7 +146,7 @@ for url_1 in urls_list[104:110]:  # Иду по urls сайта беру пер�
             print('Блокировка потока', thread.name)
             thread.join()
 
-        # Сортировка списка кортежей текстов после GPT-3 но до HTML. RESULTS - это список кортежей
+        # Сортировка списка кортежей текстов после GPT-3, но до HTML. RESULTS - это список кортежей
         results.sort(key=lambda x: x[0])
 
 
