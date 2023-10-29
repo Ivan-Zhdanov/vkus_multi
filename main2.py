@@ -56,7 +56,7 @@ for url_1 in urls_list[108:109]:  # Иду по urls сайта беру пер�
 
         #  Получили список кортежей -> Необходимо взять и сделать список Н2  -> Отправить в Дифферентатор и Кластеризатор- >
         list_h2 = [i for i, *j in ls]
-        print('*** ', list_h2)
+        print('*** ЗАГОЛОВКИ **** ', list_h2)
         h2_new = agenta(list_h2)     # -> получили список  очищенныый и кластеризованный
         h2_text_img_new = [(h, t, p) for h, t, p in ls if h in h2_new]
 
@@ -123,12 +123,12 @@ for url_1 in urls_list[108:109]:  # Иду по urls сайта беру пер�
             threads.append(trr)
             tt.append(trr)
 
-            # Пауза если потоков больше 5
-            active_thread_count = threading.active_count()
-            print(f"Всего активных потоков: {active_thread_count}")
-            if active_thread_count > 5:
-                print("Взяли паузу 30 с.")
-                time.sleep(30)
+            # # Пауза если потоков больше 5
+            # active_thread_count = threading.active_count()
+            # print(f"Всего активных потоков: {active_thread_count}")
+            # if active_thread_count > 5:
+            #     print("Взяли паузу 30 с.")
+            #     time.sleep(30)
 
             # middle_time = time.time()
             # if middle_time - start_time > 300:
