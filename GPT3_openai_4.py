@@ -24,8 +24,9 @@ def GPT3(query):
     flag = False
     while flag == False:
         # закрыл чтобы посмотреть как идет на официальном api
-        api = api_cheker()[0]
-        org = api_cheker()[1]
+        apiorg = api_cheker()
+        api = apiorg[0]
+        org = apiorg[1]
         print(api)
         print(org)
 
