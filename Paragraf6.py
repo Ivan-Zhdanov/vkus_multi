@@ -39,28 +39,32 @@ def get_h2_text_image(url: str):    # return clear text of article
     for tag in tags_under_h1:
         tags = tag.find_all_next()
         for t in tags:
-            if t.name == "p" or t.name == "h2" or t.name == "h3" or t.name == "img" or t.name == "ul" or t.name == "ol" or t.name == "li":
+            if t.name == "p" or t.name == "h2" or t.name == "h3" or t.name == "ul" or t.name == "ol" or t.name == "li":
                 t.extract()
                 # print(' --- ', t)
                 doc = doc + str(t)
     # Документ с первичными основными тегами
-    print(doc)
+    # print(doc)
 
 
     # Работа с очищенным текстом преобразованным в объект BS4
     soup = BeautifulSoup(doc, "html.parser")
-    tags = soup.find_all()
+    # нашли все теги в отфильтрованном html
+    tags = soup.find_all(['h2','h3','p','ul'])
+    # print(soup)
+
 
     h2 = ''
     abzac_str = ''
     img_str = ''
     all_article_list = []
 
-
-    for p in tags:
+    h2_abzac_tuple = (h2, abzac_str, img_str)
+    for num, p in enumerate(tags):
+        print(num, ' ', p)
         # Кортеж данных по БЛОКУ Н2 - ТЕКСТ
-        h2_abzac_tuple = (h2, abzac_str, img_str)
-        all_article_list.append(h2_abzac_tuple)
+
+
 
         # корректировка Н2 или Н3 берется как заголовок
         if p.name == 'h2' or p.name == 'h3':
@@ -104,30 +108,37 @@ def get_h2_text_image(url: str):    # return clear text of article
                 # abzac_str = abzac_str + '<<img class="alignnone size-medium wp-image-29881" src="' + img_str +'"/>'
                 # # img_url_prev = img_str
 
-    print('Данные которые разложили кортеж до обновление img --> ', all_article_list)
+    # можно вообще убать работу по кортежу, сделать все в список и по очереди добавлять элементы потом в нейронку
+    # добавление кортежа данных
+    all_article_list.append(h2_abzac_tuple)
+    # print('Данные которые разложили кортеж до обновление img --> ', all_article_list)
     cc = 0
 
 
-    for h, p, i in all_article_list:
-        if i != '':
-            cc = cc + 1
-    print('количество img', cc)
+    # print(*all_article_list,sep='\n')
 
-    # Идет запрос к WP о загрузке картинок
-    all_article_list2 = []
-    cort = ("", "", "")
-    for h, t, im in all_article_list:
-        try:
-            cort = (h, t, take_url_img_from_wp(im))
-        except:
-            cort = (h, t, '')
-        finally:
-            all_article_list2.append(cort)
-
-    # print(all_article_list2)
-    return all_article_list2
-#
+    # # Идет замена картинок и их заливка на сервак
+    # for h, p, i in all_article_list:
+    #     if i != '':
+    #         cc = cc + 1
+    # print('количество img', cc)
+    #
+    # # Идет запрос к WP о загрузке картинок
+    # all_article_list2 = []
+    # cort = ("", "", "")
+    # for h, t, im in all_article_list:
+    #     try:
+    #         cort = (h, t, take_url_img_from_wp(im))
+    #     except:
+    #         cort = (h, t, '')
+    #     finally:
+    #         all_article_list2.append(cort)
+    #
+    # # print(all_article_list2)
+    # return all_article_list2
+    return 0
 # get_h2_text_image('https://vkusvill.ru/media/journal/chto-takoe-sparzha-chem-polezna-i-kak-eye-gotovit.html')
-s = get_h2_text_image('https://semenagavrish.ru/articles/chudesa-botaniki-kvadratnye-arbuzy/')
+s = get_h2_text_image('https://vsepolezno.com/plants/kapusta/pekinskaya-kapusta-polza-i-vred-ovoshha/')
+# s = get_h2_text_image('https://semenagavrish.ru/articles/chudesa-botaniki-kvadratnye-arbuzy/')
 # # s = get_h2_text_image('https://skin.ru/article/samye-jeffektivnye-procedury-dlja-vosstanovlenija-volos/')
 print(s)
