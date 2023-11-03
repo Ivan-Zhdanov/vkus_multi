@@ -134,60 +134,55 @@ def get_h2_text_image(url: str):    # return clear text of article
         if p.name == 'h2' or p.name == 'h3':
             h2 = p.text
             print(h2)
-            # abzac_str = ''  # обнулили абзац
-            # img_str = ''    # обнулили картинку
-            # img_url_prev = ''
-            html = html + h2
+            html = html + '<h2>' + h2 + '</h2>'
 
         if p.name == 'p':
             abzac_str = p.text
-            response_gpt3 = Chat_converstaion_p(abzac_str)
-            print(response_gpt3)
-            html = html + '<p>'+ response_gpt3 + '</p>'
-            # abzac_str = abzac_str + p.text + ' '
-            # abzac_str = ''
-            img_str = ''
-            h2 = ''
+            r1 = Chat_converstaion_p(abzac_str)
+            print(r1)
+            html = html + '<p>'+ r1 + '</p>'
+
+
         if p.name == 'ul' or 'ol':
-            responce_gpt3 = Chat_converstaion_ul_ol(p)
-            print(p, ' ---> ', responce_gpt3)
-            html = html + responce_gpt3
+            r2 = Chat_converstaion_ul_ol(p)
+            print(p, ' ---> ', r2)
+            html = html + r2
 
 
         if p.name == 'table':
-            responce_gpt3 = Chat_converstaion_table(p)
-            print(p, ' ---> ', responce_gpt3)
-            html = html + p
+            r3 = Chat_converstaion_table(p)
+            print(p, ' ---> ', r3)
+            html = html + r3
 
         if p.name == 'blockquote':
-            responce_gpt3 = Chat_converstaion_quote(p)
-            print(p, ' ---> ', responce_gpt3)
-            html = html + p
+            r4 = Chat_converstaion_quote(p)
+            print(p, ' ---> ', r4)
+            html = html + r4
 
 
-        if p.name == 'img':
-            src_value = None
-            src_list = ['src', 'data-src', 'src-lazy']
-            for s in src_list:
-                src_value = p.get(s)
-
-                # нашли первый src
-                if src_value:
-                    break
-
-            if src_value:
-                # print(src_value)
-                full_url = requests.compat.urljoin(url, src_value)
-                # print(full_url)
-                img_str = full_url
-                # Добавление тега с картиной со урлом
-                try:
-                    img_str = take_url_img_from_wp(full_url)
-                except:
-                    img_str = ""
-            html = html + '<<img class="alignnone size-medium wp-image-29881" src="' + img_str +'"/>'
-
-
+        # if p.name == 'img':
+        #     src_value = None
+        #     src_list = ['src', 'data-src', 'src-lazy']
+        #     for s in src_list:
+        #         src_value = p.get(s)
+        #
+        #         # нашли первый src
+        #         if src_value:
+        #             break
+        #
+        #     if src_value:
+        #         # print(src_value)
+        #         full_url = requests.compat.urljoin(url, src_value)
+        #         # print(full_url)
+        #         img_str = full_url
+        #         # Добавление тега с картиной со урлом
+        #         try:
+        #             img_str = take_url_img_from_wp(full_url)
+        #         except:
+        #             img_str = ""
+        #     html = html + '<<img class="alignnone size-medium wp-image-29881" src="' + img_str +'"/>'
+        #
+        #
     #             # # добавлено при включении в текст картинки ....
     #             # abzac_str = abzac_str + '<<img class="alignnone size-medium wp-image-29881" src="' + img_str +'"/>'
     #             # # img_url_prev = img_str

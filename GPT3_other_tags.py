@@ -70,6 +70,6 @@ def Chat_converstaion_table(text2):
     return text4
 
 def Chat_converstaion_quote(text2):
-    query2 = f'Перепиши таблицу с дополнением оставляя теги:"""{text2}"""'
+    query2 = f'Перепиши с дополнением оставляя теги:"""{text2}"""'
     text4 = GPT3(query2)
     return text4
