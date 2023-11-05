@@ -16,15 +16,28 @@ from GPT3_API_cheker import api_cheker, list_api
 
 model_id = 'gtp-3.5-turbo'
 num_text = ()
-results = []
+
+apis = [{'api': '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',
+            'org': 'org-P2npiBe9mSXnIbfTd6assEgK'},
+        {'api': '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',
+           'org': 'org-recbE9TFaxDkDKgSjtzUYKo5'},
+        {'api': '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',
+            'org': 'org-oPaqKkEuv9yRhCw4ovdHf0N8'}
+        ]
+
 
 
 
 def GPT3(query):
     flag = False
+    i = 0
     while flag == False:
-        api = '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'
-        org = 'org-PAxr1I9jpenI9tI6mgGAhi7k'
+
+        # api = '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'
+        # org = 'org-PAxr1I9jpenI9tI6mgGAhi7k'
+        print(apis[0])
+        api = apis[i]['api']
+        org = apis[i]['org']
         openai.api_key = api
         openai.organization = org
         print("Текущий АПИ = ", api)
@@ -50,7 +63,8 @@ def GPT3(query):
         except Exception as e:
             print('Название ошибки --', e)
             flag = False
-            time.sleep(20)
+            i = i + 1
+            time.sleep(2)
     return text3
 
 
@@ -73,3 +87,10 @@ def Chat_converstaion_quote(text2):
     query2 = f'Перепиши с дополнением оставляя теги:"""{text2}"""'
     text4 = GPT3(query2)
     return text4
+
+
+
+
+# text2 = 'Шалтай балтай'
+# s = Chat_converstaion_p(text2)
+# print(s)

@@ -11,14 +11,16 @@ def parse_h1(URL):
         r = requests.get(url=URL, headers=HEADERS)
         print('1')
         html = r.text
+        soup = BeautifulSoup(html, "lxml")
+        h1 = soup.h1.get_text()
+
         print('2')
         if r.status_code == 200:
             print(r.status_code)
-            soup = BeautifulSoup(html, "lxml")
-            h1 = soup.h1.get_text()
             break
         else:
             print("Попытка открытия сайта №:", _)
             time.sleep(5)
+
     return h1
 # parse_h1('https://migrantplanet.com/v-kakie-strany-mozhno-vyezzhat-sotrudnikam-fsb-spisok/')

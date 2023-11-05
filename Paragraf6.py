@@ -19,7 +19,7 @@ def merge_4_links(urls: list) -> list:
 
 
 def get_h2_text_image(url: str):    # return clear text of article
-
+    print('работаем с урлом - ', url)
     # Исправленный текст для очистки от лишних тегов   **************************************************************
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0',
                'Accept': '*/*'}
@@ -59,14 +59,21 @@ def get_h2_text_image(url: str):    # return clear text of article
         for span_tag in span_tags:
             span_tag.decompose()
 
-
     # # УДАЛИТЬ ОКРУЖАЮЩИЙ ТЕГ P У IMG
     img_all = content_article.find_all('img')
     for img in img_all:
-        img.find_parent('p').unwrap()
-        img.attrs.pop('alt', None)
+        try:
+            img.find_parent('p').unwrap()
+            img.attrs.pop('alt', None)
+        except:
+            pass
 
-        # img.replace_with(img.contents)
+
+    # # УДАЛИТЬ ОКРУЖАЮЩИЙ ТЕГ P У IFRAME
+    img_all = content_article.find_all('iframe')
+    for img in img_all:
+        img.find_parent('p').unwrap()
+
 
     # ЗАМЕНА ТЕГОВ DIV SHORTCODE НА BLOCKQUOTE
     div_shorts = content_article.find_all('div', class_='shortcodestyle')
@@ -75,7 +82,7 @@ def get_h2_text_image(url: str):    # return clear text of article
 
 
     # УДАЛЕНИЕ ОДНОГО ТЕГА DIV КЛАССУ
-    div_tag = content_article.find("div",class_="tptn_counter")
+    div_tag = content_article.find("div", class_="tptn_counter")
     div_tag.decompose()
 
     # УДАЛЕНИЕ МНОЖЕСТВА ТЕГОВ DIV
@@ -90,135 +97,75 @@ def get_h2_text_image(url: str):    # return clear text of article
         for a in aa:
             a.replace_with(a.contents)
 
-    # print(content_article, end='**************** \n\n')
-
-    # # Посмотреть какие теги находятся в объекте bs4
-    # for num, tag in enumerate(content_article):
-    #     print(num, '', tag)
-
-
-    # # Работа с контентом
-    # # Пошли по тегам, которые находятся в редактированном объекте bs4
-    # doc = ''
-    # for tag in content_article:
-    #     tags = tag.find_all()
-    #     for t in tags:
-    #         if t.name == "p" or t.name == "h2" or t.name == "h3" or t.name == "ul" or t.name == "ol" or t.name == "li" or t.name == "img" or t.name =='blockquote':
-    #             t.extract()
-    #             # print(' --- ', t)
-    #             doc = doc + str(t)
-    # # Документ с первичными основными тегами
-    # # print(doc, sep='\n')
-
-
-    # Работа с очищенным текстом преобразованным в объект BS4
-    # soup = BeautifulSoup(doc, "html.parser")
-    # нашли все теги в отфильтрованном html
-    tags = content_article.find_all(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'img', 'blockquote'])
+    tags = content_article.find_all(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'img', 'blockquote', 'iframe'])
     # print(soup)
-
 
     h2 = ''
     abzac_str = ''
     img_str = ''
-    all_article_list = []
 
-    h2_abzac_tuple = (h2, abzac_str, img_str)
     html = ''
-    for num, p in enumerate(tags):
-        print(num, ' ======= ', p)
-        # Кортеж данных по БЛОКУ Н2 - ТЕКСТ
-
+    for num, tag in enumerate(tags):
+        print(num, ' ======= ', tag)
 
         # корректировка Н2 или Н3 берется как заголовок
-        if p.name == 'h2' or p.name == 'h3':
-            h2 = p.text
+        if tag.name == 'h2' or tag.name == 'h3':
+            h2 = tag.text
             print(h2)
             html = html + '<h2>' + h2 + '</h2>'
 
-        if p.name == 'p':
-            abzac_str = p.text
+        elif tag.name == 'p':
+            abzac_str = tag.text
             r1 = Chat_converstaion_p(abzac_str)
             print(r1)
-            html = html + '<p>'+ r1 + '</p>'
+            html = html + '<p>' + r1 + '</p>'
 
-
-        if p.name == 'ul' or 'ol':
-            r2 = Chat_converstaion_ul_ol(p)
-            print(p, ' ---> ', r2)
+        elif tag.name == 'ul' or tag.name == 'ol':
+            r2 = Chat_converstaion_ul_ol(tag)
+            print(tag, ' ---> ', r2)
             html = html + r2
 
-
-        if p.name == 'table':
-            r3 = Chat_converstaion_table(p)
-            print(p, ' ---> ', r3)
+        elif tag.name == 'table':
+            r3 = Chat_converstaion_table(tag)
+            print(tag, ' ---> ', r3)
             html = html + r3
 
-        if p.name == 'blockquote':
-            r4 = Chat_converstaion_quote(p)
-            print(p, ' ---> ', r4)
+        elif tag.name == 'blockquote':
+            r4 = Chat_converstaion_quote(tag)
+            print(tag, ' ---> ', r4)
             html = html + r4
 
+        elif tag.name == 'img':
+            src_value = None
+            src_list = ['src', 'data-src', 'src-lazy']
+            for s in src_list:
+                src_value = tag.get(s)
+                # нашли первый src
+                if src_value:
+                    break
+            if src_value:
+                # print(src_value)
+                full_url = requests.compat.urljoin(url, src_value)
+                # print(full_url)
+                img_str = full_url
+                # Добавление тега с картиной с урлом
+                try:
+                    img_str = take_url_img_from_wp(full_url)
+                except:
+                    img_str = ""
+            html = html + '<img class="alignnone size-medium wp-image-29881" src="' + img_str + '"/>'
 
-        # if p.name == 'img':
-        #     src_value = None
-        #     src_list = ['src', 'data-src', 'src-lazy']
-        #     for s in src_list:
-        #         src_value = p.get(s)
-        #
-        #         # нашли первый src
-        #         if src_value:
-        #             break
-        #
-        #     if src_value:
-        #         # print(src_value)
-        #         full_url = requests.compat.urljoin(url, src_value)
-        #         # print(full_url)
-        #         img_str = full_url
-        #         # Добавление тега с картиной со урлом
-        #         try:
-        #             img_str = take_url_img_from_wp(full_url)
-        #         except:
-        #             img_str = ""
-        #     html = html + '<<img class="alignnone size-medium wp-image-29881" src="' + img_str +'"/>'
-        #
-        #
-    #             # # добавлено при включении в текст картинки ....
-    #             # abzac_str = abzac_str + '<<img class="alignnone size-medium wp-image-29881" src="' + img_str +'"/>'
-    #             # # img_url_prev = img_str
-    #
-    # # можно вообще убать работу по кортежу, сделать все в список и по очереди добавлять элементы потом в нейронку
-    # # добавление кортежа данных
-    # all_article_list.append(h2_abzac_tuple)
-    # # print('Данные которые разложили кортеж до обновление img --> ', all_article_list)
-    # cc = 0
-    #
+        elif tag.name == 'iframe':
+            print(tag, ' ---> ')
+            html = html + str(tag)
 
-    # print(*all_article_list,sep='\n')
+        else:
+            print('тег не найден')
 
-    # # Идет замена картинок и их заливка на сервак
-    # for h, p, i in all_article_list:
-    #     if i != '':
-    #         cc = cc + 1
-    # print('количество img', cc)
-    #
-    # # Идет запрос к WP о загрузке картинок
-    # all_article_list2 = []
-    # cort = ("", "", "")
-    # for h, t, im in all_article_list:
-    #     try:
-    #         cort = (h, t, take_url_img_from_wp(im))
-    #     except:
-    #         cort = (h, t, '')
-    #     finally:
-    #         all_article_list2.append(cort)
-    #
-    # # print(all_article_list2)
-    # return all_article_list2
     return html
-# get_h2_text_image('https://vkusvill.ru/media/journal/chto-takoe-sparzha-chem-polezna-i-kak-eye-gotovit.html')
-s = get_h2_text_image('https://vsepolezno.com/plants/kapusta/pekinskaya-kapusta-polza-i-vred-ovoshha/')
-# s = get_h2_text_image('https://semenagavrish.ru/articles/chudesa-botaniki-kvadratnye-arbuzy/')
-# # s = get_h2_text_image('https://skin.ru/article/samye-jeffektivnye-procedury-dlja-vosstanovlenija-volos/')
-print('__________ИТОГОВЫЙ КОД__________')
-print(s)
+# # # get_h2_text_image('https://vkusvill.ru/media/journal/chto-takoe-sparzha-chem-polezna-i-kak-eye-gotovit.html')
+# s = get_h2_text_image('https://vsepolezno.com/drugoe/rejtingi/5-jakoby-vrednyh-produktov-pitanija-i-ih-realnaja-polza/')
+# # # # # s = get_h2_text_image('https://semenagavrish.ru/articles/chudesa-botaniki-kvadratnye-arbuzy/')
+# # # # # # s = get_h2_text_image('https://skin.ru/article/samye-jeffektivnye-procedury-dlja-vosstanovlenija-volos/')
+# print('__________ИТОГОВЫЙ КОД__________')
+# print(s)

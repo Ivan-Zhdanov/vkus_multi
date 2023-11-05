@@ -18,7 +18,7 @@ links_clear = []
 URL = 'https://kladovaia-krasoti.ru'
 # URL = 'https://cabinet-bank.ru/'
 # URL = 'https://migrantplanet.com/'
-clean_el = ['.doc', '/tag',  'wp-content', '/uploads', '/sitemap', '#']
+clean_el = ['.doc', '/tag',  'wp-content', '/uploads', '/sitemap', '#', 'privacy-policy']
 clean_el_2 = ['/page', '/category', '/sitemap', '/page', ]
 
 
