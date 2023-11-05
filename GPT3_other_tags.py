@@ -17,7 +17,7 @@ from GPT3_API_cheker import api_cheker, list_api
 model_id = 'gtp-3.5-turbo'
 num_text = ()
 
-apis = [{'api': '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',
+apis = [{'api': '1sk-5RYxbDFE7L0OpwmPiRq4T3BlbkFJO8K9hmyRuxlCbxk8A4i0',
             'org': 'org-P2npiBe9mSXnIbfTd6assEgK'},
         {'api': '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',
            'org': 'org-recbE9TFaxDkDKgSjtzUYKo5'},
@@ -37,9 +37,9 @@ def GPT3(query):
         # org = 'org-PAxr1I9jpenI9tI6mgGAhi7k'
         print(apis[0])
         api = apis[i]['api']
-        org = apis[i]['org']
+        # org = apis[i]['org']
         openai.api_key = api
-        openai.organization = org
+        # openai.organization = org
         print("Текущий АПИ = ", api)
         try:
             print("КАКОЙ ЗАПРОС ________________________ ", query)

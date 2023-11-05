@@ -44,6 +44,13 @@ def get_h2_text_image(url: str):    # return clear text of article
             span_tag.decompose()
 
 
+    # УДАЛЕНИЕ ПУСТЫХ P
+    p_all = content_article.find_all('p')
+    for p in p_all:
+        if len(p.get_text(strip=True)) == 0:
+            p.extract()
+
+
     # # УДАЛЕНИЕ ТЕГОВ STRONG В P (СОДЕРЖИМОЕ ОСТАЕТСЯ)
     p_all = content_article.find_all('p')
     for p in p_all:
@@ -58,6 +65,7 @@ def get_h2_text_image(url: str):    # return clear text of article
         span_tags = h3.find_all('span')
         for span_tag in span_tags:
             span_tag.decompose()
+
 
     # # УДАЛИТЬ ОКРУЖАЮЩИЙ ТЕГ P У IMG
     img_all = content_article.find_all('img')
@@ -100,10 +108,14 @@ def get_h2_text_image(url: str):    # return clear text of article
     tags = content_article.find_all(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'img', 'blockquote', 'iframe'])
     # print(soup)
 
+    # Посмотреть какие находит теги после чистки
+    for tag in tags:
+        print(tag)
+
+
     h2 = ''
     abzac_str = ''
     img_str = ''
-
     html = ''
     for num, tag in enumerate(tags):
         print(num, ' ======= ', tag)
@@ -163,9 +175,9 @@ def get_h2_text_image(url: str):    # return clear text of article
             print('тег не найден')
 
     return html
-# # # get_h2_text_image('https://vkusvill.ru/media/journal/chto-takoe-sparzha-chem-polezna-i-kak-eye-gotovit.html')
+s = get_h2_text_image('https://vsepolezno.com/drugoe/rejtingi/5-jakoby-vrednyh-produktov-pitanija-i-ih-realnaja-polza/')
 # s = get_h2_text_image('https://vsepolezno.com/drugoe/rejtingi/5-jakoby-vrednyh-produktov-pitanija-i-ih-realnaja-polza/')
 # # # # # s = get_h2_text_image('https://semenagavrish.ru/articles/chudesa-botaniki-kvadratnye-arbuzy/')
 # # # # # # s = get_h2_text_image('https://skin.ru/article/samye-jeffektivnye-procedury-dlja-vosstanovlenija-volos/')
-# print('__________ИТОГОВЫЙ КОД__________')
-# print(s)
+print('__________ИТОГОВЫЙ КОД__________')
+print(s)

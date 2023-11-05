@@ -25,7 +25,6 @@ from Parsing_to_list import parsing_to_list
 
 domain = 'https://vsepolezno.com'  # название сайта на основе которого мы хотим сделать ai-сайт
 # domain = 'https://kladovaia-krasoti.ru' # название сайта на основе которого мы хотим сделать ai-сайт
-
 urls_list = parsing_to_list(domain)
 print('----------- ', urls_list)
 print(' метка А')
