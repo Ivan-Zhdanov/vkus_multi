@@ -30,6 +30,8 @@ def take_url(i):
 
 # def parse(url):
 def parse(url, i):
+
+
     if url == None:
         print("Парсинг завершен")
         return print('Завершение')

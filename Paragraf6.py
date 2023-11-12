@@ -3,7 +3,9 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from Get_url_Img_from_WP import take_url_img_from_wp
-from GPT3_other_tags import Chat_converstaion_p, Chat_converstaion_ul_ol, Chat_converstaion_table, Chat_converstaion_quote
+from GPT3_other_tags import Chat_converstaion_p, Chat_converstaion_ul_ol, Chat_converstaion_table, Chat_converstaion_quote, Chat_converstaion_ppp
+import concurrent.futures
+
 
 def check_img_url(url):
     return urlparse(url).netloc
@@ -18,7 +20,8 @@ def merge_4_links(urls: list) -> list:
 
 
 
-def get_h2_text_image(url: str):    # return clear text of article
+def get_h2_text_image( url: str):    # return clear text of article
+    string = ''
     print('работаем с урлом - ', url)
     # Исправленный текст для очистки от лишних тегов   **************************************************************
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0',
@@ -44,11 +47,11 @@ def get_h2_text_image(url: str):    # return clear text of article
             span_tag.decompose()
 
 
-    # УДАЛЕНИЕ ПУСТЫХ P
-    p_all = content_article.find_all('p')
-    for p in p_all:
-        if len(p.get_text(strip=True)) == 0:
-            p.extract()
+    # # УДАЛЕНИЕ ПУСТЫХ P
+    # p_all = content_article.find_all('p')
+    # for p in p_all:
+    #     if len(p.get_text(strip=True)) == 0:
+    #         p.extract()
 
 
     # # УДАЛЕНИЕ ТЕГОВ STRONG В P (СОДЕРЖИМОЕ ОСТАЕТСЯ)
@@ -106,78 +109,125 @@ def get_h2_text_image(url: str):    # return clear text of article
             a.replace_with(a.contents)
 
     tags = content_article.find_all(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'img', 'blockquote', 'iframe'])
+    # tags = content_article.find_all(['h2', 'img'])
     # print(soup)
-
+    print('=======', type(tags))
+    print(type(tags[0]))
     # Посмотреть какие находит теги после чистки
     for tag in tags:
-        print(tag)
+        print('----> ', tag)
 
 
-    h2 = ''
-    abzac_str = ''
-    img_str = ''
-    html = ''
-    for num, tag in enumerate(tags):
-        print(num, ' ======= ', tag)
+    # ЕСЛИ МЫ ОТПРАВЛЯЕТ ОБЪЕКТ ТЭГ, А ТАМ УЖЕ ЕГО ПРОВЕРЯЕМ НА ТО ИЛИ ИНОЕ
+    with concurrent.futures.ThreadPoolExecutor(max_workers=7) as executor:
+        # Запуск функции process_data в пуле потоков и передача данных из списка
+        results = list(executor.map(Chat_converstaion_ppp, tags))
 
-        # корректировка Н2 или Н3 берется как заголовок
-        if tag.name == 'h2' or tag.name == 'h3':
-            h2 = tag.text
-            print(h2)
-            html = html + '<h2>' + h2 + '</h2>'
+    print(results)
+    # Распаковка созданного списка
+    for res in results:
+        string = string + res
+    return string
+    # exit()
 
-        elif tag.name == 'p':
-            abzac_str = tag.text
-            r1 = Chat_converstaion_p(abzac_str)
-            print(r1)
-            html = html + '<p>' + r1 + '</p>'
 
-        elif tag.name == 'ul' or tag.name == 'ol':
-            r2 = Chat_converstaion_ul_ol(tag)
-            print(tag, ' ---> ', r2)
-            html = html + r2
+    # # СДЕЛАТЬ СПИСОК ТЕКСТОВЫЙ  ******************************
+    # tags_text = []
+    #
+    # for num, tag in enumerate(tags):
+    #     # if tag.name == 'h2' or tag.name == 'h3':
+    #     #     h2 = tag.text
+    #     #     tags_text.append(h2)
+    #
+    #     if tag.name == 'p':
+    #         abzac_str = tag.text
+    #         # r1 = Chat_converstaion_p(abzac_str)
+    #         # print(r1)
+    #         # html = html + '<p>' + r1 + '</p>'
+    #         tags_text.append(abzac_str)
+    #
+    # print(tags_text)
+    # with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    #     # Запуск функции process_data в пуле потоков и передача данных из списка
+    #     results = list(executor.map(Chat_converstaion_ppp, tags_text))
+    #
+    # print(results)
+    # exit()
 
-        elif tag.name == 'table':
-            r3 = Chat_converstaion_table(tag)
-            print(tag, ' ---> ', r3)
-            html = html + r3
 
-        elif tag.name == 'blockquote':
-            r4 = Chat_converstaion_quote(tag)
-            print(tag, ' ---> ', r4)
-            html = html + r4
 
-        elif tag.name == 'img':
-            src_value = None
-            src_list = ['src', 'data-src', 'src-lazy']
-            for s in src_list:
-                src_value = tag.get(s)
-                # нашли первый src
-                if src_value:
-                    break
-            if src_value:
-                # print(src_value)
-                full_url = requests.compat.urljoin(url, src_value)
-                # print(full_url)
-                img_str = full_url
-                # Добавление тега с картиной с урлом
-                try:
-                    img_str = take_url_img_from_wp(full_url)
-                except:
-                    img_str = ""
-            html = html + '<img class="alignnone size-medium wp-image-29881" src="' + img_str + '"/>'
 
-        elif tag.name == 'iframe':
-            print(tag, ' ---> ')
-            html = html + str(tag)
 
-        else:
-            print('тег не найден')
 
-    return html
-s = get_h2_text_image('https://vsepolezno.com/drugoe/rejtingi/5-jakoby-vrednyh-produktov-pitanija-i-ih-realnaja-polza/')
+
+
+    # h2 = ''
+    # abzac_str = ''
+    # img_str = ''
+    # html = ''
+    # for num, tag in enumerate(tags):
+    #     print(num, ' ======= ', tag)
+    #
+    #     # корректировка Н2 или Н3 берется как заголовок
+    #     if tag.name == 'h2' or tag.name == 'h3':
+    #         h2 = tag.text
+    #         print(h2)
+    #         html = html + '<h2>' + h2 + '</h2>'
+    #
+    #     elif tag.name == 'p':
+    #         abzac_str = tag.text
+    #         r1 = Chat_converstaion_p(abzac_str)
+    #         print(r1)
+    #         html = html + '<p>' + r1 + '</p>'
+    #
+    #     elif tag.name == 'ul' or tag.name == 'ol':
+    #         r2 = Chat_converstaion_ul_ol(tag)
+    #         print(tag, ' ---> ', r2)
+    #         html = html + r2
+    #
+    #     elif tag.name == 'table':
+    #         r3 = Chat_converstaion_table(tag)
+    #         print(tag, ' ---> ', r3)
+    #         html = html + r3
+    #
+    #     elif tag.name == 'blockquote':
+    #         r4 = Chat_converstaion_quote(tag)
+    #         print(tag, ' ---> ', r4)
+    #         html = html + r4
+    #
+    #     elif tag.name == 'img':
+    #         print('------_', tag)
+    #         src_value = None
+    #         src_list = ['src', 'data-src', 'src-lazy']
+    #         print('________', src_value)
+    #         for s in src_list:
+    #             print('ssssssss', s)
+    #             src_value = tag.get(s)
+    #             print('valueeeeeeeee', src_value)
+    #             # нашли первый src
+    #             if src_value:
+    #                 break
+    #         if src_value:
+    #             print('valuee intooooo', src_value)
+    #             full_url = requests.compat.urljoin(url, src_value)
+    #             print(full_url)
+    #             img_str = full_url
+    #             # Добавление тега с картиной с урлом
+    #             try:
+    #                 img_str = take_url_img_from_wp(full_url)
+    #             except:
+    #                 img_str = ""
+    #             print('полученный адрес картинки', img_str)
+    #         html = html + '<img class="alignnone size-medium wp-image-29881" src="' + img_str + '"/>'
+    #
+    #     elif tag.name == 'iframe':
+    #         print(tag, ' ---> ')
+    #         html = html + str(tag)
+    #
+    #     else:
+    #         print('тег не найден')
+
+    # return html
 # s = get_h2_text_image('https://vsepolezno.com/drugoe/rejtingi/5-jakoby-vrednyh-produktov-pitanija-i-ih-realnaja-polza/')
-# # # # # s = get_h2_text_image('https://semenagavrish.ru/articles/chudesa-botaniki-kvadratnye-arbuzy/')
-# # # # # # s = get_h2_text_image('https://skin.ru/article/samye-jeffektivnye-procedury-dlja-vosstanovlenija-volos/')
-print('__________ИТОГОВЫЙ КОД__________')
-print(s)
+# print('__________ИТОГОВЫЙ КОД__________')
+# print(s)

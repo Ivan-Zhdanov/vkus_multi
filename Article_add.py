@@ -5,9 +5,9 @@ import time
 
 
 def addWordpress(h1, neurotext):  # подключаемся к WP по REST API
-    url = "https://supergardener.ru/wp-json/wp/v2/"
-    user = "superg"
-    password = "ZkYn CSVh RFku gx1T KOIF Hank"
+    url = "https://vkusmus.ru/wp-json/wp/v2/"
+    user = "vkusmus"
+    password = "jQtG 7bQG 3eoR F6bh YrMo Bn27"
     credentials = user + ':' + password
     token = base64.b64encode(credentials.encode())
     header = {'Authorization': 'Basic ' + token.decode('utf-8')}

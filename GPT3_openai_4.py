@@ -1,7 +1,7 @@
 # Создание нового текста от вопроса в OPENAI
 import openai
 import time
-from Wrap_text_simple import wrap_tags3
+# from Wrap_text_simple import wrap_tags3
 from GPT3_API_cheker import api_cheker, list_api
 
 
@@ -62,38 +62,38 @@ def GPT3(query):
     return text3
 
 
-def Chat_converstaion(text2, query_type, i, h2, img):
-    if query_type == 'text_2_pr':
-        query2 = f"Перепиши с дополнениями \n {h2} {text2}"
-        query = f'Выдели 3-4 ключевых идей из текста. Добавь новые уточняющие мысли и факты:"""{text2}"""'
-        text1 = GPT3(query)
-        query2 = f'Напиши в виде простых абзацев. Раскрой пункты более связанно с дополнениями:"""{text1}"""'
-        text4 = GPT3(query2)
-        # text6 = GPT3(text4)
-
-        print('Исполнение Нейронки', text4)
-
-    if query_type == 'text_1_pr':
-        if len(text2) < 200:
-            text2 = h2 + '' + text2
-        query2 = f'Перепиши с дополнениями:"""{text2}"""'
-        text4 = GPT3(query2)
-        print(text4)
-
-    if query_type == 'none':
-        text4 = text2
-
-
-    # ТЕКСТ отправляем в функцию обертки тегами
-    if img == '':
-        img_in = ''
-    else:
-        img_in = f'<img src="{img}" alt=f"{h2}">'
-
-
-    num_text = (i, '<h2>' + h2 + '</h2>', wrap_tags3(text4), img_in)
-    # ДОБАВЛЕНИЕ В КОРТЕЖ Н2 ТЕКСТА КАРТИНКИ
-    results.append(num_text)
-    print("Пред-резалт = ", text4)
-    return text4
-
+# def Chat_converstaion(text2, query_type, i, h2, img):
+#     if query_type == 'text_2_pr':
+#         query2 = f"Перепиши с дополнениями \n {h2} {text2}"
+#         query = f'Выдели 3-4 ключевых идей из текста. Добавь новые уточняющие мысли и факты:"""{text2}"""'
+#         text1 = GPT3(query)
+#         query2 = f'Напиши в виде простых абзацев. Раскрой пункты более связанно с дополнениями:"""{text1}"""'
+#         text4 = GPT3(query2)
+#         # text6 = GPT3(text4)
+#
+#         print('Исполнение Нейронки', text4)
+#
+#     if query_type == 'text_1_pr':
+#         if len(text2) < 200:
+#             text2 = h2 + '' + text2
+#         query2 = f'Перепиши с дополнениями:"""{text2}"""'
+#         text4 = GPT3(query2)
+#         print(text4)
+#
+#     if query_type == 'none':
+#         text4 = text2
+#
+#
+#     # ТЕКСТ отправляем в функцию обертки тегами
+#     if img == '':
+#         img_in = ''
+#     else:
+#         img_in = f'<img src="{img}" alt=f"{h2}">'
+#
+#
+#     num_text = (i, '<h2>' + h2 + '</h2>', wrap_tags3(text4), img_in)
+#     # ДОБАВЛЕНИЕ В КОРТЕЖ Н2 ТЕКСТА КАРТИНКИ
+#     results.append(num_text)
+#     print("Пред-резалт = ", text4)
+#     return text4
+#

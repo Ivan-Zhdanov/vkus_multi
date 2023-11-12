@@ -12,9 +12,9 @@ def take_url_img_from_wp(old_url_img) -> str:  # работает / в цикл 
     with open(f'pictures/{name_img}', 'wb') as f:  # сохранили у себя на компьютере
         f.write(img_data)
 
-    url = "https://supergardener.ru/wp-json/wp/v2/"
-    user = "superg"
-    password = "ZkYn CSVh RFku gx1T KOIF Hank"
+    url = "https://vkusmus.ru/wp-json/wp/v2/"
+    user = "vkusmus"
+    password = "jQtG 7bQG 3eoR F6bh YrMo Bn27"
     credentials = user + ':' + password
     token = base64.b64encode(credentials.encode())
     header = {'Authorization': 'Basic ' + token.decode('utf-8')}
@@ -35,37 +35,3 @@ def take_url_img_from_wp(old_url_img) -> str:  # работает / в цикл 
             print('id картинки', idpic)
     return img_url_in_wp
 
-
-# print(take_url_img_from_wp('https://ferma.expert/wp-content/uploads/2022/10/krijovnik-2.webp'))
-
-# import requests
-# import base64
-# import os
-# from urllib.parse import urlparse
-#
-#
-# def take_url_img_from_wp(old_url_img: str) -> str:  # работает / в цикл надо поставить, чтобы перебор был
-#     a = urlparse(old_url_img)
-#     name_img = os.path.basename(a.path)  # Output: 571378756077.jpg
-#     print('Имя картинки', name_img)
-#     print('Адресс картинки', old_url_img)
-#     img_data = requests.get(old_url_img).content  # скачиваем миниатюру с сайта и добавляем к себе в медиабиблиотеку WP
-#     with open(f'pictures/{name_img}', 'wb+') as f:  # сохранили у себя на компьютере
-#         f.write(img_data)
-#     print('8888')
-#     url = "https://supergardener.ru/wp-json/wp/v2/"
-#     user = "superg"
-#     password = "ZkYn CSVh RFku gx1T KOIF Hank"
-#     credentials = user + ':' + password
-#     token = base64.b64encode(credentials.encode())
-#     header = {'Authorization': 'Basic ' + token.decode('utf-8')}
-#     # date = time.strftime('%Y-%m-%dT%H:%M:%S', time.localtime())
-#     media = {'file': open(f'pictures/{name_img}', 'rb'), 'caption': 'pic'}
-#     print('4444')
-#     responce_media = requests.post(url + 'media', headers=header, files=media)
-#     img_url_in_wp = responce_media.json()['guid']['rendered']  # ссылка в ВП на картинку
-#
-#     return img_url_in_wp
-#
-#
-# # print(take_url_img_from_wp('https://countryhouse.pro/wp-content/uploads/2018/07/Peresadka-kusta-smorodiny-letom.jpg'))
