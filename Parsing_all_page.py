@@ -60,5 +60,5 @@ def call_parsing(domain):
         t.join()
 
 # domain = 'ferma.expert'
-# domain = 'vsepolezno.com'
+# domain = 'polzaivrededy.ru'
 # call_parsing(domain)

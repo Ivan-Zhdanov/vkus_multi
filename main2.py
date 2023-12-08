@@ -10,7 +10,7 @@ import os
 # from Paragraf5 import merge_4_links
 from Paragraf6 import get_h2_text_image
 
-from Different_Paragraf import agenta
+# from Different_Paragraf import agenta
 from Parsing_Google2 import parsing_google, parsing_yandex
 # from GPT3_openai_4 import Chat_converstaion, results
 import time
@@ -51,8 +51,11 @@ def create_article(url_1):
         # continue
 
 
-domain = 'https://vsepolezno.com'  # название сайта на основе которого мы хотим сделать ai-сайт
+domain = 'https://polzaivrededy.ru'  # название сайта на основе которого мы хотим сделать ai-сайт
+# domain = 'https://foodandhealth.ru'  # название сайта на основе которого мы хотим сделать ai-сайт
 # domain = 'https://kladovaia-krasoti.ru' # название сайта на основе которого мы хотим сделать ai-сайт
+
+# БЛОК ПАРСИНГА ПО ДОМЕНУ - выключил
 urls_list = parsing_to_list(domain)
 print('----------- ', urls_list)
 print(' метка А')
@@ -60,7 +63,7 @@ print(' метка А')
 # Замеряем время работы
 start_all_time = time.time()
 
-for url_1 in urls_list[836:837]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
+for url_1 in urls_list[0:1]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
     print('Номер добавленной статьи ----->', urls_list.index(url_1))
 
     # обнуление буфера для статьи

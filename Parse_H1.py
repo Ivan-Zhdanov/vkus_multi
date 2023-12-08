@@ -1,11 +1,15 @@
 from bs4 import BeautifulSoup
 import requests
 import time
-
-HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0',
+from fake_useragent import UserAgent
+# HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0',
+#            'Accept': '*/*'}
+HEADERS = {'User-Agent': f'{UserAgent.chrome}',
            'Accept': '*/*'}
 
+
 def parse_h1(URL):
+    print('парсинг Н1')
     max_retries = 3
     for _ in range(max_retries):
         r = requests.get(url=URL, headers=HEADERS)

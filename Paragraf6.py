@@ -29,23 +29,25 @@ def get_h2_text_image( url: str):    # return clear text of article
     r = requests.get(url, headers=headers).text
 
     soup0 = BeautifulSoup(r, 'html.parser')
-
+    print('.', soup0)
     # поиск тега h1
     h1_tag = soup0.h1
     # поиск всех тегов
     content = soup0.find_all()
 
     # объект Beautiful Soup
-    content_article = soup0.find("div", class_='singl_post_content')
+    content_article = soup0.find("div", class_='article')
 
 
     # УДАЛЕНИЕ ТЕГОВ SPAN В H2
-    h2_all = content_article.find_all('h2')
-    for h2 in h2_all:
-        span_tags = h2.find_all('span')
-        for span_tag in span_tags:
-            span_tag.decompose()
-
+    try:
+        h2_all = content_article.find_all('h2')
+        for h2 in h2_all:
+            span_tags = h2.find_all('span')
+            for span_tag in span_tags:
+                span_tag.decompose()
+    except:
+        pass
 
     # # УДАЛЕНИЕ ПУСТЫХ P
     # p_all = content_article.find_all('p')
@@ -54,59 +56,79 @@ def get_h2_text_image( url: str):    # return clear text of article
     #         p.extract()
 
 
-    # # УДАЛЕНИЕ ТЕГОВ STRONG В P (СОДЕРЖИМОЕ ОСТАЕТСЯ)
-    p_all = content_article.find_all('p')
-    for p in p_all:
-        strongs_tags = p.find_all('strong')
-        for strong_tag in strongs_tags:
-            strong_tag.replaceWithChildren()
-
+    # # УДАЛЕНИЕ ТЕГОВ STRONG В P
+    try:
+        p_all = content_article.find_all('p')
+        for p in p_all:
+            strongs_tags = p.find_all('strong')
+            for strong_tag in strongs_tags:
+                strong_tag.replaceWithChildren()
+    except:
+        pass
 
     # УДАЛЕНИЕ ТЕГОВ SPAN В H3
-    h3_all = content_article.find_all('h3')
-    for h3 in h3_all:
-        span_tags = h3.find_all('span')
-        for span_tag in span_tags:
-            span_tag.decompose()
-
+    try:
+        h3_all = content_article.find_all('h3')
+        for h3 in h3_all:
+            span_tags = h3.find_all('span')
+            for span_tag in span_tags:
+                span_tag.decompose()
+    except:
+        pass
 
     # # УДАЛИТЬ ОКРУЖАЮЩИЙ ТЕГ P У IMG
-    img_all = content_article.find_all('img')
-    for img in img_all:
-        try:
-            img.find_parent('p').unwrap()
-            img.attrs.pop('alt', None)
-        except:
-            pass
-
+    try:
+        img_all = content_article.find_all('img')
+        for img in img_all:
+            try:
+                img.find_parent('p').unwrap()
+                img.attrs.pop('alt', None)
+            except:
+                pass
+    except:
+        pass
 
     # # УДАЛИТЬ ОКРУЖАЮЩИЙ ТЕГ P У IFRAME
-    img_all = content_article.find_all('iframe')
-    for img in img_all:
-        img.find_parent('p').unwrap()
-
+    try:
+        img_all = content_article.find_all('iframe')
+        for img in img_all:
+            img.find_parent('p').unwrap()
+    except:
+        pass
 
     # ЗАМЕНА ТЕГОВ DIV SHORTCODE НА BLOCKQUOTE
-    div_shorts = content_article.find_all('div', class_='shortcodestyle')
-    for div_short in div_shorts:
-        div_short.name = 'blockquote'
-
+    try:
+        div_shorts = content_article.find_all('div', class_='shortcodestyle')
+        for div_short in div_shorts:
+            div_short.name = 'blockquote'
+    except:
+        pass
 
     # УДАЛЕНИЕ ОДНОГО ТЕГА DIV КЛАССУ
-    div_tag = content_article.find("div", class_="tptn_counter")
-    div_tag.decompose()
+    try:
+        div_tag = content_article.find("div", class_="tptn_counter")
+        div_tag.decompose()
+    except:
+        pass
 
     # УДАЛЕНИЕ МНОЖЕСТВА ТЕГОВ DIV
-    div_tags = content_article.find_all("div")
-    for div_tag in div_tags:
-        div_tag.decompose()
+    try:
+        div_tags = content_article.find_all("div")
+        for div_tag in div_tags:
+            div_tag.decompose()
+    except:
+        pass
+
 
     # УДАЛЕНИЕ ТЕГОВ A В P
-    p_all = content_article.find_all('p')
-    for p in p_all:
-        aa = p.find_all('a')
-        for a in aa:
-            a.replace_with(a.contents)
+    try:
+        p_all = content_article.find_all('p')
+        for p in p_all:
+            aa = p.find_all('a')
+            for a in aa:
+                a.replace_with(a.contents)
+    except:
+        pass
 
     tags = content_article.find_all(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'img', 'blockquote', 'iframe'])
     # tags = content_article.find_all(['h2', 'img'])
@@ -119,7 +141,7 @@ def get_h2_text_image( url: str):    # return clear text of article
 
 
     # ЕСЛИ МЫ ОТПРАВЛЯЕТ ОБЪЕКТ ТЭГ, А ТАМ УЖЕ ЕГО ПРОВЕРЯЕМ НА ТО ИЛИ ИНОЕ
-    with concurrent.futures.ThreadPoolExecutor(max_workers=7) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         # Запуск функции process_data в пуле потоков и передача данных из списка
         results = list(executor.map(Chat_converstaion_ppp, tags))
 
@@ -153,10 +175,6 @@ def get_h2_text_image( url: str):    # return clear text of article
     #
     # print(results)
     # exit()
-
-
-
-
 
 
 
