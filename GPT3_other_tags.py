@@ -26,8 +26,8 @@ def GPT3(query):
     i = 0
     while flag == False:
         # print('71')
-        # api = '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'
-        # org = 'org-PAxr1I9jpenI9tI6mgGAhi7k'
+        # api = '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'
+        # org = 'org-yGcW3CB67lPhLsJM9yyZubpG'
         # print(apis[0])
         api = apis[i]['api']
         org = apis[i]['org']
@@ -38,9 +38,13 @@ def GPT3(query):
 
         print("Текущий АПИ = ", api)
         if int(time_now) - int(apis[i]['time']) > 21:
+
             apis[i]['time'] = time.time()
             try:
+
                 print("КАКОЙ ЗАПРОС ________________________ ", query)
+
+                # openai.api_key = apis[i]['api']
 
                 responce = openai.ChatCompletion.create(
                     # model="gpt-3.5-turbo-16k-0613",
@@ -89,7 +93,9 @@ def Chat_converstaion_ppp(tag):
             while flag == False:
                 try:
                     print('строка ', abzac_str)
+
                     r1 = Chat_converstaion_p(abzac_str)
+
                     print('вызвали обработку р нейронкой')
                     r1_clean = re.sub(r'^([«»]+)|([«»]+)$', '', r1)
                     html = '<p>' + r1_clean + '</p>'
@@ -98,29 +104,33 @@ def Chat_converstaion_ppp(tag):
                     print('ошибка в теге Р')
                     html = ''
                     print('ожидание 10c ...')
-                    time.sleep(10)
+                    time.sleep(5)
 
 
 
         elif tag.name == 'ul' or tag.name == 'ol':
-            flag = False
-            while flag == False:
-                try:
-                    r2 = Chat_converstaion_ul_ol(tag)
-                    # print(tag, ' ---> ', r2)
+            # flag = False
+            # while flag == False:
+            #     try:
+
+
+            r2 = Chat_converstaion_ul_ol(tag)
+            print(tag, ' ---> ', r2)
+
+
                     # r22 = r2.replace("<li><li>", "<li>").replace("</li></li>", "</li>")
-                    flag = True
-                except:
-                    print('ошибка в теге OL UL')
-                    html = ''
-                    print('ожидание 10c ...')
-                    time.sleep(10)
+                    # flag = True
+                # except:
+                #     print('ошибка в теге OL UL')
+                #     html = ''
+                #     print('ожидание 10c ...')
+                #     time.sleep(10)
 
             html = r2
 
         elif tag.name == 'table':
             r3 = Chat_converstaion_table(tag)
-            # print(tag, ' ---> ', r3)
+            print(tag, ' ---> ', r3)
             html = r3
 
         elif tag.name == 'blockquote':
@@ -166,6 +176,9 @@ def Chat_converstaion_ppp(tag):
             print('тег не найден')
     except:
         print('какая то ошибка с тегами')
+
+
+
     return html
 
 
@@ -175,22 +188,27 @@ def Chat_converstaion_p(text2):
     # print('67')
     text4 = GPT3(query2)
     # text44 = re.sub(r'^([«»]+)|([«»]+)$', '', text4)
+    print('____ЗАПРОС ОБРАБОТАЛСЯ ____')
+
     return text4
 
 def Chat_converstaion_ul_ol(text2):
     query2 = f'Перепиши с дополнением оставляя html теги:"""{text2}"""'
     text4 = GPT3(query2)
     # text44 = text4.replace("<li><li>", "<li>").replace("</li></li>", "</li>")
+
     return text4
 
 def Chat_converstaion_table(text2):
     query2 = f'Перепиши таблицу с дополнением оставляя html теги:"""{text2}"""'
     text4 = GPT3(query2)
+
     return text4
 
 def Chat_converstaion_quote(text2):
     query2 = f'Перепиши с дополнением оставляя html  теги:"""{text2}"""'
     text4 = GPT3(query2)
+
     return text4
 
 

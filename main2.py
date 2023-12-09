@@ -23,7 +23,7 @@ import pandas as pd
 from Article_add import addWordpress
 # from Add_tags import add_tag
 from Parsing_to_list import parsing_to_list
-
+from HTML_Cleaner import html_cleaner
 
 def create_article(url_1):
     # обнуление буфера для статьи
@@ -39,8 +39,11 @@ def create_article(url_1):
         # Создание статьи
         html_all = get_h2_text_image(url_1)
 
+        # Почистить теги и скобки
+        html_all2 = html_cleaner(html_all)
+
         # Добавление статьи на сайт
-        addWordpress(h1, html_all)
+        addWordpress(h1, html_all2)
 
         end_time = time.time()
         print('Время на создание сатьи:', end_time - start_time)
@@ -63,7 +66,7 @@ print(' метка А')
 # Замеряем время работы
 start_all_time = time.time()
 
-for url_1 in urls_list[0:1]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
+for url_1 in urls_list[1:2]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
     print('Номер добавленной статьи ----->', urls_list.index(url_1))
 
     # обнуление буфера для статьи
@@ -78,6 +81,8 @@ for url_1 in urls_list[0:1]:  # Иду по urls сайта беру первы�
         start_time = time.time()
         # Создание статьи
         html_all = get_h2_text_image(url_1)
+
+
         print('--------------- HTML ----------', html_all)
         # Добавление статьи на сайт
         addWordpress(h1, html_all)
