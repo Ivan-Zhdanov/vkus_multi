@@ -30,11 +30,12 @@ def GPT3(query):
         # org = 'org-PAxr1I9jpenI9tI6mgGAhi7k'
         # print(apis[0])
         api = apis[i]['api']
-        # org = apis[i]['org']
+        org = apis[i]['org']
         time_now = time.time()
         # print('72')
         openai.api_key = api
-        # openai.organization = org
+        openai.organization = org
+
         print("Текущий АПИ = ", api)
         if int(time_now) - int(apis[i]['time']) > 21:
             apis[i]['time'] = time.time()
@@ -89,22 +90,33 @@ def Chat_converstaion_ppp(tag):
                 try:
                     print('строка ', abzac_str)
                     r1 = Chat_converstaion_p(abzac_str)
+                    print('вызвали обработку р нейронкой')
                     r1_clean = re.sub(r'^([«»]+)|([«»]+)$', '', r1)
                     html = '<p>' + r1_clean + '</p>'
                     flag = True
                 except:
                     print('ошибка в теге Р')
                     html = ''
-                    print('ожидание 0c ...')
-                    time.sleep(5)
+                    print('ожидание 10c ...')
+                    time.sleep(10)
 
 
 
         elif tag.name == 'ul' or tag.name == 'ol':
-            r2 = Chat_converstaion_ul_ol(tag)
-            # print(tag, ' ---> ', r2)
-            r22 = r2.replace("<li><li>", "<li>").replace("</li></li>", "</li>")
-            html = r22
+            flag = False
+            while flag == False:
+                try:
+                    r2 = Chat_converstaion_ul_ol(tag)
+                    # print(tag, ' ---> ', r2)
+                    # r22 = r2.replace("<li><li>", "<li>").replace("</li></li>", "</li>")
+                    flag = True
+                except:
+                    print('ошибка в теге OL UL')
+                    html = ''
+                    print('ожидание 10c ...')
+                    time.sleep(10)
+
+            html = r2
 
         elif tag.name == 'table':
             r3 = Chat_converstaion_table(tag)
@@ -162,11 +174,13 @@ def Chat_converstaion_p(text2):
     query2 = f'Перепиши с дополнениями:"""{text2}"""'
     # print('67')
     text4 = GPT3(query2)
+    # text44 = re.sub(r'^([«»]+)|([«»]+)$', '', text4)
     return text4
 
 def Chat_converstaion_ul_ol(text2):
     query2 = f'Перепиши с дополнением оставляя html теги:"""{text2}"""'
     text4 = GPT3(query2)
+    # text44 = text4.replace("<li><li>", "<li>").replace("</li></li>", "</li>")
     return text4
 
 def Chat_converstaion_table(text2):
