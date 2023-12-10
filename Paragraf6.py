@@ -6,7 +6,7 @@ from Get_url_Img_from_WP import take_url_img_from_wp
 from GPT3_other_tags import Chat_converstaion_p, Chat_converstaion_ul_ol, Chat_converstaion_table, Chat_converstaion_quote, Chat_converstaion_ppp
 import concurrent.futures
 import time
-
+import threading
 def check_img_url(url):
     return urlparse(url).netloc
 
@@ -140,18 +140,43 @@ def get_h2_text_image( url: str):    # return clear text of article
         print('----> ', tag)
 
 
+    # # По три штуки берем и создаем три потока
+    # for i in range(0, len(tags), 3):
+    #     chunk = tags[i:i + 3]
+    #     print('чанки -> ', chunk)
+    #     thread1 = threading.Thread(target=Chat_converstaion_ppp, args=(chunk[0],))
+    #     thread2 = threading.Thread(target=Chat_converstaion_ppp, args=(chunk[1],))
+    #     thread3 = threading.Thread(target=Chat_converstaion_ppp, args=(chunk[2],))
+    #
+    #     thread1.start()
+    #     thread2.start()
+    #     thread3.start()
+    #
+    #     string = string + thread1
+    #     string = string + thread2
+    #     string = string + thread3
+    #
+    #     thread1.join()
+    #     thread2.join()
+    #     thread3.join()
+
+
+
+
+
     # ЕСЛИ МЫ ОТПРАВЛЯЕТ ОБЪЕКТ ТЭГ, А ТАМ УЖЕ ЕГО ПРОВЕРЯЕМ НА ТО ИЛИ ИНОЕ
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
         # Запуск функции process_data в пуле потоков и передача данных из списка
         results = list(executor.map(Chat_converstaion_ppp, tags))
-        print('пауза на основном потоке 20с')
-        time.sleep(20)
+        print('пауза на основном потоке 5с')
+        time.sleep(5)
     print(results)
     # Распаковка созданного списка
     for res in results:
         string = string + res
+
     return string
-    # exit()
+
 
 
     # # СДЕЛАТЬ СПИСОК ТЕКСТОВЫЙ  ******************************
