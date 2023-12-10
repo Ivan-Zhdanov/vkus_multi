@@ -161,8 +161,8 @@ def Chat_converstaion_ppp(tag):
                     r1_clean = re.sub(r'^([«»]+)|([«»]+)$', '', r1)
                     html = '<p>' + r1_clean + '</p>'
                     flag = True
-                except:
-                    print('ошибка в теге Р')
+                except Exception as e:
+                    print('ошибка в теге Р ', e)
                     html = ''
                     print('ожидание 10c ...')
                     time.sleep(2)
