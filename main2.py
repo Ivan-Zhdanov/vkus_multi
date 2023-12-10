@@ -73,7 +73,7 @@ start_all_time = time.time()
 #     hight = int(sys.argv[3])
 # print(f'Границы ({low} {hight}')
 # for url_1 in urls_list[low:hight]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
-for url_1 in urls_list[35:100]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
+for url_1 in urls_list[41:100]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
 
     print('Номер добавленной статьи ----->', urls_list.index(url_1))
 
