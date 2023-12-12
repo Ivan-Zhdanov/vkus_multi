@@ -76,9 +76,9 @@ def GPT3(query):
     flag = False
     # i = 0
     while flag == False:
-
+        print('Номер цикла: ', i)
         # сбросить счетчик после 32 api
-        if i > 32:
+        if i >= 1:
             time.sleep(21)
             i = 0
 
@@ -93,7 +93,7 @@ def GPT3(query):
         openai.api_key = api
         openai.organization = org
         print("Текущий АПИ = ", api)
-        if int(time_now) - int(apis[i]['time']) > 21 and apis[i]['err'] == 0:
+        if int(time_now) - int(apis[i]['time']) > 21:
         # if int(time_now) - int(apis[i]['time']) > 21 and int(apis[i]['err'] != 1):
             apis[i]['time'] = time.time()
             try:
