@@ -27,8 +27,9 @@ def response_gpt():
 
 
 def GPT3(query):
+    org =''
+    api = ''
     # Создали список из потоков которые обрабатывают
-
     thread_id = threading.current_thread().ident
     print(f"Текущий номер потока: {thread_id}")
     if thread_id in th_list:
@@ -76,6 +77,11 @@ def GPT3(query):
     # i = 0
     while flag == False:
 
+        # сбросить счетчик после 32 api
+        if i > 32:
+            time.sleep(21)
+            i = 0
+
         # api = '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'
         # org = 'org-psxfn6TGWHbSD653IoAC1wlz'
         # print(apis[0])
@@ -87,7 +93,7 @@ def GPT3(query):
         openai.api_key = api
         openai.organization = org
         print("Текущий АПИ = ", api)
-        if int(time_now) - int(apis[i]['time']) > 21:
+        if int(time_now) - int(apis[i]['time']) > 21 and apis[i]['err'] == 0:
         # if int(time_now) - int(apis[i]['time']) > 21 and int(apis[i]['err'] != 1):
             apis[i]['time'] = time.time()
             try:
@@ -110,22 +116,24 @@ def GPT3(query):
                 return text3
                 break
             except Exception as e:
+                apis[i]['err'] = 1
+
                 print('Название ошибки --', e)
                 # Если ошибка лимиты в день
                 if 'RPD' in e:
                     apis[i]['time'] = time.time() + 24*60
                 flag = False
                 i = i + 1
-                time.sleep(2)
+                # time.sleep(2)
                 # Не корректный API - убрать
                 # if 'Incorrect' in e:
                 #     apis[i]['err'] = 1
         else:
             print('времени меньше 20 с')
             i = i + 1
-            time.sleep(1)
+            # time.sleep(2)
 
-    time.sleep(20)
+    time.sleep(21)
 
 
 

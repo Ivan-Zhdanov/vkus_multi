@@ -14,6 +14,7 @@ from Paragraf6 import get_h2_text_image
 from Parsing_Google2 import parsing_google, parsing_yandex
 # from GPT3_openai_4 import Chat_converstaion, results
 import time
+from log_write import log_write
 import threading
 from threading import Thread
 from operator import itemgetter
@@ -73,7 +74,7 @@ start_all_time = time.time()
 #     hight = int(sys.argv[3])
 # print(f'Границы ({low} {hight}')
 # for url_1 in urls_list[low:hight]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
-for url_1 in urls_list[41:100]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
+for url_1 in urls_list[48:50]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
 
     print('Номер добавленной статьи ----->', urls_list.index(url_1))
 
@@ -83,7 +84,8 @@ for url_1 in urls_list[41:100]:  # Иду по urls сайта беру перв
 
     try:
         h1 = parse_h1(url_1)  # Парсинг H1 текущего урла, если ошибка то следующий url
-        if not h1: continue
+        if not h1:
+            continue
         print('Заголовок Н1 базовой статьи', h1)
 
         start_time = time.time()
@@ -103,7 +105,8 @@ for url_1 in urls_list[41:100]:  # Иду по urls сайта беру перв
         end_time = time.time()
         print('Время на создание сатьи:', end_time - start_time)
 
-
+        # запись в файл данных по статье
+        log_write(urls_list, url_1)
     except:
         continue
 
