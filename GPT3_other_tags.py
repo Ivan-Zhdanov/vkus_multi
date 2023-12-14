@@ -7,6 +7,7 @@ from GPT3_API_cheker import api_cheker, list_api
 from Get_url_Img_from_WP import take_url_img_from_wp
 from Api_List import api_list
 import threading
+from log_write import log_api
 # предыдущий ключ с аккаунта ivan.zhdanov.moscow4
 # openai.api_key = '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'
 
@@ -71,6 +72,10 @@ def GPT3(query):
                 break
             except Exception as e:
                 print('Название ошибки --', e)
+
+                # запись в лог файл об ошибках по api
+                log_api(i, e, api1)
+
                 # берем следующий api
                 i = i + 1
                 if i > 7: i = 0
@@ -107,6 +112,9 @@ def GPT3(query):
                 break
             except Exception as e:
                 print('Название ошибки --', e)
+                # запись в лог файл об ошибках по api
+                log_api(j, e, api2)
+
                 # берем следующий api
                 j = j + 1
                 if j > 14: j = 7
@@ -121,7 +129,7 @@ def GPT3(query):
         # org = 'org-iof0hx0le4pFjyQPfZFLbtHf'
         flag = False
         while flag == False:
-            print('в потоке 3 api под номером - ',k)
+            print('в потоке 3 api под номером - ', k)
             api3 = apis[k]['api']
             openai.api_key = api3
             openai.organization = apis[k]['org']
@@ -142,6 +150,9 @@ def GPT3(query):
                 break
             except Exception as e:
                 print('Название ошибки --', e)
+                # запись в лог файл об ошибках по api
+                log_api(k, e, api3)
+
                 # берем следующий api
                 k = k + 1
                 if k > 21: k = 14
