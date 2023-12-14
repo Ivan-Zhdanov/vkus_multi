@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from Get_url_Img_from_WP import take_url_img_from_wp
-from GPT3_other_tags import Chat_converstaion_p, Chat_converstaion_ul_ol, Chat_converstaion_table, Chat_converstaion_quote, Chat_converstaion_ppp
+from GPT3_other_tags import th_list, Chat_converstaion_p, Chat_converstaion_ul_ol, Chat_converstaion_table, Chat_converstaion_quote, Chat_converstaion_ppp
 import concurrent.futures
 import time
 import threading
@@ -165,7 +165,7 @@ def get_h2_text_image( url: str):    # return clear text of article
 
 
     # ЕСЛИ МЫ ОТПРАВЛЯЕТ ОБЪЕКТ ТЭГ, А ТАМ УЖЕ ЕГО ПРОВЕРЯЕМ НА ТО ИЛИ ИНОЕ
-    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
         # Запуск функции process_data в пуле потоков и передача данных из списка
         results = list(executor.map(Chat_converstaion_ppp, tags))
         print('пауза на основном потоке 5с')
@@ -174,6 +174,11 @@ def get_h2_text_image( url: str):    # return clear text of article
     # Распаковка созданного списка
     for res in results:
         string = string + res
+    # закрыть все потоки которые есть
+    executor.shutdown(wait=True)
+
+    # очистка списка
+    th_list.clear()
 
     return string
 

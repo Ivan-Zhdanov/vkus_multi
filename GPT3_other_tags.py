@@ -20,11 +20,10 @@ model_id = 'gtp-3.5-turbo'
 num_text = ()
 
 apis = api_list
+# def th_lsit():
 th_list = []
 
-def response_gpt():
-    return 0
-
+#     return th_list
 
 def GPT3(query):
     org =''
@@ -32,6 +31,7 @@ def GPT3(query):
     # Создали список из потоков которые обрабатывают
     thread_id = threading.current_thread().ident
     print(f"Текущий номер потока: {thread_id}")
+
     if thread_id in th_list:
         pass
     else:
@@ -41,28 +41,115 @@ def GPT3(query):
             pass
 
     # time.sleep(21)
-
     # print('71')
     if th_list.index(thread_id) == 0:
-
+        time.sleep(22)
         i = 0
         print('Первый поток 1111111')
-        # api = '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'
-        # org = 'org-ti0AtndnoVICaKoNOBVE76ng'
+        flag = False
+        while flag == False:
+            print('в потоке 1 api под номером - ', i)
+            # api = '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'
+            # org = 'org-RUkXMmrAqpWECAcAfhdVvfcr'
+            api1 = apis[i]['api']
+            openai.api_key = api1
+            openai.organization = apis[i]['org']
+            print("Текущий АПИ = ", api1)
+            try:
+                print("КАКОЙ ЗАПРОС ________________________ ", query)
+                responce = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    max_tokens=2500,
+                    messages=[
+                        {"role": "system", "content": ""},
+                        {"role": "user", "content": f"{query}"},
+                    ]
+                )
+                text3 = responce['choices'][0]['message']['content']
+                print("************")
+                flag = True
+                break
+            except Exception as e:
+                print('Название ошибки --', e)
+                # берем следующий api
+                i = i + 1
+                if i > 7: i = 0
+        return text3
+
+
     elif th_list.index(thread_id) == 1:
-        # time.sleep(20)
-        i = 1
+        time.sleep(22)
+        j = 7
         print('Второй поток 2222222')
-        # api = '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'
-        # org = 'org-recbE9TFaxDkDKgSjtzUYKo5'
+        # api = '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'
+        # org = 'org-psxfn6TGWHbSD653IoAC1wlz'
+
+        flag = False
+        while flag == False:
+            print('в потоке 2 api под номером - ', j)
+            api2 = apis[j]['api']
+            openai.api_key = api2
+            openai.organization = apis[j]['org']
+            print("Текущий АПИ = ", api2)
+            try:
+                print("КАКОЙ ЗАПРОС ________________________ ", query)
+                responce = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    max_tokens=2500,
+                    messages=[
+                        {"role": "system", "content": ""},
+                        {"role": "user", "content": f"{query}"},
+                    ]
+                )
+                text32 = responce['choices'][0]['message']['content']
+                print("************")
+                flag = True
+                break
+            except Exception as e:
+                print('Название ошибки --', e)
+                # берем следующий api
+                j = j + 1
+                if j > 14: j = 7
+
+        return text32
+
     elif th_list.index(thread_id) == 2:
-        # time.sleep(20)
-        i = 2
+        time.sleep(22)
+        k = 14
         print('Третий поток 333333333')
-        # api = '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'
-        # org = 'org-nzFZKQwB7qGCNPltIjDj5Hcf'
+        # api = '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'
+        # org = 'org-iof0hx0le4pFjyQPfZFLbtHf'
+        flag = False
+        while flag == False:
+            print('в потоке 3 api под номером - ',k)
+            api3 = apis[k]['api']
+            openai.api_key = api3
+            openai.organization = apis[k]['org']
+            print("Текущий АПИ = ", api3)
+            try:
+                print("КАКОЙ ЗАПРОС ________________________ ", query)
+                responce = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    max_tokens=2500,
+                    messages=[
+                        {"role": "system", "content": ""},
+                        {"role": "user", "content": f"{query}"},
+                    ]
+                )
+                text33 = responce['choices'][0]['message']['content']
+                print("************")
+                flag = True
+                break
+            except Exception as e:
+                print('Название ошибки --', e)
+                # берем следующий api
+                k = k + 1
+                if k > 21: k = 14
+        return text33
+
+
     elif th_list.index(thread_id) == 3:
-        # time.sleep(20)
+        time.sleep(22)
         i = 3
         print('Четвертый поток')
         # api = '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'
@@ -73,67 +160,69 @@ def GPT3(query):
         print('Пятый поток')
         # api = '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'
         # org = 'org-Swm9BgI7MBkBXyWbLx8q7twG'
-    flag = False
+    # ---------------------------------
+    # flag = False
     # i = 0
-    while flag == False:
-        print('Номер цикла: ', i)
-        # сбросить счетчик после 32 api
-        if i >= 1:
-            time.sleep(21)
-            i = 0
-
-        # api = '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'
-        # org = 'org-psxfn6TGWHbSD653IoAC1wlz'
-        # print(apis[0])
-        org = apis[i]['org']
-        api = apis[i]['api']
-
-        time_now = time.time()
-        # print('72')
-        openai.api_key = api
-        openai.organization = org
-        print("Текущий АПИ = ", api)
-        if int(time_now) - int(apis[i]['time']) > 21:
-        # if int(time_now) - int(apis[i]['time']) > 21 and int(apis[i]['err'] != 1):
-            apis[i]['time'] = time.time()
-            try:
-                print("КАКОЙ ЗАПРОС ________________________ ", query)
-                # openai.api_key = apis[i]['api']
-                responce = openai.ChatCompletion.create(
-                    # model="gpt-3.5-turbo-16k-0613",
-                    model="gpt-3.5-turbo",
-                    # temperature=0,
-                    # max_tokens=1024,
-                    max_tokens=2500,
-                    messages=[
-                        {"role": "system", "content": ""},
-                        {"role": "user", "content": f"{query}"},
-                    ]
-                )
-                text3 = responce['choices'][0]['message']['content']
-                print("************")
-                flag = True
-                return text3
-                break
-            except Exception as e:
-                apis[i]['err'] = 1
-
-                print('Название ошибки --', e)
-                # Если ошибка лимиты в день
-                if 'RPD' in e:
-                    apis[i]['time'] = time.time() + 24*60
-                flag = False
-                i = i + 1
-                # time.sleep(2)
-                # Не корректный API - убрать
-                # if 'Incorrect' in e:
-                #     apis[i]['err'] = 1
-        else:
-            print('времени меньше 20 с')
-            i = i + 1
-            # time.sleep(2)
-
-    time.sleep(21)
+    # while flag == False:
+    #     # print('Номер цикла: ', i)
+    #     # # сбросить счетчик после 32 api
+    #     # if i >= 1:
+    #     #     time.sleep(21)
+    #     #     i = 0
+    #
+    #     # api = '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'
+    #     # org = 'org-psxfn6TGWHbSD653IoAC1wlz'
+    #     # print(apis[0])
+    #     # org = apis[i]['org']
+    #     # api = apis[i]['api']
+    #
+    #     time_now = time.time()
+    #     # print('72')
+    #     openai.api_key = api
+    #     openai.organization = org
+    #     print("Текущий АПИ = ", api)
+    #     # if int(time_now) - int(apis[i]['time']) > 21:
+    #     # убрал чтобы не выходила проверка времени
+    #     # if int(time_now) - int(apis[i]['time']) > 21 and int(apis[i]['err'] != 1):
+    #     # apis[i]['time'] = time.time()
+    #     try:
+    #         print("КАКОЙ ЗАПРОС ________________________ ", query)
+    #         # openai.api_key = apis[i]['api']
+    #         responce = openai.ChatCompletion.create(
+    #             # model="gpt-3.5-turbo-16k-0613",
+    #             model="gpt-3.5-turbo",
+    #             # temperature=0,
+    #             # max_tokens=1024,
+    #             max_tokens=2500,
+    #             messages=[
+    #                 {"role": "system", "content": ""},
+    #                 {"role": "user", "content": f"{query}"},
+    #             ]
+    #         )
+    #         text3 = responce['choices'][0]['message']['content']
+    #         print("************")
+    #         flag = True
+    #         return text3
+    #         # break
+    #     except Exception as e:
+    #         apis[i]['err'] = 1
+    #
+    #         print('Название ошибки --', e)
+    #         # Если ошибка лимиты в день
+    #         if 'RPD' in e:
+    #             apis[i]['time'] = time.time() + 24*60
+    #         flag = False
+    #         i = i + 1
+    #         # time.sleep(2)
+    #         # Не корректный API - убрать
+    #         # if 'Incorrect' in e:
+    #         #     apis[i]['err'] = 1
+    # else:
+    #     print('времени меньше 20 с')
+    #     i = i + 1
+    #     # time.sleep(2)
+    # ---------------------------------
+    # time.sleep(21)
 
 
 
