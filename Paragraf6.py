@@ -165,7 +165,7 @@ def get_h2_text_image( url: str):    # return clear text of article
 
 
     # ЕСЛИ МЫ ОТПРАВЛЯЕТ ОБЪЕКТ ТЭГ, А ТАМ УЖЕ ЕГО ПРОВЕРЯЕМ НА ТО ИЛИ ИНОЕ
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         # Запуск функции process_data в пуле потоков и передача данных из списка
         results = list(executor.map(Chat_converstaion_ppp, tags))
         print('пауза на основном потоке 5с')

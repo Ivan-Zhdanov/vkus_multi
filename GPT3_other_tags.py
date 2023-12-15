@@ -72,6 +72,8 @@ def GPT3(query):
                 break
             except Exception as e:
                 print('Название ошибки --', e)
+                time.sleep(22)
+                apis[i]['err'] = 1
 
                 # запись в лог файл об ошибках по api
                 log_api(i, e, api1)
@@ -112,6 +114,9 @@ def GPT3(query):
                 break
             except Exception as e:
                 print('Название ошибки --', e)
+                time.sleep(22)
+                apis[j]['err'] = 1
+
                 # запись в лог файл об ошибках по api
                 log_api(j, e, api2)
 
@@ -150,6 +155,9 @@ def GPT3(query):
                 break
             except Exception as e:
                 print('Название ошибки --', e)
+                time.sleep(22)
+                apis[k]['err'] = 1
+
                 # запись в лог файл об ошибках по api
                 log_api(k, e, api3)
 
@@ -161,17 +169,82 @@ def GPT3(query):
 
     elif th_list.index(thread_id) == 3:
         time.sleep(22)
-        i = 3
+        h = 21
         print('Четвертый поток')
-        # api = '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'
-        # org = 'org-7Z0mU40Nc9WQRjyFj6L0joal'
+        flag = False
+        while flag == False:
+            print('в потоке 4 api под номером - ', h)
+            api4 = apis[h]['api']
+            openai.api_key = api4
+            openai.organization = apis[h]['org']
+            print("Текущий АПИ = ", api4)
+            try:
+                print("КАКОЙ ЗАПРОС ________________________ ", query)
+                responce = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    max_tokens=2500,
+                    messages=[
+                        {"role": "system", "content": ""},
+                        {"role": "user", "content": f"{query}"},
+                    ]
+                )
+                text34 = responce['choices'][0]['message']['content']
+                print("************")
+                flag = True
+                break
+            except Exception as e:
+                print('Название ошибки --', e)
+                time.sleep(22)
+                apis[h]['err'] = 1
+                # запись в лог файл об ошибках по api
+                log_api(h, e, api4)
+
+                # берем следующий api
+                h = h + 1
+                if h > 28: h = 21
+        return text34
+
+
+
+
     elif th_list.index(thread_id) == 4:
-        # time.sleep(20)
-        i = 4
+        time.sleep(22)
+        g = 28
         print('Пятый поток')
-        # api = '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'
-        # org = 'org-Swm9BgI7MBkBXyWbLx8q7twG'
-    # ---------------------------------
+    flag = False
+    while flag == False:
+        print('в потоке 4 api под номером - ', g)
+        api5 = apis[g]['api']
+        openai.api_key = api5
+        openai.organization = apis[g]['org']
+        print("Текущий АПИ = ", api5)
+        try:
+            print("КАКОЙ ЗАПРОС ________________________ ", query)
+            responce = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                max_tokens=2500,
+                messages=[
+                    {"role": "system", "content": ""},
+                    {"role": "user", "content": f"{query}"},
+                ]
+            )
+            text35 = responce['choices'][0]['message']['content']
+            print("************")
+            flag = True
+            break
+        except Exception as e:
+            print('Название ошибки --', e)
+            time.sleep(22)
+            apis[g]['err'] = 1
+            # запись в лог файл об ошибках по api
+            log_api(g, e, api5)
+
+            # берем следующий api
+            g = g + 1
+            if g > 35: g = 28
+    return text35
+    # -----------------------------------------------------------------------------------------
+
     # flag = False
     # i = 0
     # while flag == False:
