@@ -57,8 +57,8 @@ def GPT3(query):
             try:
                 print("КАКОЙ ЗАПРОС ________________________ ", query)
                 responce = openai.ChatCompletion.create(
-                    # model="gpt-3.5-turbo",
-                    model="gpt-3.5-turbo-16k-0613",
+                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo-16k-0613",
                     max_tokens=2500,
                     messages=[
                         {"role": "system", "content": ""},
@@ -99,8 +99,8 @@ def GPT3(query):
             try:
                 print("КАКОЙ ЗАПРОС ________________________ ", query)
                 responce = openai.ChatCompletion.create(
-                    # model="gpt-3.5-turbo",
-                    model="gpt-3.5-turbo-16k-0613",
+                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo-16k-0613",
                     max_tokens=2500,
                     messages=[
                         {"role": "system", "content": ""},
@@ -139,9 +139,10 @@ def GPT3(query):
             print("Текущий АПИ = ", api3)
             try:
                 print("КАКОЙ ЗАПРОС ________________________ ", query)
+
                 responce = openai.ChatCompletion.create(
-                    # model="gpt-3.5-turbo",
-                    model="gpt-3.5-turbo-16k-0613",
+                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo-16k-0613",
                     max_tokens=2500,
                     messages=[
                         {"role": "system", "content": ""},
@@ -181,8 +182,8 @@ def GPT3(query):
             try:
                 print("КАКОЙ ЗАПРОС ________________________ ", query)
                 responce = openai.ChatCompletion.create(
-                    # model="gpt-3.5-turbo",
-                    model="gpt-3.5-turbo-16k-0613",
+                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo-16k-0613",
                     max_tokens=2500,
                     messages=[
                         {"role": "system", "content": ""},
@@ -223,8 +224,8 @@ def GPT3(query):
         try:
             print("КАКОЙ ЗАПРОС ________________________ ", query)
             responce = openai.ChatCompletion.create(
-                # model="gpt-3.5-turbo",
-                model="gpt-3.5-turbo-16k-0613",
+                model="gpt-3.5-turbo",
+                # model="gpt-3.5-turbo-16k-0613",
                 max_tokens=2500,
                 messages=[
                     {"role": "system", "content": ""},

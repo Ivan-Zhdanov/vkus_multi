@@ -12,7 +12,7 @@ def log_api(num_threading, api,e):
     with open('api_detect.txt', 'r') as file:
         for l in file:
             if line in l:
-                return print('есть уже ошибка')
+                return print('есть уже ошибка вф файле')
 
     # with open('api_detect.txt', 'w') as f:
     #     for line in unique_lines:
