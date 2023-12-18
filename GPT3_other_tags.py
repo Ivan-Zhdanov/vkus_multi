@@ -23,7 +23,7 @@ num_text = ()
 apis = api_list
 # def th_lsit():
 th_list = []
-
+step = 6
 #     return th_list
 
 def GPT3(query):
@@ -50,8 +50,6 @@ def GPT3(query):
         flag = False
         while flag == False:
             print('в потоке 1 api под номером - ', i)
-            # api = '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'
-            # org = 'org-RUkXMmrAqpWECAcAfhdVvfcr'
             api1 = apis[i]['api']
             openai.api_key = api1
             openai.organization = apis[i]['org']
@@ -59,7 +57,8 @@ def GPT3(query):
             try:
                 print("КАКОЙ ЗАПРОС ________________________ ", query)
                 responce = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo",
+                    model="gpt-3.5-turbo-16k-0613",
                     max_tokens=2500,
                     messages=[
                         {"role": "system", "content": ""},
@@ -72,6 +71,7 @@ def GPT3(query):
                 break
             except Exception as e:
                 print('Название ошибки --', e)
+                # if 'RPM' in e:
                 time.sleep(22)
                 apis[i]['err'] = 1
 
@@ -80,16 +80,14 @@ def GPT3(query):
 
                 # берем следующий api
                 i = i + 1
-                if i > 7: i = 0
+                if i > step: i = 0
         return text3
 
 
     elif th_list.index(thread_id) == 1:
         time.sleep(22)
-        j = 7
+        j = step
         print('Второй поток 2222222')
-        # api = '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'
-        # org = 'org-psxfn6TGWHbSD653IoAC1wlz'
 
         flag = False
         while flag == False:
@@ -101,7 +99,8 @@ def GPT3(query):
             try:
                 print("КАКОЙ ЗАПРОС ________________________ ", query)
                 responce = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo",
+                    model="gpt-3.5-turbo-16k-0613",
                     max_tokens=2500,
                     messages=[
                         {"role": "system", "content": ""},
@@ -114,6 +113,7 @@ def GPT3(query):
                 break
             except Exception as e:
                 print('Название ошибки --', e)
+                # if 'RPM' in e:
                 time.sleep(22)
                 apis[j]['err'] = 1
 
@@ -122,16 +122,14 @@ def GPT3(query):
 
                 # берем следующий api
                 j = j + 1
-                if j > 14: j = 7
+                if j > step*2: j = step
 
         return text32
 
     elif th_list.index(thread_id) == 2:
         time.sleep(22)
-        k = 14
+        k = step*2
         print('Третий поток 333333333')
-        # api = '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'
-        # org = 'org-iof0hx0le4pFjyQPfZFLbtHf'
         flag = False
         while flag == False:
             print('в потоке 3 api под номером - ', k)
@@ -142,7 +140,8 @@ def GPT3(query):
             try:
                 print("КАКОЙ ЗАПРОС ________________________ ", query)
                 responce = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo",
+                    model="gpt-3.5-turbo-16k-0613",
                     max_tokens=2500,
                     messages=[
                         {"role": "system", "content": ""},
@@ -155,6 +154,7 @@ def GPT3(query):
                 break
             except Exception as e:
                 print('Название ошибки --', e)
+                # if 'RPM' in e:
                 time.sleep(22)
                 apis[k]['err'] = 1
 
@@ -163,13 +163,13 @@ def GPT3(query):
 
                 # берем следующий api
                 k = k + 1
-                if k > 21: k = 14
+                if k > step*3: k = step*2
         return text33
 
 
     elif th_list.index(thread_id) == 3:
         time.sleep(22)
-        h = 21
+        h = step*3
         print('Четвертый поток')
         flag = False
         while flag == False:
@@ -181,7 +181,8 @@ def GPT3(query):
             try:
                 print("КАКОЙ ЗАПРОС ________________________ ", query)
                 responce = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo",
+                    model="gpt-3.5-turbo-16k-0613",
                     max_tokens=2500,
                     messages=[
                         {"role": "system", "content": ""},
@@ -194,6 +195,7 @@ def GPT3(query):
                 break
             except Exception as e:
                 print('Название ошибки --', e)
+                # if 'RPM' in e:
                 time.sleep(22)
                 apis[h]['err'] = 1
                 # запись в лог файл об ошибках по api
@@ -201,7 +203,7 @@ def GPT3(query):
 
                 # берем следующий api
                 h = h + 1
-                if h > 28: h = 21
+                if h > step*4: h = step*3
         return text34
 
 
@@ -209,7 +211,7 @@ def GPT3(query):
 
     elif th_list.index(thread_id) == 4:
         time.sleep(22)
-        g = 28
+        g = step*4
         print('Пятый поток')
     flag = False
     while flag == False:
@@ -221,7 +223,8 @@ def GPT3(query):
         try:
             print("КАКОЙ ЗАПРОС ________________________ ", query)
             responce = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
+                # model="gpt-3.5-turbo",
+                model="gpt-3.5-turbo-16k-0613",
                 max_tokens=2500,
                 messages=[
                     {"role": "system", "content": ""},
@@ -234,6 +237,7 @@ def GPT3(query):
             break
         except Exception as e:
             print('Название ошибки --', e)
+            # if 'RPM' in e:
             time.sleep(22)
             apis[g]['err'] = 1
             # запись в лог файл об ошибках по api
@@ -241,7 +245,7 @@ def GPT3(query):
 
             # берем следующий api
             g = g + 1
-            if g > 35: g = 28
+            if g > step*5: g = step*4
     return text35
     # -----------------------------------------------------------------------------------------
 
@@ -310,9 +314,6 @@ def GPT3(query):
 
 
 
-
-
-
     #  отключил
     # return text3
 
@@ -325,7 +326,6 @@ def Chat_converstaion_ppp(tag):
             h2 = tag.text
             print(h2)
             html = '<h2>' + h2 + '</h2>'
-
 
         elif tag.name == 'p':
             abzac_str = tag.text
@@ -395,47 +395,42 @@ def Chat_converstaion_ppp(tag):
                     img_str = ""
                 print('полученный адрес картинки', img_str)
             html = '<img class="alignnone size-medium wp-image-29881" src="' + img_str + '"/>'
-
         elif tag.name == 'iframe':
             print(tag, ' ---> ')
             html = str(tag)
-
         else:
             print('тег не найден')
     except:
         print('какая то ошибка с тегами')
-
-
-
     return html
 
 
-def Chat_converstaion_p(text2):
+def Chat_converstaion_p(text21):
     # print('66')
-    query2 = f'Перепиши с дополнениями:"""{text2}"""'
+    query21 = f'Перепиши с дополнениями:"""{text21}"""'
     # print('67')
-    text4 = GPT3(query2)
+    text41 = GPT3(query21)
     # text44 = re.sub(r'^([«»]+)|([«»]+)$', '', text4)
     print('____ЗАПРОС ОБРАБОТАЛСЯ ____')
 
-    return text4
+    return text41
 
-def Chat_converstaion_ul_ol(text2):
-    query2 = f'Перепиши с дополнением оставляя html теги:"""{text2}"""'
-    text4 = GPT3(query2)
+def Chat_converstaion_ul_ol(text22):
+    query22 = f'Перепиши с дополнением оставляя html теги:"""{text22}"""'
+    text42 = GPT3(query22)
     # text44 = text4.replace("<li><li>", "<li>").replace("</li></li>", "</li>")
 
-    return text4
+    return text42
 
-def Chat_converstaion_table(text2):
-    query2 = f'Перепиши таблицу с дополнением оставляя html теги:"""{text2}"""'
-    text4 = GPT3(query2)
+def Chat_converstaion_table(text23):
+    query23 = f'Перепиши таблицу с дополнением оставляя html теги:"""{text23}"""'
+    text43 = GPT3(query23)
 
-    return text4
+    return text43
 
-def Chat_converstaion_quote(text2):
-    query2 = f'Перепиши с дополнением оставляя html  теги:"""{text2}"""'
-    text4 = GPT3(query2)
+def Chat_converstaion_quote(text24):
+    query24 = f'Перепиши с дополнением оставляя html  теги:"""{text24}"""'
+    text44 = GPT3(query24)
 
-    return text4
+    return text44
 
