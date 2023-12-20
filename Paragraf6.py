@@ -135,11 +135,33 @@ def get_h2_text_image( url: str):    # return clear text of article
     # print(soup)
     print('=======', type(tags))
     print(type(tags[0]))
+
     # Посмотреть какие находит теги после чистки
     for tag in tags:
         print('----> ', tag)
 
 
+    # создание списка кортежей
+    h2 = ""
+    abzac_str = ""
+    all_article_list = []
+    cort_h2_tags = (h2, abzac_str)
+    # Сформировать кортеж Н2 и Tags
+    for tag in tags:
+
+        cort_h2_tags = (h2, abzac_str)
+        if tag.name == 'h2':
+            h2 = str(tag)
+            all_article_list.append(cort_h2_tags)
+        else:
+            abzac_str = abzac_str + str(tag)
+            print('--', abzac_str)
+    print('****', all_article_list)
+
+    # return all_article_list
+
+    # breakpoint()
+    #
     # # По три штуки берем и создаем три потока
     # for i in range(0, len(tags), 3):
     #     chunk = tags[i:i + 3]
@@ -160,7 +182,9 @@ def get_h2_text_image( url: str):    # return clear text of article
     #     thread2.join()
     #     thread3.join()
 
-
+    # h2_tags = ()
+    # for tag in tags:
+    #     if
 
 
 

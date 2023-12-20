@@ -21,9 +21,8 @@ model_id = 'gtp-3.5-turbo'
 num_text = ()
 
 apis = api_list
-# def th_lsit():
 th_list = []
-step = 6
+step = 10
 #     return th_list
 
 def GPT3(query):

@@ -4,11 +4,12 @@ from Parsing_all_page import call_parsing
 # from parsing.take_url import take_url
 from Parse_H1 import parse_h1
 # from Parsing_Google import search_results
+
 import os
 import sys
 # from Paragraf4 import merge_4_links
 # from Paragraf5 import merge_4_links
-from Paragraf6 import get_h2_text_image
+from Paragraf6 import get_h2_text_image, merge_4_links
 
 # from Different_Paragraf import agenta
 from Parsing_Google2 import parsing_google, parsing_yandex
@@ -74,7 +75,7 @@ start_all_time = time.time()
 #     hight = int(sys.argv[3])
 # print(f'Границы ({low} {hight}')
 # for url_1 in urls_list[low:hight]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
-for url_1 in urls_list[451:500]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
+for url_1 in urls_list[600:601]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
 
     print('Номер добавленной статьи ----->', urls_list.index(url_1))
 
@@ -89,6 +90,15 @@ for url_1 in urls_list[451:500]:  # Иду по urls сайта беру пер�
         print('Заголовок Н1 базовой статьи', h1)
 
         start_time = time.time()
+        # # список из 4 ссылок похожих по Н1
+        # links_4_g = parsing_yandex(h1)
+        # print('список ссылок: ', links_4_g)
+        # ls = merge_4_links(links_4_g)
+
+        # ----- вывод созданного большого кортежа
+
+
+
         # Создание статьи
         html_all = get_h2_text_image(url_1)
         print("///////////", html_all)
