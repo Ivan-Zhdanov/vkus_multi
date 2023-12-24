@@ -61,4 +61,5 @@ def call_parsing(domain):
 
 # domain = 'ferma.expert'
 # domain = 'polzaivrededy.ru'
+# domain = 'fructberry.com'
 # call_parsing(domain)

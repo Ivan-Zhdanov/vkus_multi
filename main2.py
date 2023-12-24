@@ -56,13 +56,14 @@ from HTML_Cleaner import html_cleaner
 #         # continue
 
 th_list = []
-domain = 'https://polzaivrededy.ru'  # название сайта на основе которого мы хотим сделать ai-сайт
+# domain = 'https://polzaivrededy.ru'  # название сайта на основе которого мы хотим сделать ai-сайт
 # domain = 'https://foodandhealth.ru'  # название сайта на основе которого мы хотим сделать ai-сайт
+domain = 'https://fructberry.com'  # название сайта на основе которого мы хотим сделать ai-сайт
 # domain = 'https://kladovaia-krasoti.ru' # название сайта на основе которого мы хотим сделать ai-сайт
 
 # БЛОК ПАРСИНГА ПО ДОМЕНУ - выключил
 urls_list = parsing_to_list(domain)
-print('----------- ', urls_list)
+# print('----------- ', urls_list)
 print(' метка А')
 
 # Замеряем время работы
@@ -75,7 +76,8 @@ start_all_time = time.time()
 #     hight = int(sys.argv[3])
 # print(f'Границы ({low} {hight}')
 # for url_1 in urls_list[low:hight]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
-for url_1 in urls_list[600:601]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
+
+for url_1 in urls_list[1:]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
 
     print('Номер добавленной статьи ----->', urls_list.index(url_1))
 

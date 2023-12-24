@@ -29,14 +29,17 @@ def get_h2_text_image( url: str):    # return clear text of article
     r = requests.get(url, headers=headers).text
 
     soup0 = BeautifulSoup(r, 'html.parser')
-    print('.', soup0)
+    # print('.', soup0)
     # поиск тега h1
     h1_tag = soup0.h1
     # поиск всех тегов
     content = soup0.find_all()
 
     # объект Beautiful Soup
-    content_article = soup0.find("div", class_='article')
+    # предыдущий парсинг
+    # content_article = soup0.find("div", class_='article')
+    # content_article = soup0.find("div", class_='entry-content')
+    content_article = soup0.find("div", class_='post-content')
 
 
     # УДАЛЕНИЕ ТЕГОВ SPAN В H2
@@ -46,6 +49,17 @@ def get_h2_text_image( url: str):    # return clear text of article
             span_tags = h2.find_all('span')
             for span_tag in span_tags:
                 span_tag.decompose()
+            # удаление всех атрибутов тега
+            for attr in list(h2.attrs):
+                del h2[attr]
+    except:
+        pass
+
+    # УДАЛЕНИЕ ТЕГОВ SPAN ВЕЗДЕ
+    try:
+        span_tags = content_article.find_all('span')
+        for span_tag in span_tags:
+            span_tag.decompose()
     except:
         pass
 
@@ -73,6 +87,9 @@ def get_h2_text_image( url: str):    # return clear text of article
             span_tags = h3.find_all('span')
             for span_tag in span_tags:
                 span_tag.decompose()
+            # удаление всех атрибутов тега
+            for attr in list(h3.attrs):
+                del h3[attr]
     except:
         pass
 
@@ -82,6 +99,18 @@ def get_h2_text_image( url: str):    # return clear text of article
         for img in img_all:
             try:
                 img.find_parent('p').unwrap()
+                img.attrs.pop('alt', None)
+            except:
+                pass
+    except:
+        pass
+
+    # # УДАЛИТЬ ОКРУЖАЮЩИЙ ТЕГ A У IMG
+    try:
+        img_all = content_article.find_all('img')
+        for img in img_all:
+            try:
+                img.find_parent('a').unwrap()
                 img.attrs.pop('alt', None)
             except:
                 pass
@@ -130,6 +159,38 @@ def get_h2_text_image( url: str):    # return clear text of article
     except:
         pass
 
+    # УДАЛЕНИЕ МНОЖЕСТВА ТЕГОВ SCRIPT
+    try:
+        div_tags = content_article.find_all("script")
+        for div_tag in div_tags:
+            div_tag.decompose()
+    except:
+        print('ошибка в поиске тега 9.1')
+
+    # УДАЛЕНИЕ МНОЖЕСТВА ТЕГОВ INS
+    try:
+        div_tags = content_article.find_all("ins")
+        for div_tag in div_tags:
+            div_tag.decompose()
+    except:
+        print('ошибка в поиске тега 9.2')
+
+    # Находим все теги <A> (ссылки) и удаляем их
+    a_tags = content_article.find_all('a')
+    for a_tag in a_tags:
+        # Заменяем тег <a> на его текстовое содержимое
+        a_tag.replace_with(a_tag.text)
+
+
+    # Находим все теги <SUP> оставляя содержимое
+    sup_tags = content_article.find_all('sup')
+    for sup_tag in sup_tags:
+        # Заменяем тег <sup> на его текстовое содержимое
+        sup_tag.replace_with(sup_tag.text)
+
+
+
+    # закрыл для тестироания картинки
     tags = content_article.find_all(['h2', 'h3', 'p', 'ul', 'ol', 'table', 'img', 'blockquote', 'iframe'])
     # tags = content_article.find_all(['h2', 'img'])
     # print(soup)
@@ -140,23 +201,25 @@ def get_h2_text_image( url: str):    # return clear text of article
     for tag in tags:
         print('----> ', tag)
 
+    # breakpoint()
 
-    # создание списка кортежей
-    h2 = ""
-    abzac_str = ""
-    all_article_list = []
-    cort_h2_tags = (h2, abzac_str)
-    # Сформировать кортеж Н2 и Tags
-    for tag in tags:
+    # # создание списка кортежей
+    # h2 = ""
+    # abzac_str = ""
+    # all_article_list = []
+    # cort_h2_tags = (h2, abzac_str)
+    # # Сформировать кортеж Н2 и Tags
+    # for tag in tags:
+    #
+    #     cort_h2_tags = (h2, abzac_str)
+    #     if tag.name == 'h2':
+    #         h2 = str(tag)
+    #         all_article_list.append(cort_h2_tags)
+    #     else:
+    #         abzac_str = abzac_str + str(tag)
+    #         print('--', abzac_str)
 
-        cort_h2_tags = (h2, abzac_str)
-        if tag.name == 'h2':
-            h2 = str(tag)
-            all_article_list.append(cort_h2_tags)
-        else:
-            abzac_str = abzac_str + str(tag)
-            print('--', abzac_str)
-    print('****', all_article_list)
+    # print('****', all_article_list)
 
     # return all_article_list
 
@@ -186,7 +249,7 @@ def get_h2_text_image( url: str):    # return clear text of article
     # for tag in tags:
     #     if
 
-
+    # breakpoint()
 
     # ЕСЛИ МЫ ОТПРАВЛЯЕТ ОБЪЕКТ ТЭГ, А ТАМ УЖЕ ЕГО ПРОВЕРЯЕМ НА ТО ИЛИ ИНОЕ
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
@@ -302,5 +365,6 @@ def get_h2_text_image( url: str):    # return clear text of article
 
     # return html
 # s = get_h2_text_image('https://vsepolezno.com/drugoe/rejtingi/5-jakoby-vrednyh-produktov-pitanija-i-ih-realnaja-polza/')
+# s = get_h2_text_image('https://foodandhealth.ru/info/regulyarniy-dnevnoy-son-sohranyaet-molodost-mozga/')
 # print('__________ИТОГОВЫЙ КОД__________')
 # print(s)

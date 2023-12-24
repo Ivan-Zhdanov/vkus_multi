@@ -22,11 +22,11 @@ num_text = ()
 
 apis = api_list
 th_list = []
-step = 10
+step = 9
 #     return th_list
 
 def GPT3(query):
-    org =''
+    org = ''
     api = ''
     # Создали список из потоков которые обрабатывают
     thread_id = threading.current_thread().ident
@@ -49,6 +49,12 @@ def GPT3(query):
         flag = False
         while flag == False:
             print('в потоке 1 api под номером - ', i)
+
+            # if apis[i]['err'] == 1:
+            #     i = i + 1
+            #     continue
+            # if i > step: i = 0
+
             api1 = apis[i]['api']
             openai.api_key = api1
             openai.organization = apis[i]['org']
@@ -71,7 +77,7 @@ def GPT3(query):
             except Exception as e:
                 print('Название ошибки --', e)
                 # if 'RPM' in e:
-                time.sleep(22)
+                time.sleep(1)
                 apis[i]['err'] = 1
 
                 # запись в лог файл об ошибках по api
@@ -91,6 +97,12 @@ def GPT3(query):
         flag = False
         while flag == False:
             print('в потоке 2 api под номером - ', j)
+
+            # if apis[j]['err'] == 1:
+            #     j = j + 1
+            #     continue
+            # if j > step*2: j = step
+
             api2 = apis[j]['api']
             openai.api_key = api2
             openai.organization = apis[j]['org']
@@ -113,7 +125,7 @@ def GPT3(query):
             except Exception as e:
                 print('Название ошибки --', e)
                 # if 'RPM' in e:
-                time.sleep(22)
+                time.sleep(1)
                 apis[j]['err'] = 1
 
                 # запись в лог файл об ошибках по api
@@ -132,6 +144,12 @@ def GPT3(query):
         flag = False
         while flag == False:
             print('в потоке 3 api под номером - ', k)
+
+            # if apis[k]['err'] == 1:
+            #     k = k + 1
+            #     continue
+            # if k > step*3: k = step*2
+
             api3 = apis[k]['api']
             openai.api_key = api3
             openai.organization = apis[k]['org']
@@ -155,7 +173,7 @@ def GPT3(query):
             except Exception as e:
                 print('Название ошибки --', e)
                 # if 'RPM' in e:
-                time.sleep(22)
+                time.sleep(1)
                 apis[k]['err'] = 1
 
                 # запись в лог файл об ошибках по api
@@ -174,6 +192,12 @@ def GPT3(query):
         flag = False
         while flag == False:
             print('в потоке 4 api под номером - ', h)
+
+            # if apis[h]['err'] == 1:
+            #     h = h + 1
+            #     continue
+            # if h > step*4: h = step*3
+
             api4 = apis[h]['api']
             openai.api_key = api4
             openai.organization = apis[h]['org']
@@ -196,7 +220,7 @@ def GPT3(query):
             except Exception as e:
                 print('Название ошибки --', e)
                 # if 'RPM' in e:
-                time.sleep(22)
+                time.sleep(1)
                 apis[h]['err'] = 1
                 # запись в лог файл об ошибках по api
                 log_api(h, e, api4)
@@ -213,40 +237,252 @@ def GPT3(query):
         time.sleep(22)
         g = step*4
         print('Пятый поток')
-    flag = False
-    while flag == False:
-        print('в потоке 4 api под номером - ', g)
-        api5 = apis[g]['api']
-        openai.api_key = api5
-        openai.organization = apis[g]['org']
-        print("Текущий АПИ = ", api5)
-        try:
-            print("КАКОЙ ЗАПРОС ________________________ ", query)
-            responce = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                # model="gpt-3.5-turbo-16k-0613",
-                max_tokens=2500,
-                messages=[
-                    {"role": "system", "content": ""},
-                    {"role": "user", "content": f"{query}"},
-                ]
-            )
-            text35 = responce['choices'][0]['message']['content']
-            print("************")
-            flag = True
-            break
-        except Exception as e:
-            print('Название ошибки --', e)
-            # if 'RPM' in e:
-            time.sleep(22)
-            apis[g]['err'] = 1
-            # запись в лог файл об ошибках по api
-            log_api(g, e, api5)
+        flag = False
+        while flag == False:
+            print('в потоке 5 api под номером - ', g)
 
-            # берем следующий api
-            g = g + 1
-            if g > step*5: g = step*4
-    return text35
+            # if apis[g]['err'] == 1:
+            #     g = g + 1
+            #     continue
+            # if g > step*5: i = step*4
+
+            api5 = apis[g]['api']
+            openai.api_key = api5
+            openai.organization = apis[g]['org']
+            print("Текущий АПИ = ", api5)
+            try:
+                print("КАКОЙ ЗАПРОС ________________________ ", query)
+                responce = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo-16k-0613",
+                    max_tokens=2500,
+                    messages=[
+                        {"role": "system", "content": ""},
+                        {"role": "user", "content": f"{query}"},
+                    ]
+                )
+                text35 = responce['choices'][0]['message']['content']
+                print("************")
+                flag = True
+                break
+            except Exception as e:
+                print('Название ошибки --', e)
+                # if 'RPM' in e:
+                time.sleep(2)
+                apis[g]['err'] = 1
+                # запись в лог файл об ошибках по api
+                log_api(g, e, api5)
+
+                # берем следующий api
+                g = g + 1
+                if g > step*5: g = step*4
+        return text35
+
+
+    elif th_list.index(thread_id) == 5:
+        time.sleep(22)
+        f = step * 5
+        print('Шестой поток')
+        flag = False
+        while flag == False:
+            print('в потоке 6 api под номером - ', f)
+            api6 = apis[f]['api']
+            openai.api_key = api6
+            openai.organization = apis[f]['org']
+            print("Текущий АПИ = ", api6)
+            try:
+                print("КАКОЙ ЗАПРОС ________________________ ", query)
+                responce = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo-16k-0613",
+                    max_tokens=2500,
+                    messages=[
+                        {"role": "system", "content": ""},
+                        {"role": "user", "content": f"{query}"},
+                    ]
+                )
+                text36 = responce['choices'][0]['message']['content']
+                print("************")
+                flag = True
+                break
+            except Exception as e:
+                print('Название ошибки --', e)
+                # if 'RPM' in e:
+                time.sleep(2)
+                apis[f]['err'] = 1
+                # запись в лог файл об ошибках по api
+                log_api(f, e, api6)
+
+                # берем следующий api
+                f = f + 1
+                if f > step * 6: f = step * 5
+        return text36
+
+
+    elif th_list.index(thread_id) == 6:
+        time.sleep(22)
+        s = step * 6
+        print('Седьмой поток')
+        flag = False
+        while flag == False:
+            print('в потоке 7 api под номером - ', s)
+            api7 = apis[s]['api']
+            openai.api_key = api7
+            openai.organization = apis[s]['org']
+            print("Текущий АПИ = ", api7)
+            try:
+                print("КАКОЙ ЗАПРОС ________________________ ", query)
+                responce = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo-16k-0613",
+                    max_tokens=2500,
+                    messages=[
+                        {"role": "system", "content": ""},
+                        {"role": "user", "content": f"{query}"},
+                    ]
+                )
+                text37 = responce['choices'][0]['message']['content']
+                print("************")
+                flag = True
+                break
+            except Exception as e:
+                print('Название ошибки --', e)
+                # if 'RPM' in e:
+                time.sleep(2)
+                apis[s]['err'] = 1
+                # запись в лог файл об ошибках по api
+                log_api(s, e, api7)
+
+                # берем следующий api
+                s = s + 1
+                if s > step * 7: s = step * 6
+        return text37
+
+
+    elif th_list.index(thread_id) == 7:
+        time.sleep(22)
+        e = step * 7
+        print('Восьмой поток')
+        flag = False
+        while flag == False:
+            print('в потоке 8 api под номером - ', e)
+            api8 = apis[e]['api']
+            openai.api_key = api8
+            openai.organization = apis[e]['org']
+            print("Текущий АПИ = ", api8)
+            try:
+                print("КАКОЙ ЗАПРОС ________________________ ", query)
+                responce = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo-16k-0613",
+                    max_tokens=2500,
+                    messages=[
+                        {"role": "system", "content": ""},
+                        {"role": "user", "content": f"{query}"},
+                    ]
+                )
+                text38 = responce['choices'][0]['message']['content']
+                print("************")
+                flag = True
+                break
+            except Exception as ee:
+                print('Название ошибки --', ee)
+                # if 'RPM' in e:
+                time.sleep(2)
+                apis[e]['err'] = 1
+                # запись в лог файл об ошибках по api
+                log_api(e, ee, api8)
+
+                # берем следующий api
+                e = e + 1
+                if e > step * 8: e = step * 7
+        return text38
+
+
+    elif th_list.index(thread_id) == 8:
+        time.sleep(22)
+        n = step * 8
+        print('Девятый поток')
+        flag = False
+        while flag == False:
+            print('в потоке 9 api под номером - ', n)
+            api9 = apis[n]['api']
+            openai.api_key = api9
+            openai.organization = apis[n]['org']
+            print("Текущий АПИ = ", api9)
+            try:
+                print("КАКОЙ ЗАПРОС ________________________ ", query)
+                responce = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo-16k-0613",
+                    max_tokens=2500,
+                    messages=[
+                        {"role": "system", "content": ""},
+                        {"role": "user", "content": f"{query}"},
+                    ]
+                )
+                text39 = responce['choices'][0]['message']['content']
+                print("************")
+                flag = True
+                break
+            except Exception as ee:
+                print('Название ошибки --', ee)
+                # if 'RPM' in e:
+                time.sleep(2)
+                apis[n]['err'] = 1
+                # запись в лог файл об ошибках по api
+                log_api(n, ee, api9)
+
+                # берем следующий api
+                n = n + 1
+                if n > step * 9: n = step * 8
+        return text39
+
+
+    elif th_list.index(thread_id) == 9:
+        time.sleep(22)
+        t = step * 9
+        print('Девятый поток')
+        flag = False
+        while flag == False:
+            if apis[t]['err'] == 1:
+                t = t + 1
+                continue
+            if t > step * 10: t = step * 9
+
+            print('в потоке 9 api под номером - ', t)
+            api10 = apis[t]['api']
+            openai.api_key = api10
+            openai.organization = apis[t]['org']
+            print("Текущий АПИ = ", api10)
+            try:
+                print("КАКОЙ ЗАПРОС ________________________ ", query)
+                responce = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    # model="gpt-3.5-turbo-16k-0613",
+                    max_tokens=2500,
+                    messages=[
+                        {"role": "system", "content": ""},
+                        {"role": "user", "content": f"{query}"},
+                    ]
+                )
+                text310 = responce['choices'][0]['message']['content']
+                print("************")
+                flag = True
+                break
+            except Exception as ee:
+                print('Название ошибки --', ee)
+                # if 'RPM' in e:
+                time.sleep(2)
+                apis[t]['err'] = 1
+                # запись в лог файл об ошибках по api
+                log_api(t, ee, api10)
+
+                # берем следующий api
+                t = t + 1
+                if t > step * 10: t = step * 9
+        return text310
+
     # -----------------------------------------------------------------------------------------
 
     # flag = False
@@ -368,24 +604,52 @@ def Chat_converstaion_ppp(tag):
 
         elif tag.name == 'img':
             print('------_', tag)
+            print('img_1')
             src_value = None
-            src_list = ['src', 'data-src', 'src-lazy']
-            print('________', src_value)
+            # src_list = ['data-wpfc-original-srcset']
+            src_list = ['src','srcset', 'data-wpfc-original-src',   'data-src', 'src-lazy']
+
+
             for s in src_list:
-                print('ssssssss', s)
+                print('img_2')
+                print('вид src оторый нашли', s)
                 src_value = tag.get(s)
                 print('valueeeeeeeee', src_value)
+
+
                 # нашли первый src
                 if src_value:
                     break
             if src_value:
                 print('valuee intooooo', src_value)
+
+                # img_src = ''
+                # ls = list(src_value.split(','))
+                # for l in ls:
+                #     img_src = l.strip().split(' ')[0]
+                #     img_size = int(l.strip().split(' ')[1].rstrip('w'))
+                #     print(img_size)
+                #     print(img_src)
+                #     if img_size >= 700:
+                #         src_value = img_src
+                #         break
+                # src_value = s.split(',')[0].split(' ')[0]
+
+
+                # domain = 'https://foodandhealth.ru'
+                domain = ' https://fructberry.com'
+                print(domain)
                 # закрыл обработку если урл не полный и его соединение с базовым урлом
                 # full_url = requests.compat.urljoin(url_1, src_value)
-                if r'https://polzaivrededy.ru' in src_value:
+                if rf'{domain}' in src_value:
                     full_url = src_value
+                    print('555', full_url)
                 else:
-                    full_url = 'https://polzaivrededy.ru' + src_value
+                    # full_url = 'https://polzaivrededy.ru' + src_value
+
+                    print('777')
+                    full_url = domain + src_value
+                    print('888')
                 print(full_url)
                 img_str = full_url
                 # Добавление тега с картиной с урлом
@@ -393,6 +657,7 @@ def Chat_converstaion_ppp(tag):
                     img_str = take_url_img_from_wp(full_url)
                 except:
                     img_str = ""
+                    print('ошибка в заливке картинки')
                 print('полученный адрес картинки', img_str)
             html = '<img class="alignnone size-medium wp-image-29881" src="' + img_str + '"/>'
         elif tag.name == 'iframe':
@@ -407,8 +672,8 @@ def Chat_converstaion_ppp(tag):
 
 def Chat_converstaion_p(text21):
     # print('66')
-    query21 = f'Перепиши с дополнениями:"""{text21}"""'
-    # print('67')
+    query21 = f'Перепиши, распиши с дополнениями:"""{text21}"""'
+    # print('67')ыкс
     text41 = GPT3(query21)
     # text44 = re.sub(r'^([«»]+)|([«»]+)$', '', text4)
     print('____ЗАПРОС ОБРАБОТАЛСЯ ____')
