@@ -22,7 +22,7 @@ num_text = ()
 
 apis = api_list
 th_list = []
-step = 9
+step = 3
 #     return th_list
 
 def GPT3(query):
@@ -77,7 +77,7 @@ def GPT3(query):
             except Exception as e:
                 print('Название ошибки --', e)
                 # if 'RPM' in e:
-                time.sleep(1)
+                time.sleep(3)
                 apis[i]['err'] = 1
 
                 # запись в лог файл об ошибках по api
@@ -125,7 +125,7 @@ def GPT3(query):
             except Exception as e:
                 print('Название ошибки --', e)
                 # if 'RPM' in e:
-                time.sleep(1)
+                time.sleep(3)
                 apis[j]['err'] = 1
 
                 # запись в лог файл об ошибках по api
@@ -173,7 +173,7 @@ def GPT3(query):
             except Exception as e:
                 print('Название ошибки --', e)
                 # if 'RPM' in e:
-                time.sleep(1)
+                time.sleep(3)
                 apis[k]['err'] = 1
 
                 # запись в лог файл об ошибках по api
@@ -220,7 +220,7 @@ def GPT3(query):
             except Exception as e:
                 print('Название ошибки --', e)
                 # if 'RPM' in e:
-                time.sleep(1)
+                time.sleep(3)
                 apis[h]['err'] = 1
                 # запись в лог файл об ошибках по api
                 log_api(h, e, api4)
@@ -268,7 +268,7 @@ def GPT3(query):
             except Exception as e:
                 print('Название ошибки --', e)
                 # if 'RPM' in e:
-                time.sleep(2)
+                time.sleep(3)
                 apis[g]['err'] = 1
                 # запись в лог файл об ошибках по api
                 log_api(g, e, api5)
