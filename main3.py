@@ -1,4 +1,5 @@
 # РАБОТАЮЩАЯ ПРОГРАММА,КОТОРАЯ ПАРСИТ, РЕРАЙТИТ, МЕНЯЕТ API
+# ПРОГРАММА ПО РАБОТЕ С МУЛЬТИ-САЙТАМИ
 
 from Parsing_all_page import call_parsing
 # from parsing.take_url import take_url

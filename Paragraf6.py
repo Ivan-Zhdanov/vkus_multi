@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from Get_url_Img_from_WP import take_url_img_from_wp
-from GPT3_other_tags import th_list, Chat_converstaion_p, Chat_converstaion_ul_ol, Chat_converstaion_table, Chat_converstaion_quote, Chat_converstaion_ppp
+from GPT3_other_tags2 import th_list, Chat_converstaion_p, Chat_converstaion_ul_ol, Chat_converstaion_table, Chat_converstaion_quote, Chat_converstaion_ppp
 import concurrent.futures
 import time
 import threading

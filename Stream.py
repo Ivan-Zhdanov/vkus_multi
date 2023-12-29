@@ -1,4 +1,4 @@
-from GPT3_other_tags import th_list, Chat_converstaion_ppp
+from GPT3_other_tags2 import th_list, Chat_converstaion_ppp
 import concurrent.futures
 import time
 
