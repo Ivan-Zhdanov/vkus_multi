@@ -18,15 +18,19 @@ def check_url(url):
     r = requests.get(url, headers=headers)
     try:
         if check_block_domains_list(domain):  # проверка текущего домена на нахождение в блок-листе
+            print('- урл в блок-листе')
             return False
         if r.status_code != 200:
+            print('- урл не отвечает')
             return False
         soup = BeautifulSoup(r.text, 'html.parser')
         count_h2 = len(soup.find_all('h2'))
         count_symbols = len(soup.body.get_text())
         if count_symbols < 2000:
+            print('- символов в статье меньше 2000')
             return False
         if count_h2 < 1:
+            print('- количество h2 меньше 1')
             return False
     except:
         pass

@@ -9,9 +9,9 @@ import os
 import sys
 # from Paragraf4 import merge_4_links
 # from Paragraf5 import merge_4_links
-from Paragraf6 import get_h2_text_image, merge_4_links
-
-# from Different_Paragraf import agenta
+# from Paragraf6 import get_h2_text_image, merge_4_links
+from Paragraf7 import merge_4_links, univers_parse
+from Different_Paragraf import agenta
 from Parsing_Google2 import parsing_google, parsing_yandex
 # from GPT3_openai_4 import Chat_converstaion, results
 import time
@@ -26,7 +26,10 @@ from Article_add import addWordpress
 # from Add_tags import add_tag
 from Parsing_to_list import parsing_to_list
 from HTML_Cleaner import html_cleaner
-
+from check_agenta import check_agenta
+from HTML_Creator import html_creator
+from Stream import stream
+from Tags_Creator import tags_creator
 # def create_article(url_1):
 #     # обнуление буфера для статьи
 #     html_all = ''
@@ -77,7 +80,7 @@ start_all_time = time.time()
 # print(f'Границы ({low} {hight}')
 # for url_1 in urls_list[low:hight]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
 
-for url_1 in urls_list[114:]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
+for url_1 in urls_list[114:115]:  # Иду по urls сайта беру первый урл в списке всех урлов сайта
 
     print('Номер добавленной статьи ----->', urls_list.index(url_1))
 
@@ -92,25 +95,43 @@ for url_1 in urls_list[114:]:  # Иду по urls сайта беру первы
         print('Заголовок Н1 базовой статьи', h1)
 
         start_time = time.time()
-        # # список из 4 ссылок похожих по Н1
-        # links_4_g = parsing_yandex(h1)
-        # print('список ссылок: ', links_4_g)
-        # ls = merge_4_links(links_4_g)
 
-        # ----- вывод созданного большого кортежа
+        # список из 3 ссылок похожих по Н1
+        links_4_g = parsing_yandex(h1)
+        print('список ссылок: ', links_4_g)
+
+        # Вставили вначало базовый урл
+        links_4_g.insert(0, url_1)
+
+        # Создание списка кортежей по всем статьям
+        ls = merge_4_links(links_4_g)
+        print('БОЛЬШОЙ СПИСОК КОРТЕЖЕЙ: ', ls)
+
+        # УПОРЯДОЧИВАНИЕ КОРТЕЖЕЙ возврат упорядоченного списка кортежей
+        h2_text_img_new = agenta(ls)    # -> получили список кластеризованный
+        print('Итоговый кортеж -->', h2_text_img_new)
+
+        # ОЧИСТКА СПИСКА КОРТЕЖЕЙ ПОСЛЕ УПОРЯДОЧИВАНИЯ
+        s = check_agenta(h2_text_img_new)
+        print('ЧИСТЫЙ СПИСОК КОРТЕЖЕЙ: ', s)
 
 
-
+        # ОТПРАВКА СПИСКА
+        html = html_creator(ls)
         # Создание статьи
-        html_all = get_h2_text_image(url_1)
-        print("///////////", html_all)
-
+        # html_all = get_h2_text_image(url_1)
         # Почистить теги и скобки
-        html_all2 = html_cleaner(html_all)
+        html_all2 = html_cleaner(html)
+        # print('--------------- HTML ----------', html)
 
-        print('--------------- HTML ----------', html_all)
+        tags = tags_creator(html)
+        print('zzzzzzzzzz', tags)
+
+
+        # Отправка статьи в Потоки
+        string_html = stream(tags)
         # Добавление статьи на сайт
-        addWordpress(h1, html_all)
+        addWordpress(h1, string_html)
 
         end_time = time.time()
         print('Время на создание сатьи:', end_time - start_time)

@@ -2,10 +2,10 @@ from bs4 import BeautifulSoup
 import requests
 import time
 from fake_useragent import UserAgent
-# HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0',
-#            'Accept': '*/*'}
-HEADERS = {'User-Agent': f'{UserAgent.chrome}',
+HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0',
            'Accept': '*/*'}
+# HEADERS = {'User-Agent': f'{UserAgent.chrome}',
+#            'Accept': '*/*'}
 
 
 def parse_h1(URL):

@@ -25,6 +25,40 @@ th_list = []
 step = 3
 #     return th_list
 
+
+# def GPT3_Model(i, query):
+#     api1 = apis[i]['api']
+#     openai.api_key = api1
+#     openai.organization = apis[i]['org']
+#     print("Текущий АПИ = ", api1)
+#     try:
+#         print("КАКОЙ ЗАПРОС ________________________ ", query)
+#         responce = openai.ChatCompletion.create(
+#             model="gpt-3.5-turbo",
+#             # model="gpt-3.5-turbo-16k-0613",
+#             max_tokens=2500,
+#             messages=[
+#                 {"role": "system", "content": ""},
+#                 {"role": "user", "content": f"{query}"},
+#             ]
+#         )
+#         text3 = responce['choices'][0]['message']['content']
+#         print("************")
+#         flag = True
+#         break
+#     except Exception as e:
+#         print('Название ошибки --', e)
+#         # if 'RPM' in e:
+#         time.sleep(3)
+#         apis[i]['err'] = 1
+#
+#         # запись в лог файл об ошибках по api
+#         log_api(i, e, api1)
+#
+#         # берем следующий api
+#         i = i + 1
+#         if i > step: i = 0
+
 def GPT3(query):
     org = ''
     api = ''
@@ -569,11 +603,12 @@ def Chat_converstaion_ppp(tag):
             if len(abzac_str) < 40:
                 html = abzac_str
                 flag = True
-
             while flag == False:
                 try:
                     print('строка ', abzac_str)
-                    r1 = Chat_converstaion_p(abzac_str)
+                    # r1 = Chat_converstaion_p(abzac_str)
+                    query21 = f'Перепиши, распиши с дополнениями:"""{abzac_str}"""'
+                    r1 = GPT3(query21)
                     print('вызвали обработку р нейронкой')
                     r1_clean = re.sub(r'^([«»]+)|([«»]+)$', '', r1)
                     html = '<p>' + r1_clean + '</p>'
@@ -584,30 +619,35 @@ def Chat_converstaion_ppp(tag):
                     print('ожидание 10c ...')
                     time.sleep(2)
 
-
-
         elif tag.name == 'ul' or tag.name == 'ol':
-            r2 = Chat_converstaion_ul_ol(tag)
+            # r2 = Chat_converstaion_ul_ol(tag)
+            query22 = f'Перепиши с дополнением оставляя html теги:"""{tag}"""'
+            r2 = GPT3(query22)
             print(tag, ' ---> ', r2)
-            r21 = r2.replace("<li><li>","<li>").replace("</li></li>","</li>")
+            r21 = r2.replace("<li><li>","<li>").replace("</li></li>", "</li>")
             html = r21
 
         elif tag.name == 'table':
-            r3 = Chat_converstaion_table(tag)
+            # r3 = Chat_converstaion_table(tag)
+            query23 = f'Перепиши таблицу с дополнением оставляя html теги:"""{tag}"""'
+            r3 = GPT3(query23)
             print(tag, ' ---> ', r3)
             html = r3
 
         elif tag.name == 'blockquote':
-            r4 = Chat_converstaion_quote(tag)
+            # r4 = Chat_converstaion_quote(tag)
+            query24 = f'Перепиши с дополнением оставляя html  теги:"""{tag}"""'
+            r4 = GPT3(query24)
             print(tag, ' ---> ', r4)
             html = r4
 
+        # !!! необходимо чтобы найденный тег был простым !!!!
         elif tag.name == 'img':
             print('------_', tag)
             print('img_1')
             src_value = None
             # src_list = ['data-wpfc-original-srcset']
-            src_list = ['src','srcset', 'data-wpfc-original-src',   'data-src', 'src-lazy']
+            src_list = ['src', 'srcset', 'data-wpfc-original-src', 'data-src', 'src-lazy']
 
 
             for s in src_list:
@@ -622,18 +662,6 @@ def Chat_converstaion_ppp(tag):
                     break
             if src_value:
                 print('valuee intooooo', src_value)
-
-                # img_src = ''
-                # ls = list(src_value.split(','))
-                # for l in ls:
-                #     img_src = l.strip().split(' ')[0]
-                #     img_size = int(l.strip().split(' ')[1].rstrip('w'))
-                #     print(img_size)
-                #     print(img_src)
-                #     if img_size >= 700:
-                #         src_value = img_src
-                #         break
-                # src_value = s.split(',')[0].split(' ')[0]
 
 
                 # domain = 'https://foodandhealth.ru'
@@ -669,33 +697,33 @@ def Chat_converstaion_ppp(tag):
         print('какая то ошибка с тегами')
     return html
 
+# ---------------------- ниже можно убрать в вышестоящую функцию ----------------
+# def Chat_converstaion_p(text21):
+#     # print('66')
+#     query21 = f'Перепиши, распиши с дополнениями:"""{text21}"""'
+#     # print('67')ыкс
+#     text41 = GPT3(query21)
+#     # text44 = re.sub(r'^([«»]+)|([«»]+)$', '', text4)
+#     print('____ЗАПРОС ОБРАБОТАЛСЯ ____')
+#
+#     return text41
 
-def Chat_converstaion_p(text21):
-    # print('66')
-    query21 = f'Перепиши, распиши с дополнениями:"""{text21}"""'
-    # print('67')ыкс
-    text41 = GPT3(query21)
-    # text44 = re.sub(r'^([«»]+)|([«»]+)$', '', text4)
-    print('____ЗАПРОС ОБРАБОТАЛСЯ ____')
+# def Chat_converstaion_ul_ol(text22):
+#     query22 = f'Перепиши с дополнением оставляя html теги:"""{text22}"""'
+#     text42 = GPT3(query22)
+#     # text44 = text4.replace("<li><li>", "<li>").replace("</li></li>", "</li>")
+#
+#     return text42
 
-    return text41
+# def Chat_converstaion_table(text23):
+#     query23 = f'Перепиши таблицу с дополнением оставляя html теги:"""{text23}"""'
+#     text43 = GPT3(query23)
+#
+#     return text43
 
-def Chat_converstaion_ul_ol(text22):
-    query22 = f'Перепиши с дополнением оставляя html теги:"""{text22}"""'
-    text42 = GPT3(query22)
-    # text44 = text4.replace("<li><li>", "<li>").replace("</li></li>", "</li>")
-
-    return text42
-
-def Chat_converstaion_table(text23):
-    query23 = f'Перепиши таблицу с дополнением оставляя html теги:"""{text23}"""'
-    text43 = GPT3(query23)
-
-    return text43
-
-def Chat_converstaion_quote(text24):
-    query24 = f'Перепиши с дополнением оставляя html  теги:"""{text24}"""'
-    text44 = GPT3(query24)
-
-    return text44
-
+# def Chat_converstaion_quote(text24):
+#     query24 = f'Перепиши с дополнением оставляя html  теги:"""{text24}"""'
+#     text44 = GPT3(query24)
+#
+#     return text44
+#

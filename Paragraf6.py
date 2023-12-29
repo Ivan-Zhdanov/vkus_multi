@@ -201,55 +201,8 @@ def get_h2_text_image( url: str):    # return clear text of article
     for tag in tags:
         print('----> ', tag)
 
-    # breakpoint()
 
-    # # создание списка кортежей
-    # h2 = ""
-    # abzac_str = ""
-    # all_article_list = []
-    # cort_h2_tags = (h2, abzac_str)
-    # # Сформировать кортеж Н2 и Tags
-    # for tag in tags:
-    #
-    #     cort_h2_tags = (h2, abzac_str)
-    #     if tag.name == 'h2':
-    #         h2 = str(tag)
-    #         all_article_list.append(cort_h2_tags)
-    #     else:
-    #         abzac_str = abzac_str + str(tag)
-    #         print('--', abzac_str)
 
-    # print('****', all_article_list)
-
-    # return all_article_list
-
-    # breakpoint()
-    #
-    # # По три штуки берем и создаем три потока
-    # for i in range(0, len(tags), 3):
-    #     chunk = tags[i:i + 3]
-    #     print('чанки -> ', chunk)
-    #     thread1 = threading.Thread(target=Chat_converstaion_ppp, args=(chunk[0],))
-    #     thread2 = threading.Thread(target=Chat_converstaion_ppp, args=(chunk[1],))
-    #     thread3 = threading.Thread(target=Chat_converstaion_ppp, args=(chunk[2],))
-    #
-    #     thread1.start()
-    #     thread2.start()
-    #     thread3.start()
-    #
-    #     string = string + thread1
-    #     string = string + thread2
-    #     string = string + thread3
-    #
-    #     thread1.join()
-    #     thread2.join()
-    #     thread3.join()
-
-    # h2_tags = ()
-    # for tag in tags:
-    #     if
-
-    # breakpoint()
 
     # ЕСЛИ МЫ ОТПРАВЛЯЕТ ОБЪЕКТ ТЭГ, А ТАМ УЖЕ ЕГО ПРОВЕРЯЕМ НА ТО ИЛИ ИНОЕ
     with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
